@@ -1,0 +1,1383 @@
+abs 	Returns the absolute value of numeric data.
+acos 	Computes the inverse cosine of numeric types.
+actvpr_mnmx_fao56 	Compute actual vapor pressure via equation 17 as described in FAO 56.
+actvpr_rhmean_fao56 	Compute actual vapor pressure via equation 19 as described in FAO 56.
+add90LatX 	Adds two fake pole points (90S and 90N) to the rightmost dimension of the given data.
+add90LatY 	Adds two fake pole points (90S and 90N) to the leftmost dimension of the given data.
+addfile 	Opens a data file that is (or is to be) written in a supported file format.
+addfiles 	Creates a reference that spans multiple data files.
+addfiles_GetVar 	Creates a reference that spans multiple data files and returns metadata. (deprecated: see addfiles)
+advect_variable 	Horizontally advect a variable on the globe.
+albedo_ccm 	Computes albedo via CESM model radiation variables.
+all 	Returns True if all the elements of the input evaluate as True.
+angmom_atm 	Calculates the atmosphere's relative angular momentum.
+any 	Returns True if any of the values of its input evaluate as True.
+area_conserve_remap 	Performs areal conservative remapping from one rectilinear grid to another.
+area_conserve_remap_Wrap 	Performs areal conservative remapping from one rectilinear grid to another and preserves metadata.
+area_hi2lores 	Interpolates from high resolution rectilinear grids to low resolution recitlinear grids using local area averaging.
+area_hi2lores_Wrap 	Interpolates from high resolution rectilinear grids to low resolution rectilinear grids using local area averaging. (retains metadata)
+area_poly_sphere 	Calculates the area enclosed by an arbitrary polygon on the sphere.
+array_append_record 	Attaches [appends] additional records [leftmost dimension] to a previously existing array.
+asciiread 	Reads a file that contains ASCII representations of basic data types.
+asciiwrite 	Creates an ascii text file of numeric or string data type.
+asin 	Computes the inverse sine of numeric types.
+assignFillValue 	Transfers the _FillValue attribute from one variable to another.
+atan 	Computes the inverse tangent of numeric types.
+atan2 	Computes the inverse tangent of (y/x) for numeric types.
+attsetvalues 	Applies resources to the given objects.
+avg 	Computes the average of a variable regardless of dimensionality.
+band_pass_area_time 	Create a time series of area averages; band-pass filter the resulting area-averaged time series and calculate other statistics.
+band_pass_area_time_plot 	Generate a plot using the output from band_pass_area_time.
+band_pass_hovmueller 	Create a band-pass filtered time series suitable for a time vs. longitude (Hovmueller) plot.
+band_pass_hovmueller_plot 	Generate a plot using the output from band_pass_hovmueller.
+band_pass_latlon_time 	Create band-pass filtered series at each lat/lon grid point.
+band_pass_latlon_time_plot 	Generate a plot using the output from band_pass_latlon_time.
+betainc 	Evaluates the incomplete beta function.
+bin_avg 	Calculates gridded binned averages and counts on a rectilinear grid using randomly spaced data.
+bin_sum 	Calculates binned sums and counts over multiple invocations of the procedure on a rectilinear grid.
+bootstrap_correl 	Bootstrap estimates of sample cross correlations (ie, Pearson's correlation coefficient) between two variables.
+bootstrap_diff 	Bootstrap mean differences from two samples.
+bootstrap_estimate 	Extract the user specified element from the bootstrapped values.
+bootstrap_regcoef 	Bootstrap estimates of linear regression coefficient.
+bootstrap_stat 	Bootstrap estimates of a user specified statistic derived from a variable.
+boxplot 	Creates a boxplot.
+brunt_vaisala 	Compute the Brunt-Vaisala frequency which is a measure of bouyancy
+brunt_vaisala_atm 	Compute the Brunt-Vaisala frequency which is a measure of bouyancy in a continuously stratified atmosphere.
+bw_bandpass_filter 	Applies a Butterworth bandpass filter optimized for narrow bandwidths to time series.
+byte2flt 	Converts values of type byte to values of type float.
+byte2flt_hdf 	Converts values of type byte to values of type float using the "scale" and "offset" attributes (if present).
+calcDayAnomTLL 	Calculates daily anomalies from a daily data climatology.
+calcMonAnomLLLT 	Calculates monthly anomalies by subtracting the long term mean from each point (lev,lat,lon,time version)
+calcMonAnomLLT 	Calculates monthly anomalies by subtracting the long term mean from each point (lat,lon,time version)
+calcMonAnomTLL 	Calculates monthly anomalies by subtracting the long term mean from each point (time,lat,lon version)
+calcMonAnomTLLL 	Calculates monthly anomalies by subtracting the long term mean from each point: (time,lev,lat,lon) version.
+calculate_daily_values 	Calculate daily values [avg, sum, min, max] from high frequency temporal values.
+calculate_monthly_values 	Calculate monthly values [avg, sum, min, max] from high frequency temporal values.
+calculate_segment_values 	Calculate segment (eg, pentad [5-day], weekly [7-day]) values from high frequency temporal values.
+calendar_decode2 	Translates numeric time coordinates to calendar times.
+cancor 	Performs canonical correlation analysis between two sets of variables.
+cbinread 	Reads binary files created using the C block I/O function write.
+cbinwrite 	Creates a binary file in raw C block I/O format for a numeric data type.
+cd_calendar 	Converts a mixed Julian/Gregorian date to a UT-referenced date.
+cd_convert 	Converts a time variable from one set of units to another.
+cd_inv_calendar 	Converts a UT-referenced date to a mixed Julian/Gregorian date.
+cd_inv_string 	Converts string time values to numeric values, using the given format string.
+cd_string 	Converts time values into nicely formatted strings.
+cdfbin_p 	Calculates the binomial density of a cumulative distribution function.
+cdfbin_pr 	Calculates the probability of success of each trial of a cumulative distribution function.
+cdfbin_s 	Calculates the number of successes of a cumulative distribution function.
+cdfbin_xn 	Calculates the number of binomial trials of a cumulative distribution function.
+cdfchi_p 	Calculates the integral of a cumulative chi-square distribution function.
+cdfchi_x 	Calculates the upper limit of integration of a cumulative chi-square distribution function.
+cdfgam_p 	Calculates the integral of a cumulative gamma distribution function.
+cdfgam_x 	Calculates the upper limit of integration of a cumulative gamma distribution function.
+cdfnor_p 	Calculates the integral of a cumulative normal distribution function.
+cdfnor_x 	Calculates the upper limit of integration of a cumulative normal distribution function.
+cdft_p 	Calculates the one-sided probability given a t-value and the degrees of freedom.
+cdft_t 	Calculates the t-value given the one-sided probability and the degrees of freedom.
+ceil 	Computes the smallest integer value larger than the input.
+center_finite_diff 	Performs a centered finite difference operation on the rightmost dimension.
+center_finite_diff_n 	Performs a centered finite difference operation on the given dimension.
+cfftb 	Performs a backward complex discrete fourier transform [Fourier Synthesis].
+cfftf 	Performs a forward complex discrete fourier transform of a real periodic sequence.
+cfftf_frq_reorder 	Reorders the data returned by cfftf.
+changeCase 	Changes the case of a string. (Deprecated: see str_lower/str_upper.)
+changeCaseChar 	Changes the case of each character in a string. (Deprecated: see str_switch.)
+charactertodouble 	Coerces values of type character to values of type double (deprecated; use todouble).
+charactertofloat 	Coerces values of type character to values of type float (deprecated; use tofloat).
+charactertointeger 	Coerces values of type character to values of type integer (deprecated; use tointeger).
+charactertolong 	Coerces values of type character to values of NCL type long (deprecated; use tolong).
+charactertoshort 	Coerces values of type character to values of type short (deprecated; use toshort).
+charactertostring 	Coerces values of type character to values of type string (deprecated; use tostring).
+chartodouble 	Coerces values of type character to values of type double (deprecated; use todouble).
+chartofloat 	Coerces values of type character to values of type float (deprecated; use tofloat).
+chartoint 	Coerces values of type character to values of type integer (deprecated; use toint).
+chartointeger 	Coerces values of type character to values of type integer (deprecated; use tointeger).
+chartolong 	Coerces values of type character to values of NCL type long (deprecated; use tolong).
+chartoshort 	Coerces values of type character to values of type short (deprecated; use toshort).
+chartostring 	Coerces values of type character to values of type string (deprecated; use tostring).
+chiinv 	Evaluates the inverse chi-squared distribution function.
+cla_sq 	Create a string that uses single quotes (sq) to enclose command line assignment statements (CLAs) for later use by NCL's system procedure.
+clear 	Clears the given workstation objects.
+clmDayTLL 	Calculates long term daily means (daily climatology) from daily data.
+clmDayTLLL 	Calculates long term daily means (daily climatology) from daily data.
+clmMon2clmDay 	Create a daily climatology from a monthly climatology.
+clmMonLLLT 	Calculates long term monthly means (monthly climatology) from monthly data: (lev,lat,lon,time) version.
+clmMonLLT 	Calculates long term monthly means (monthly climatology) from monthly data (lat,lon,time version)
+clmMonTLL 	Calculates long term monthly means (monthly climatology) from monthly data: (time,lat,lon) version
+clmMonTLLL 	Calculates long term monthly means (monthly climatology) from monthly data: (time,lev,lat,lon) version
+closest_val 	Finds the index value in a monotonically increasing one-dimensional array closest to a desired value.
+cohsq_c2p 	Given coherence-squared and the effective degrees-of-freedom, calculate the associated probability.
+cohsq_p2c 	Calculate the value(s) of coherence-squared required for a specified significance level and effectiove degrees-of-freedom.
+color_index_to_rgba 	Converts an absolute color index to its equivalent RGBA quadruplet
+ColorNegDashZeroPosContour 	Sets the negative contours to dashed, and colors the negative, positive, and zero contours to user-specified colors.
+ColorShadeLeGeContour 	Shades contour regions given low and high values and two colors.
+(Deprecated. Use gsn_contour_shade.)
+conform 	Expands an array or scalar so that it conforms to the shape of the given variable.
+conform_dims 	Expands an array or scalar so that it conforms to the shape of the given dimension sizes.
+copy_VarAtts 	Copies all of a variable's attributes from one variable to another.
+copy_VarCoords 	Copies all named dimensions and coordinate variables from one variable to another.
+copy_VarCoords_1 	Copies all named dimensions and coordinate variables from one variable to another except for the rightmost dimension.
+copy_VarCoords_2 	Copies all named dimensions and coordinate variables from one variable to another except for the rightmost two dimensions.
+copy_VarMeta 	Copies all attributes, named dimensions and coordinate variables from one variable to another.
+copyatt 	Copies all attributes, named dimensions and coordinate variables from one variable to another (deprecated version).
+coriolis_param 	Calculate the Coriolis parameter.
+cos 	Computes the cosine of numeric types.
+cosh 	Computes the hyperbolic cosine of numeric types.
+count_unique_values 	Counts the number of unique values in the given array.
+count_unique_values_n 	Counts the number of unique values in the given array, across the given dimension.
+covcorm 	Calculates a covariance or correlation matrix.
+covcorm_xy 	Calculates a covariance or correlation matrix given two separate 'n x m' arrays.
+craybinnumrec 	Returns the number of unformatted sequential access Fortran records in a Cray COS blocked binary file.
+craybinrecread 	Reads COS blocked unformatted sequential access Fortran binary files.
+create_graphic 	Creates a graphic object
+crop_water_need 	Compute "crop water need", the quantity of water needed to attain maximum crop productivity.
+crossp3 	Compute cross product of multiple vectors of length 3.
+csa1 	Calculates an approximating cubic spline for the input data, one 1-dimensional section at a time.
+csa1d 	Calculates an approximating cubic spline for the input data, one 1-dimensional section at a time.
+csa1s 	Calculates an approximating cubic spline for the input data, one 1-dimensional section at a time.
+csa1x 	Calculates an approximating cubic spline for the input data, one 1-dimensional section at a time.
+csa1xd 	Calculates an approximating cubic spline for the input data, one 1-dimensional section at a time.
+csa1xs 	Calculates an approximating cubic spline for the input data, one 1-dimensional section at a time.
+csa2 	Calculates an approximating cubic spline for two-dimensional input data.
+csa2d 	Calculates an approximating cubic spline for two-dimensional input data.
+csa2l 	Calculates an approximating cubic spline for two-dimensional input data.
+csa2ld 	Calculates an approximating cubic spline for two-dimensional input data.
+csa2ls 	Calculates an approximating cubic spline for two-dimensional input data.
+csa2lx 	Calculates an approximating cubic spline for two-dimensional input data.
+csa2lxd 	Calculates an approximating cubic spline for two-dimensional input data.
+csa2lxs 	Calculates an approximating cubic spline for two-dimensional input data.
+csa2s 	Calculates an approximating cubic spline for two-dimensional input data.
+csa2x 	Calculates an approximating cubic spline for two-dimensional input data.
+csa2xd 	Calculates an approximating cubic spline for two-dimensional input data.
+csa2xs 	Calculates an approximating cubic spline for two-dimensional input data.
+csa3 	Calculates an approximating cubic spline for three-dimensional input data.
+csa3d 	Calculates an approximating cubic spline for three-dimensional input data.
+csa3l 	Calculates an approximating cubic spline for three-dimensional input data.
+csa3ld 	Calculates an approximating cubic spline for three-dimensional input data.
+csa3ls 	Calculates an approximating cubic spline for three-dimensional input data.
+csa3lx 	Calculates an approximating cubic spline for three-dimensional input data.
+csa3lxd 	Calculates an approximating cubic spline for three-dimensional input data.
+csa3lxs 	Calculates an approximating cubic spline for three-dimensional input data.
+csa3s 	Calculates an approximating cubic spline for three-dimensional input data.
+csa3x 	Calculates an approximating cubic spline for three-dimensional input data.
+csa3xd 	Calculates an approximating cubic spline for three-dimensional input data.
+csa3xs 	Calculates an approximating cubic spline for three-dimensional input data.
+csc2s 	Converts Cartesian coordinates on a unit sphere to spherical coordinates (lat/lon).
+csgetp 	Retrieves control parameters for Cssgrid routines.
+cshstringtolist 	Converts a comma delimited string from csh and breaks it up into separate strings.
+css2c 	Converts spherical coordinates (lat/lon) to Cartesian coordinates on a unit sphere.
+cssetp 	Sets control parameters for Cssgrid routines.
+cssgrid 	Uses tension splines to interpolate unstructured (randomly-spaced) data on a unit sphere to data values on a rectilinear grid.
+cssgrid_Wrap 	Uses tension splines to interpolate unstructrued (randomly-spaced) data on a unit sphere to data values on a rectilinear grid (retains metadata).
+csstri 	Calculates a Delaunay triangulation of data randomly positioned on the surface of a sphere.
+csvoro 	Determines Voronoi polygons for data randomly positioned on a sphere and returns vertices for the one surrounding a specified input point.
+cumsum 	Calculates the cumulative sum.
+curvilinear_to_SCRIP 	Writes the description of a curvilinear grid to a SCRIP file.
+cz2ccm 	Computes geopotential height in hybrid coordinates.
+datatondc 	Converts data units into normalized device coordinates (NDCs).
+day_of_week 	Calculates the day of the week given month, day, and year (Gregorian calendar).
+day_of_year 	Calculates the day of the year (sometimes erroneously referred to as 'julian day') given Gregorian calendar month, day, and year.
+daylight_fao56 	Compute maximum number of daylight hours as described in FAO 56.
+days_in_month 	Calculates the number of days in a month given month and year.
+dble2flt 	Converts values of type double to values of type float and preserves metadata.
+decimalPlaces 	Truncates or rounds to the number of decimal places specified.
+decomposeSymAsym 	Decompose a variable which is symmetric about the equator into symmetric and asymmetric parts.
+default_fillvalue 	Returns the default missing value for the given variable type.
+delete 	Deletes variables, attributes, and coordinate variables.
+delete_VarAtts 	Deletes one or more attributes associated with a variable.
+demod_cmplx 	Perform a complex demodulation on one or more time series.
+depth_to_pres 	Convert ocean depth to pressure.
+destroy 	Destroys objects from NCL.
+determinant 	Calculates the determinant of a square real matrix.
+dewtemp_trh 	Calculates the dew point temperature given temperature and relative humidity.
+dgeevx_lapack 	Given a square (N,N) real nonsymmetric matrix, compute the eigenvalues and, optionally, the left and/or right eigenvectors via the LAPACK subroutine dgeevx.
+dim_acumrun_n 	Calculates individual accumulated sums of sequences ('runs') of a specified length.
+dim_avg 	Computes the average of a variable's rightmost dimension at all other dimensions.
+dim_avg_n 	Computes the average of a variable's given dimension(s) at all other dimensions.
+dim_avg_n_Wrap 	Computes the average of a variable's given dimensions at all other dimensions and retains metadata.
+dim_avg_wgt 	Computes the weighted average of a variable's rightmost dimension at all other dimensions.
+dim_avg_wgt_n 	Computes the weighted average of a variable's given dimension at all other dimensions.
+dim_avg_wgt_n_Wrap 	Computes the weighted average of a variable's given dimension at all other dimensions and retains metadata.
+dim_avg_wgt_Wrap 	Computes the weighted average of a variable's rightmost dimension at all other dimensions and retains metadata.
+dim_avg_Wrap 	Computes the average of a variable's rightmost dimension at all other dimensions and retains metadata.
+dim_cumsum 	Calculates the cumulative sum along the rightmost dimension.
+dim_cumsum_n 	Calculates the cumulative sum along the given dimension(s).
+dim_cumsum_n_Wrap 	Calculates the cumulative sum along the given dimension(s) and retains metadata.
+dim_cumsum_Wrap 	Calculates the cumulative sum along the rightmost dimension and retains metadata.
+dim_gamfit_n 	Fit data to the two parameter gamma distribution.
+dim_gbits 	Unpacks bit chunks from the rightmost dimension of the input array.
+dim_max 	Finds the maximum of a variable's rightmost dimension at all other dimensions.
+dim_max_n 	Finds the maximum of a variable's given dimensions at all other dimensions.
+dim_max_n_Wrap 	Computes the maximum of a variable's given dimensions at all other dimensions and retains metadata.
+dim_maxind 	Returns the index of the first occurrence of a maximum value within the specified dimension.
+dim_median 	Computes the median of a variable's rightmost dimension at all other dimensions.
+dim_median_n 	Computes the median of a variable's given dimensions at all other dimensions.
+dim_min 	Finds the minimum of a variable's rightmost dimension at all other dimensions.
+dim_min_n 	Finds the minimum of a variable's given dimensions at all other dimensions.
+dim_min_n_Wrap 	Computes the minimum of a variable's given dimensions at all other dimensions and retains metadata.
+dim_minind 	Returns the index of the first occurrence of a minimum value within the specified dimension.
+dim_num 	Calculates the number of True values of a variable's rightmost dimension at all other dimensions.
+dim_num_n 	Calculates the number of True values of a variable's given dimensions at all other dimensions.
+dim_numrun_n 	Counts the number of "runs" (sequences) within a series containing zeros and ones.
+dim_pqsort 	Computes the permutation vector generated by sorting the n - 1th (rightmost) dimension.
+dim_pqsort_n 	Computes the permutation vector generated by sorting the given dimension.
+dim_product 	Computes the product of a variable's rightmost dimension at all other dimensions.
+dim_product_n 	Computes the product of a variable's given dimension(s) at all other dimensions.
+dim_rmsd 	Computes the root-mean-square-difference between two variables' rightmost dimension at all other dimensions.
+dim_rmsd_n 	Computes the root-mean-square-difference between two variables' given dimensions at all other dimensions.
+dim_rmsd_n_Wrap 	Computes the root-mean-square-difference between two variables' given dimensions at all other dimensions.
+dim_rmsd_Wrap 	Computes the root-mean-square-difference between two variables' rightmost dimension at all other dimensions.
+dim_rmvmean 	Calculates and removes the mean of the (rightmost) dimension at all other dimensions.
+dim_rmvmean_n 	Calculates and removes the mean of the given dimension(s) at all other dimensions.
+dim_rmvmean_n_Wrap 	Calculates and removes the mean of the given dimensions at all other dimensions and retains metadata.
+dim_rmvmean_Wrap 	Calculates and removes the mean of the (rightmost) dimension at all other dimensions and retains metadata.
+dim_rmvmed 	Calculates and removes the median of the (rightmost) dimension at all other dimensions.
+dim_rmvmed_n 	Calculates and removes the median of the given dimension(s) at all other dimensions.
+dim_rmvmed_n_Wrap 	Calculates and removes the median of the given dimensions at all other dimensions and retains metadata.
+dim_rmvmed_Wrap 	Calculates and removes the median of the (rightmost) dimension at all other dimensions and retains metadata.
+dim_spi_n 	Calculates the standardized precipitation index (SPI) by fitting a gamma or a Pearson Type III distribution to monthly precipitation values.
+dim_standardize 	Calculates standardized anomalies of the rightmost dimension at all other dimensions.
+dim_standardize_n 	Calculates standardized anomalies of the given dimension(s) at all other dimensions.
+dim_standardize_n_Wrap 	Calculates standardized anomalies of the given dimensions at all other dimensions and retains metadata.
+dim_standardize_Wrap 	Calculates standardized anomalies of the rightmost dimension at all other dimensions and retains metadata.
+dim_stat4 	Computes the first four moments (average, sample variance, skewness, and kurtosis) of the rightmost dimension for all other dimensions.
+dim_stat4_n 	Computes the first four moments (average, sample variance, skewness, and kurtosis) of the given dimension(s) for all other dimensions.
+dim_stddev 	Computes the sample standard deviation of a variable's rightmost dimension at all other dimensions.
+dim_stddev_n 	Computes the sample standard deviation of a variable's given dimension(s) at all other dimensions.
+dim_stddev_n_Wrap 	Computes the sample standard deviation of a variable's given dimension(s) at all other dimensions and retains metadata.
+dim_stddev_Wrap 	Computes the sample standard deviation of a variable's rightmost dimension at all other dimensions and retains metadata.
+dim_sum 	Computes the arithmetic sum of a variable's rightmost dimension at all other dimensions.
+dim_sum_n 	Computes the arithmetic sum of a variable's given dimension(s) at all other dimensions.
+dim_sum_n_Wrap 	Computes the arithmetic sum of a variable's given dimensions at all other dimensions and retains metadata.
+dim_sum_wgt 	Computes the weighted sum of a variable's rightmost dimension at all other dimensions.
+dim_sum_wgt_n 	Computes the weighted sum of a variable's given dimension at all other dimensions.
+dim_sum_wgt_n_Wrap 	Computes the weighted sum of a variable's given dimension at all other dimensions and retains metadata.
+dim_sum_wgt_Wrap 	Computes the weighted sum of a variable's rightmost dimension at all other dimensions and retains metadata.
+dim_sum_Wrap 	Computes the arithmetic sum of a variable's rightmost dimension at all other dimensions and retains metadata.
+dim_variance 	Computes the unbiased estimates of the variance of a variable's rightmost dimension.
+dim_variance_n 	Computes the unbiased estimates of the variance of a variable's given dimension(s) at all other dimensions.
+dim_variance_n_Wrap 	Computes unbiased estimates of the variance of a variable's given dimension(s) at all other dimensions and retains metadata.
+dim_variance_Wrap 	Computes unbiased estimates of the variance of a variable's rightmost dimension at all other dimensions and retains metadata.
+dimsizes 	Returns the dimension sizes of the input variable.
+doubletobyte 	Coerces values of type double to values of type byte (deprecated; use tobyte).
+doubletochar 	Coerces values of type double to values of type character (deprecated; use tochar).
+doubletocharacter 	Coerces values of type double to values of type character (deprecated; use tochar).
+doubletofloat 	Coerces values of type double to values of type float (deprecated; use tofloat).
+doubletoint 	Coerces values of type double to values of type integer (deprecated; use toint).
+doubletointeger 	Coerces values of type double to values of type integer (deprecated; use tointeger).
+doubletolong 	Coerces values of type double to values of type long (deprecated; use tolong).
+doubletoshort 	Coerces values of type double to values of type short (deprecated; use toshort).
+dpres_hybrid_ccm 	Calculates the pressure differences of a hybrid coordinate system.
+dpres_plevel 	Calculates the pressure layer thicknesses of a constant pressure level coordinate system.
+dpres_plevel_Wrap 	Calculates the pressure layer thicknesses of a constant pressure level coordinate system.
+draw 	Draws the given graphical objects.
+draw_color_palette 	Draws the given colors or color map as a series of filled boxes.
+drawNDCGrid 	Draws NDC grid lines at 0.1 NDC coordinate intervals and labels them.
+dsgetp 	Gets parameters for Dsgrid routines.
+dsgrid2 	Interpolates data from an unstructured (randomly-spaced) grid to a rectilinear grid using inverse distance weighted interpolation.
+dsgrid2d 	Interpolates double data from an unstructured (randomly-spaced) grid to a rectilinear grid using inverse distance weighted interpolation. (Deprecated version.)
+dsgrid2s 	Interpolates float data from an unstructured (randomly-spaced) grid to a rectilinear grid using inverse distance weighted interpolation. (Deprecated version.)
+dsgrid3 	Interpolates data from an unstructured (randomly-spaced) grid to a 3D grid using inverse distance weighted interpolation.
+dsgrid3d 	Interpolates double data from an unstructured (randomly-spaced) grid to a 3D grid using inverse distance weighted interpolation. (Deprecated version.)
+dsgrid3s 	Interpolates float data from an unstructured (randomly-spaced) grid to a 3D grid using inverse distance weighted interpolation. (Deprecated version.)
+dspnt2 	Interpolates 2D data at specified points.
+dspnt2d 	Interpolates 2D data at specified points. (Deprecated version.)
+dspnt2s 	Interpolates 2D float data at specified points. (Deprecated version.)
+dspnt3 	Interpolates 3D data at specified points.
+dspnt3d 	Interpolates 3D double data at specified points. (Deprecated version.)
+dspnt3s 	Interpolates 3D float data at specified points. (Deprecated version.)
+dssetp 	Sets parameters for Dsgrid routines.
+dtrend 	Estimates and removes the least squares linear trend of the rightmost dimension from all grid points.
+dtrend_leftdim 	Estimates and removes the least squares linear trend of the leftmost dimension from all grid points and retains metadata.
+dtrend_msg 	Estimates and removes the least squares linear trend of the rightmost dimension from all grid points (missing values allowed).
+dtrend_msg_n 	Estimates and removes the least squares linear trend of the dim-th dimension from all grid points (missing values allowed).
+dtrend_n 	Estimates and removes the least squares linear trend of the given dimension from all grid points.
+dtrend_quadratic 	Estimates and removes the least squares quadratic trend of the rightmost dimension from all grid points.
+dtrend_quadratic_msg_n 	Estimates and removes the least squares quadratic trend of the dim-th dimension from all grid points (missing values allowed).
+dv2uvF 	Computes the divergent (irrotational) wind components for a fixed grid via spherical harmonics.
+dv2uvf 	Computes the divergent (irrotational) wind components for a fixed grid via spherical harmonics.
+dv2uvF_Wrap 	Computes the divergent (irrotational) wind components for a fixed grid via spherical harmonics and retains metadata.
+dv2uvG 	Computes the divergent (irrotational) wind components for a gaussian grid via spherical harmonics.
+dv2uvg 	Computes the divergent (irrotational) wind components for a gaussian grid via spherical harmonics.
+dv2uvG_Wrap 	Computes the divergent (irrotational) wind components for a gaussian grid via spherical harmonics and retains metadata.
+dz_height 	Calculates the height layer thicknesses at each grid point over varying surface terrain.
+eady_growth_rate 	Compute the maximum Eady growth rate.
+echo_off 	Disables echoing of NCL statements as they are encountered.
+echo_on 	Enables echoing of NCL statements as they are encountered.
+eof2data 	Reconstructs a data set from EOFs and EOF time series.
+eof2data_n 	Reconstructs a data set from EOFs and EOF time series, given an index that specifies which dimension contains the time dimemsion.
+eof_varimax 	Rotates EOFs using the using Kaiser row normalization and the varimax criterion (deprecated version).
+eofcor 	Calculates empirical orthogonal functions via a correlation matrix (NCL's original function).
+eofcor_pcmsg 	Calculates empirical orthogonal functions via a correlation matrix (missing values allowed) (deprecated version).
+eofcor_ts 	Calculates the time series of the amplitudes associated with each eigenvalue in an EOF which was calculated using a correlation matrix.
+eofcor_Wrap 	Calculates empirical orthogonal functions and retains metadata. (NCL's original function).
+eofcov 	Calculates empirical orthogonal functions via a covariance matrix (original version).
+eofcov_pcmsg 	Calculates empirical orthogonal functions via a covariance matrix (missing values allowed)(deprecated version).
+eofcov_ts 	Calculates the time series of the amplitudes associated with each eigenvalue in an EOF which was calculated using a covariance matrix.
+eofcov_Wrap 	Calculates empirical orthogonal functions and retains metadata. (NCL's original EOF function).
+eofunc 	Computes empirical orthogonal functions (EOFs, aka: Principal Component Analysis).
+eofunc_n 	Computes empirical orthogonal functions (EOFs, aka: Principal Component Analysis), given an index that specifies which dimension contains the number of observations.
+eofunc_n_Wrap 	Computes empirical orthogonal functions (aka: Principal Component Analysis, Eigen Analysis) given an index that specifies which dimension contains the number of observations, and retains metadata.
+eofunc_north 	Use North et al (MWR, 1982) equation 24 to evaluate eigenvalue separation.
+eofunc_ts 	Calculates the time series of the amplitudes associated with each eigenvalue in an EOF.
+eofunc_ts_n 	Calculates the time series of the amplitudes associated with each eigenvalue in an EOF, given an index that specifies the time dimension.
+eofunc_ts_n_Wrap 	Calculates the time series of the amplitudes associated with each eigenvalue in an EOF, given an index that specifies the time dimension, and retains metadata.
+eofunc_ts_Wrap 	Calculates the time series of the amplitudes associated with each eigenvalue in an EOF and retains metadata.
+eofunc_varimax 	Rotates EOFs using the using Kaiser row normalization and the varimax criterion.
+eofunc_varimax_reorder 	Reorder the results returned by eof_varimax into descending order by percent variance explained.
+eofunc_varimax_Wrap 	Rotates EOFs using the using Kaiser row normalization and the varimax criterion and retains metadata.
+eofunc_Wrap 	Computes empirical orthogonal functions (aka: Principal Component Analysis, Eigen Analysis) and retains metadata.
+epflux 	Compute quasi-geostrophic Eliassen-Palm fluxes at isobaric levels.
+epsZero 	Sets all values in input array to zero that are +/- a user supplied epsilon about zero.
+equiv_sample_size 	Estimates the number of independent values of a series of correlated observations.
+erf 	Evaluates the real error function.
+erfc 	Evaluates the real complementary error function.
+esacr 	Computes sample auto-correlations.
+esacv 	Computes sample auto-covariances
+esccr 	Computes sample cross-correlations.
+esccv 	Computes sample cross-covariances.
+escorc 	Computes the (Pearson) sample linear cross-correlations at lag 0 only.
+escorc_n 	Computes the (Pearson) sample linear cross-correlations at lag 0 only, across the specified dimensions.
+escovc 	Computes sample cross-covariances at lag 0 only.
+ESMF_regrid 	Regrids data from one lat/lon grid to another, using ESMF software.
+ESMF_regrid_gen_weights 	Writes a weight file using the offline ESMF weight generator.
+ESMF_regrid_with_weights 	Using the provided weight file, regrids data from one lat/lon grid to another.
+exit 	Forces an NCL script to exit immediately.
+exp 	Computes the value of e (the base of natural logarithms) raised to the power of the input.
+exp_tapersh 	Performs tapering (filtering) of the spherical harmonic coefficients.
+exp_tapersh_wgts 	Calculates weights which can be used to perform tapering (filtering) of spherical harmonic coefficients.
+exp_tapershC 	Performs tapering (filtering) of the spherical harmonic coefficients.
+extract_globalatts_hdf5 	Extract value from 'KEYWORD,VALUE' pair returned by getfilevaratts_hdf5.
+extval_frechet 	Calculates the probability (PDF) and cumulative (CDF) distribution functions of the Frechet Type II distribution given the shape, scale and location parameters.
+extval_gev 	Calculates the probability (PDF) and cumulative (CDF) distribution functions of the Generalized Extreme Value (GEV) distribution given the shape, scale and location parameters.
+extval_gumbel 	Calculates the probability (PDF) and cumulative (CDF) distribution functions of the Gumbel (Type I) distribution function given the scale and location parameters.
+extval_mlegev 	Estimates the shape, scale and location parameters for the Generalized Extreme-Value (GEV) distribution using Maximum-Likelihood Estimation (MLE).
+extval_recurrence_table 	Calculates the recurrence interval (return period), cumulative and exceedence probabilities based upon a time series.
+extval_weibull 	Calculates the probability (PDF) and cumulative (CDF) distribution functions of the Weibull Type III distribution given the shape, scale and location parameters.
+ezfftb 	Perform a Fourier synthesis from real and imaginary coefficients.
+ezfftb_n 	Perform a Fourier synthesis from real and imaginary coefficients on the given dimension.
+ezfftf 	Perform a Fourier analysis on a real periodic sequence.
+ezfftf_n 	Performs a Fourier analysis on a real periodic sequence on the given dimension.
+f2fosh 	Interpolates a scalar quantity from a fixed grid (including pole points) to a fixed-offset grid.
+f2fosh_Wrap 	Interpolates a scalar quantity from a fixed grid (including pole points) to a fixed-offset grid (retains metadata).
+f2foshv 	Interpolates a vector quantity on a fixed grid (including pole points) to a fixed-offset grid.
+f2foshv_Wrap 	Interpolates a vector quantity on a fixed grid (including pole points) to a fixed-offset grid (retains metadata).
+f2fsh 	Interpolates a scalar quantity from one fixed grid to another.
+f2fsh_Wrap 	Interpolates a scalar quantity from one fixed grid to another (retains metadata).
+f2fshv 	Interpolates a vector quantity from one fixed grid to another.
+f2fshv_Wrap 	Interpolates a vector quantity from one fixed grid to another (retains metadata).
+f2gsh 	Interpolates a scalar quantity from a fixed grid to a Gaussian grid (with optional truncation).
+f2gsh_Wrap 	Interpolates a scalar quantity from a fixed grid to a Gaussian grid (with optional truncation) (retains metadata).
+f2gshv 	Interpolates a vector quantity on a fixed grid to a Gaussian grid (optional truncation).
+f2gshv_Wrap 	Interpolates a vector quantity on a fixed grid to a Gaussian grid (optional truncation) (retains metadata).
+fabs 	Computes the absolute value of numeric types.
+fbindirread 	Reads binary records written by a Fortran direct access write or C write.
+fbindirSwap 	Reads byte-reversed data and writes output file that can be read by fbindirread or cbinread (deprecated).
+fbindirwrite 	Writes binary records to a file in manner analogous to fortran's "access=direct".
+fbinnumrec 	Returns the number of unformatted sequential Fortran records in a binary file.
+fbinread 	Reads one binary record that has been written using an UNFORMATTED FORTRAN write.
+fbinrecread 	Reads unformatted sequential access Fortran binary files.
+fbinrecwrite 	Writes a single unformatted sequential access Fortran record to a file.
+fbinseqSwap1 	Byte swaps Fortran sequential files (deprecated).
+fbinseqSwap2 	Byte swaps Fortran sequential files (more memory friendly) (deprecated).
+fbinwrite 	Writes a single binary record to a file in manner analogous to Fortran's "form=unformatted, access=sequential".
+fft2db 	Performs a two-dimensional discrete backward Fourier transform (Fourier synthesis).
+fft2df 	Performs a two-dimensional forward real discrete Fourier transform (i.e., Fourier analysis) of a real periodic array.
+fftshift 	Rearranges an array in a manner similar to Matlab's fftshift function.
+fileattdef 	Defines global (file) attributes associated with a supported file.
+filechunkdimdef 	Defines chunking dimension names, dimension sizes, unlimited dimensions on a supported file.
+filedimdef 	Defines dimension names, dimension sizes, unlimited dimensions on a supported file.
+fileexists 	Checks for existence of any UNIX file.
+filegrpdef 	Defines a list of group (names), for a supported file, or group.
+filevarattdef 	Copies attributes from an input variable to one or more variables on a supported file.
+filevarchunkdef 	Defines a list of variable names, variable var_types, and variable dimension names for a supported file.
+filevarcompressleveldef 	Defines a list of variable names, variable var_types, and variable dimension names for a supported file.
+filevardef 	Defines a list of variable names, variable types, and variable dimension names for a supported file.
+filevardimsizes 	Returns the dimension sizes of variable on a supported file.
+filwgts_lancos 	Calculates one-dimensional filter weights (deprecated).
+filwgts_lanczos 	Calculates one-dimensional filter weights.
+filwgts_normal 	Calculates one-dimensional filter weights based upon the normal (gaussian) distribution.
+fire_index_haines 	Computes the Haines fire index (aka: Lower Atmosphere Severity Index) from a sounding.
+floattobyte 	Coerces values of type float to values of type byte.
+floattochar 	Coerces values of type float to values of type character.
+floattocharacter 	Coerces values of type float to values of type character.
+floattoint 	Coerces values of type float to values of type integer.
+floattointeger 	Coerces values of type float to values of type integer.
+floattolong 	Coerces values of type float to values of type long.
+floattoshort 	Coerces values of type float to values of type short.
+floor 	Computes the largest integer value smaller than the input.
+flt2dble 	Converts values of type float to values of type double and preserves metadata.
+flt2string 	Converts values of type float to values of type string.
+fluxEddy 	Calculates time averaged eddy flux quantities.
+fo2fsh 	Interpolates a scalar quantity from a fixed-offset grid to a fixed grid.
+fo2fsh_Wrap 	Interpolates a scalar quantity from a fixed-offset grid to a fixed grid (retains metadata).
+fo2fshv 	Interpolates a vector quantity from a fixed-offset grid to a fixed grid.
+fo2fshv_Wrap 	Interpolates a vector quantity from a fixed-offset grid to a fixed grid (retains metadata).
+fourier_info 	Performs Fourier analysis on one or more periodic series.
+frame 	Updates and clears the given workstation objects.
+fspan 	Creates an array of evenly-spaced floating point numbers.
+ftcurv 	Calculates an interpolatory spline through a sequence of functional values.
+ftcurvd 	Calculates the derivatives of an interpolatory spline under tension.
+ftcurvi 	Calculates integrals of an interpolatory spline under tension between two user-specified limits.
+ftcurvp 	Calculates an interpolatory spline under tension through a sequence of functional values for a periodic function.
+ftcurvpi 	Calculates an integral of an interpolatory spline between two specified points.
+ftcurvps 	Calculates a smoothing spline.
+ftcurvs 	Calculates a smoothing spline.
+ftest 	Applies F-test for variances and returns an estimate of the statistical significance.
+ftgetp 	Retrieves control parameters for Fitgrid routines.
+ftkurv 	Calculates an interpolatory spline for parametric curves.
+ftkurvd 	Calculates an interpolatory spline for parametric curves; it also calculates first and second derivatives of the interpolatory spline.
+ftkurvp 	Calculates an interpolatory spline under tension through a sequence of points in the plane forming a closed curve.
+ftkurvpd 	Calculates an interpolatory spline for closed parametric curves; it also calculates first and second derivatives of the interpolatory spline.
+ftsetp 	Sets control parameters for Fitgrid routines.
+ftsurf 	Calculates an interpolatory surface passing through a rectangular grid of function values.
+g2fsh 	Interpolates a scalar quantity from a Gaussian grid to a fixed grid.
+g2fsh_Wrap 	Interpolates a scalar quantity from a Gaussian grid to a fixed grid (retains metadata).
+g2fshv 	Interpolates a vector quantity from a Gaussian grid to a fixed grid.
+g2fshv_Wrap 	Interpolates a vector quantity from a Gaussian grid to a fixed grid (retains metadata).
+g2gsh 	Interpolates a scalar quantity from one Gaussian grid to another (with optional truncation).
+g2gsh_Wrap 	Interpolates a scalar quantity from one Gaussian grid to another (with optional truncation) (retains metadata).
+g2gshv 	Interpolates a vector quantity from one Gaussian grid to another (with optional truncation).
+g2gshv_Wrap 	Interpolates a vector quantity from one Gaussian grid to another (optional truncation) (retains metadata).
+gamma 	Evaluates the complete gamma function.
+gammainc 	Evaluates the incomplete gamma function.
+gaus 	Computes Gaussian latitudes and weights.
+gaus_lobat 	Computes Gaussian latitudes and weights using Gauss-Lobatto quadrature.
+gaus_lobat_wgt 	Computes Gauss-Lobatto weights given a one-dimensional array of Gauss-Lobatto latitudes.
+gc_aangle 	Finds the acute angle between two great circles on the globe.
+gc_clkwise 	Tests clockwise/counterclockwise ordering of points on spherical polygon.
+gc_dangle 	Finds the directed angle between two great circles having a specified intersection point.
+gc_inout 	Determines if a list of lat/lon specified points are inside or outside of spherical lat/lon polygon(s).
+gc_latlon 	Finds the great circle distance (true surface distance) between two points on the globe and interpolates points along the great circle.
+gc_onarc 	Determines if a point on the globe lies on a specified great circle arc.
+gc_pnt2gc 	Finds the angular distance from a point to a great circle.
+gc_qarea 	Finds the area of a quadrilateral patch on the unit sphere.
+gc_tarea 	Finds the area of a triangular patch on the unit sphere.
+generate_2d_array 	Generates a "nice" 2D array of pseudo random data, especially for use in 2D graphics.
+generate_sample_indices 	Generate indices (subscripts) for resampling: with and without replacement.
+generate_unique_indices 	Generate unique random indices (subscripts).
+genNormalDist 	Generates a normal distribution.
+get1Dindex_Collapse 	Returns a one dimensional array of subscript indices that DO NOT match the values contained in a user specified list.
+get1Dindex_Exclude 	Returns a one dimensional array of subscript indices that DO NOT match the values contained in a user specified list.
+get_color_rgba 	Chooses an RGB triplet or RGBA quadruplet for a scalar value, given a color map and a range of values.
+get_cpu_time 	Returns the CPU time used by NCL.
+get_d2r 	Return a constant that converts degrees to radians.
+get_file_suffix 	Extract the suffix associated with a file name.
+get_isolines 	Retrieves the points that define a contour line.
+get_ncl_version 	Returns the current NCL version.
+get_pi 	Return pi as a type float or double.
+get_r2d 	Return a constant that converts radians to degrees.
+get_script_name 	Returns the name of a script of commands provided to NCL for execution.
+get_script_prefix_name 	Returns the name of a script of commands provided to NCL for execution, if provided, with any script name tag removed.
+get_sphere_radius 	Retrieves the radius of a sphere used in spherical harmonic routines.
+get_unique_difference 	Returns the unique element symmetric differences between two arrays.
+get_unique_intersection 	Returns the unique element intersection (ie., common values) between two arrays.
+get_unique_union 	Returns the unique element union of two arrays.
+get_unique_values 	Returns the unique values of the given array.
+getbitsone 	Unpacks one-bit chunks from the input array.
+getenv 	Returns the string value of a shell environment variable.
+getfiledimsizes 	Returns a list of dimension sizes of the given file variable.
+getfilegrpnames 	Returns an array of file group names in the specified supported file.
+getfilepath 	Returns a string of the opened file's path.
+getfilevaratts 	Returns all attribute names associated with a variable on a supported file.
+getfilevarchunkdimsizes 	Returns the chunk dimension sizes of variable on a file (which has chunk dimensions).
+getfilevardims 	Returns all dimension names associated with a variable on a supported file.
+getfilevardimsizes 	Returns the dimension sizes of variable on a supported file.
+getfilevarnames 	Returns an array of file variable names in the specified supported file.
+getfilevartypes 	Returns the types of the named variables stored in the given supported file.
+GetFillColor 	Chooses a color from a group of RGB triplets based upon a secondary scalar field (deprecated version).
+GetFillColorIndex 	Chooses from a list of color table indices based upon a secondary scalar field (deprecated version).
+getFillValue 	Retrieves the _FillValue of a variable, if present, for use in a new statement.
+getind_latlon2d 	Returns the indices (subscripts) of two-dimensional latitude/longitude arrays closest to a user-specified latitude/longitude coordinate pair.
+getvaratts 	Returns a list of attribute names for the given variable or file pointer.
+getVarDimNames 	Retrieves dimension names for a variable in memory (deprecated version).
+getvardims 	Returns a list of dimension names for the given variable.
+getVarFillValue 	Retrieves the missing value of a variable, otherwise, it returns the default _FillValue.
+grad_latlon_cfd 	Compute the meridional and zonal gradients of a variable on a global or limited area rectilinear grid.
+gradsf 	Computes the gradient of an array that is on a fixed grid using spherical harmonics.
+gradsg 	Computes the gradient of an array that is on a gaussian grid using spherical harmonics.
+greg2jul 	Converts Gregorian dates to astronomical Julian days.
+grib_stime2itime 	Converts grib initial_time (string) to time (integer).
+grid2triple 	Converts a two-dimensional grid with one-dimensional coordinate variables to an array where each grid value is associated with its coordinates.
+gsn_add_annotation 	Attaches the given annotation to the given plot.
+gsn_add_polygon 	Attaches a filled polygon to the given plot.
+gsn_add_polyline 	Attaches a polyline to the given plot.
+gsn_add_polymarker 	Attaches polymarkers to the given plot.
+gsn_add_shapefile_polygons 	Attaches shapefile polygon data to the given plot(s) using randomly-filled polygons.
+gsn_add_shapefile_polylines 	Attaches shapefile polyline or polygon data to the given plot(s) using polylines.
+gsn_add_shapefile_polymarkers 	Attaches shapefile point data to the given plot(s) using polymarkers.
+gsn_add_text 	Attaches text strings to the given plot.
+gsn_attach_plots 	Attaches a series of plots to a base plot.
+gsn_blank_plot 	Draws a blank plot with tickmarks pointing inward.
+gsn_contour 	Creates and draws a contour plot.
+gsn_contour_map 	Creates and draws a contour plot over a map.
+gsn_contour_shade 	Shades contour regions given low and/or high values using colors or patterns.
+gsn_coordinates 	Draws or attaches the data coordinate locations on the given plot as grid lines or markers.
+gsn_create_labelbar 	Creates a labelbar.
+gsn_create_legend 	Creates a legend.
+gsn_create_text 	Creates text strings.
+gsn_csm_attach_zonal_means 	Attaches a zonal means plot to a contour/map plot.
+gsn_csm_blank_plot 	Draws a blank plot with tickmarks pointing outward.
+gsn_csm_contour 	Creates and draws a contour plot.
+gsn_csm_contour_map 	Creates and draws a contour plot over a map.
+gsn_csm_contour_map_ce 	Creates and draws a contour plot over a cylindrical equidistant map.
+gsn_csm_contour_map_overlay 	Creates and draws two contour plots over a map.
+gsn_csm_contour_map_polar 	Creates and draws a contour plot over a polar stereographic map.
+gsn_csm_hov 	Creates and draws a Hovmueller (time vs. longitude) plot.
+gsn_csm_lat_time 	Creates and draws a latitude versus time plot.
+gsn_csm_map 	Creates and draws a map.
+gsn_csm_map_ce 	Creates and draws a cylindrical equidistant map.
+gsn_csm_map_polar 	Creates and draws a polar stereographic map.
+gsn_csm_pres_hgt 	Creates and draws a pressure/height plot.
+gsn_csm_pres_hgt_streamline 	Creates and draws a pressure/height contour plot overlaid with streamlines.
+gsn_csm_pres_hgt_vector 	Creates and draws a pressure/height contour plot overlaid with vectors.
+gsn_csm_streamline 	Creates and draws a streamline plot.
+gsn_csm_streamline_contour_map 	Creates and draws streamlines over a contour plot over a map.
+gsn_csm_streamline_contour_map_ce 	Creates and draws streamlines over a contour plot over a cylindrical equidistant map.
+gsn_csm_streamline_contour_map_polar 	Creates and draws streamlines over a contour plot over a polar stereographic map.
+gsn_csm_streamline_map 	Creates and draws a streamline plot over a map.
+gsn_csm_streamline_map_ce 	Creates and draws a streamline plot over a cylindrical equidistant map.
+gsn_csm_streamline_map_polar 	Creates and draws a streamline plot over a polar stereographic map.
+gsn_csm_streamline_scalar 	Creates and draws a streamline plot, using a scalar field to color the streamlines.
+gsn_csm_streamline_scalar_map 	Creates and draws a streamline plot over a map, using a scalar field to color the streamlines.
+gsn_csm_streamline_scalar_map_ce 	Creates and draws a streamline plot over a cylindrical equidistant map, using a scalar field to color the streamlines.
+gsn_csm_streamline_scalar_map_polar 	Creates and draws a streamline plot over a polar stereographic map, using a scalar field to color the streamlines.
+gsn_csm_time_lat 	Creates and draws a time versus latitude plot.
+gsn_csm_vector 	Creates and draws a vector plot.
+gsn_csm_vector_map 	Creates and draws a vector plot over a map.
+gsn_csm_vector_map_ce 	Creates and draws a vector plot over a cylindrical equidistant map.
+gsn_csm_vector_map_polar 	Creates and draws a vector plot over a polar stereographic map.
+gsn_csm_vector_scalar 	Creates and draws a vector plot, and uses a scalar field to draw a separate contour plot or color the vectors.
+gsn_csm_vector_scalar_map 	Creates and draws a vector plot over a map, and uses a scalar field to draw a separate contour plot or color the vectors.
+gsn_csm_vector_scalar_map_ce 	Creates and draws a vector plot over a cylindrical equidistant map projection, and uses a scalar field to draw a separate contour plot or color the vectors.
+gsn_csm_vector_scalar_map_polar 	Creates and draws a vector plot over a polar stereographic map projection, and uses a scalar field to draw a separate contour plot or color the vectors.
+gsn_csm_x2y 	Creates and draws an XY plot with two different X axes.
+gsn_csm_x2y2 	Creates and draws an XY plot with two different XY axis pairs.
+gsn_csm_xy 	Creates and draws an XY plot.
+gsn_csm_xy2 	Creates and draws an XY plot with two different Y axes.
+gsn_csm_xy3 	Creates and draws an XY plot with three different Y axes.
+gsn_csm_y 	Creates and draws an XY plot, using index values for the X axis.
+gsn_define_colormap 	Defines a color map for the given workstation.
+gsn_draw_colormap 	Draws the current color map for the given workstation.
+gsn_draw_named_colors 	Draws the given list of named colors.
+gsn_histogram 	Draws a histogram plot on the given workstation.
+gsn_labelbar_ndc 	Draws a labelbar on the given workstation.
+gsn_legend_ndc 	Draws a legend on the given workstation.
+gsn_map 	Creates and draws a map.
+gsn_merge_colormaps 	Merges two color maps and sets this as the color map for the given workstation.
+gsn_open_wks 	Opens a workstation on which to draw graphics.
+gsn_panel 	Draws multiple plots of identical size on a single frame.
+gsn_polygon 	Draws a filled polygon on the given plot.
+gsn_polygon_ndc 	Draws a filled polygon on the given workstation.
+gsn_polyline 	Draws a polyline on the given plot.
+gsn_polyline_ndc 	Draws a polyline on the given workstation.
+gsn_polymarker 	Draws polymarkers on the given plot.
+gsn_polymarker_ndc 	Draws polymarkers on the given workstation.
+gsn_retrieve_colormap 	Retrieves a color map for the given workstation.
+gsn_reverse_colormap 	Reverses the color map for the given workstation.
+gsn_streamline 	Creates and draws a streamline plot.
+gsn_streamline_map 	Creates and draws a streamline plot over a map.
+gsn_streamline_scalar 	Creates and draws a streamline plot colored by a given scalar field.
+gsn_streamline_scalar_map 	Creates and draws a streamline plot over a map, and colors the streamlines using the given scalar field.
+gsn_table 	Draws a table with text.
+gsn_text 	Draws text strings on the given plot.
+gsn_text_ndc 	Draws text strings on the given workstation.
+gsn_vector 	Creates and draws a vector plot.
+gsn_vector_map 	Creates and draws a vector plot over a map.
+gsn_vector_scalar 	Creates and draws a vector plot colored by a given scalar field.
+gsn_vector_scalar_map 	Creates and draws a vector plot over a map, and colors the vectors using the given scalar field.
+gsn_xy 	Creates and draws an XY plot.
+gsn_y 	Creates and draws an XY plot, using index values for the X axis.
+heat_apptemp 	Compute apparent temperature.
+heat_discoi 	Compute a simplified human discomfort index.
+heat_discoi_stull 	Compute the human discomfort index due to excessive heat and humidity using the Stull wet bulb temperature (wetbulb_stull).
+heat_esidx_moran 	Compute an environmental stress index (ESI) which is an alternative to the wet bulb globe temperature (WBGT).
+heat_humidex 	Compute the 'feels-like' temperature for humans.
+heat_index_nws 	Compute the 'heat index' as calculated by the National Weather Service.
+heat_swamp_cooleff 	Compute the swamp cooler temperatures at 65% amd 80% efficiency.
+heat_thic_thip 	Compute the thermal humidity comfort index (thic) and the thermal humidity physiology index (thip).
+heat_wbgt_inout 	Compute the composite Wet-Bulb Globe Temperature (WBGT) index with options for indoor or outdoor formulations.
+heat_wbgt_simplified 	Simplified WBGT index.
+hlsrgb 	Converts HLS color values to RGB.
+hsv2rgb 	Maps values from the HSV color model to the RGB color model (deprecated).
+hsvrgb 	Converts HSV color values to RGB.
+hydro 	Computes geopotential height using the hydrostatic equation.
+hyi2hyo 	Interpolates from data on one set of hybrid levels to another set of hybrid levels.
+hyi2hyo_Wrap 	Interpolates from data on one set of hybrid levels to another set of hybrid levels and preserves metadata.
+idsfft 	Interpolates 2D random data.
+igradsf 	Computes a scalar array from its gradient components on a fixed grid using spherical harmonics.
+igradsF 	Computes a scalar array from its gradient components on a fixed grid using spherical harmonics.
+igradsG 	Computes a scalar array from its gradient components on a gaussian grid using spherical harmonics.
+igradsg 	Computes a scalar array from its gradient components on a gaussian grid using spherical harmonics.
+ilapsf 	Inverts the Laplacian (on a fixed grid) using spherical harmonics.
+ilapsF 	Inverts the Laplacian (on a fixed grid) using spherical harmonics.
+ilapsF_Wrap 	Inverts the Laplacian (on a fixed grid) using spherical harmonics and retains metadata.
+ilapsg 	Inverts the Laplacian (on a gaussian grid) using spherical harmonics.
+ilapsG 	Inverts the Laplacian (on a gaussian grid) using spherical harmonics.
+ilapsG_Wrap 	Inverts the Laplacian (on a gaussian grid) using spherical harmonics and retains metadata.
+ilapvf 	Inverts the vector Laplacian (on a fixed grid) using spherical harmonics.
+ilapvg 	Inverts the vector Laplacian (on a gaussian grid) using spherical harmonics.
+ind 	Returns the indices where the input is True.
+ind_nearest_coord 	Determine indices of locations closest to a coordinate array.
+ind_resolve 	Resolves a single list of indices to their multi-dimensional representation.
+indStrSubset 	Returns the indices corresponding to the location of the substring, if it is a subset of the other given string. (Deprecated: see str_index_of_substr.)
+infoTimeStamp 	Draws two text strings at the bottom of the workstation to indicate the time the plot was created and other information.
+int2dble 	Converts values of type integer to values of type float and preserves metadata.
+int2flt 	Converts values of type integer to values of type float and preserves metadata.
+int2p 	Interpolates pressure levels to a different set of pressure levels.
+int2p_n 	Interpolates pressure levels to a different set of pressure levels on the given dimension.
+int2p_n_Wrap 	Interpolates pressure levels to a different set of pressure levels and returns metadata.
+int2p_Wrap 	Interpolates pressure levels to a different set of pressure levels and returns metadata.
+integertobyte 	Coerces values of type integer to values of type byte.
+integertochar 	Coerces values of type integer to values of type character.
+integertocharacter 	Coerces values of type integer to values of type character.
+integertoshort 	Coerces values of type integer to values of type short.
+inttobyte 	Coerces values of type integer to values of type byte.
+inttochar 	Coerces values of type integer to values of type character.
+inttoshort 	Coerces values of type integer to values of type short.
+inverse_matrix 	Computes the inverse of a general matrix using LU factorization.
+is_string_numeric 	Returns True for every element of the input string array that contains a numeric value.
+isatt 	Returns logical values indicating whether the given attributes are attached to the given variable.
+isbigendian 	Returns True if you are running NCL on a big endian machine.
+isbyte 	Returns True if input is of type byte.
+ischar 	Returns True if input is of type char.
+iscoord 	Returns True for every input string that is a coordinate variable of the given variable.
+isdefined 	Returns True for every element of the input that is a defined keyword, variable, or function/procedure name.
+isdim 	Returns True if variable dimensions are defined in the given variable.
+isdimnamed 	Returns True if variable dimensions have names in given variable.
+isdouble 	Returns True if input is of type double.
+isenumeric 	Returns True if input is of type enumeric.
+isfile 	Returns True if input is of type file.
+isfilepresent 	Checks if a supported file exists.
+isfilevar 	Checks if specified file variables are defined in a file.
+isfilevaratt 	Checks if specified file variable attributes are defined for a file variable.
+isfilevarcoord 	Checks if a coordinate variable is defined in a file.
+isfilevardim 	Checks if file variable dimensions are defined for a file variable.
+isfloat 	Returns True if input is of type float.
+isfunc 	Returns True for every element of the input that is a defined function.
+isgraphic 	Returns True if input is of type graphic.
+isint 	Returns True if input is of type integer.
+isint64 	Returns True if input is of type int64.
+isinteger 	Returns True if input is of type integer.
+isleapyear 	Determines if a given year is a leap year.
+islogical 	Returns True if input is of type logical.
+islong 	Returns True if input is of type long.
+ismissing 	Returns True for every element of the input that contains a missing value.
+isMonotonic 	Check a one dimensional array to see if it is monotonic.
+isnan_ieee 	Returns a logical array indicating which input values contain an IEEE NaN.
+isnumeric 	Returns True if input is of type numeric.
+ispan 	Creates an array of equally-spaced integer, long, or int64 values.
+isproc 	Returns True for every element of the input that is a defined procedure.
+isscalar 	Returns True if the given argument is a scalar (rank one and size one).
+isshort 	Returns True if input is of type short.
+issnumeric 	Returns True if input is of type snumeric.
+isstring 	Returns True if input is of type string.
+isStrSubset 	Return True or False if one string is a subset of another string.
+isubyte 	Returns True if input is of type unsigned byte (ubyte).
+isuint 	Returns True if input is of type unsigned integer (uint).
+isuint64 	Returns True if input is of type unsigned 64-bit integer (uint64).
+isulong 	Returns True if input is of type unsigned long (ulong).
+isunlimited 	Returns True if the given dimension name is defined as unlimited on the given file.
+isunsigned 	Returns True if input is one of the unsigned types.
+isushort 	Returns True if input is of type unsigned short (ushort).
+isvar 	Returns True for every element of the input that is a defined variable.
+jul2greg 	Converts an astronomical Julian day to a Gregorian date.
+kf_filter 	Extract equatorial waves by filtering in the Wheeler-Kiladis wavenumber-frequency domain.
+kmeans_as136 	Performs k-means clustering via the Hartigan and Wong AS-136 algorithm.
+kolsm2_n 	Uses the Kolmogorov-Smirnov two-sample test to determine if two samples are from the same distribution.
+kron_product 	Computes the Kronecker product for two-dimensional matrices.
+landsea_mask 	Returns a grid that contains a land/sea mask given any latitude and longitude array.
+lapsF 	Computes the Laplacian using spherical harmonics, given a scalar z on a fixed grid.
+lapsf 	Computes the Laplacian using spherical harmonics, given a scalar z on a fixed grid.
+lapsG 	Computes the Laplacian using spherical harmonics, given a scalar z on a gaussian grid.
+lapsg 	Computes the Laplacian using spherical harmonics, given a scalar z on a gaussian grid.
+lapvf 	Computes the vector Laplacian using spherical harmonics, given a vector quantity (u,v) on a fixed grid.
+lapvg 	Computes the vector Laplacian using spherical harmonics, given a vector quantity (u,v) on a gaussian grid.
+latent_heat_water 	Estimate latent heat flux for water: evaporization (condensation), melting (freezing) or sublimation (deposition).
+latGau 	Generates gaussian latitudes and associated metadata.
+latGauWgt 	Generates gaussian weights and associated metadata.
+latGlobeF 	Generates latitudes and associated metadata for a global fixed grid.
+latGlobeFo 	Generates latitudes and associated metadata for a global fixed offset grid.
+latlon2utm 	Converts from lat/lon to UTM using a specified datum.
+latlon_to_SCRIP 	Writes the description of a lat/lon grid to a SCRIP file.
+latRegWgt 	Generates [sin(lat+dlat/2)-sin(lat-dlat/2)] weights for equally spaced (regular) global grids that will sum to 2.0.
+lclvl 	Calculates the pressure of the lifting condensation level.
+lderuvf 	Computes the latitudinal derivatives using spherical harmonics, given vector components (u,v) on a fixed grid.
+lderuvg 	Computes the latitudinal derivatives using spherical harmonics, given vector components (u,v) on a gaussian grid.
+linint1 	Interpolates from one series to another using piecewise linear interpolation across the rightmost dimension.
+linint1_n 	Interpolates from one series to another using piecewise linear interpolation across the given dimension.
+linint1_n_Wrap 	Interpolates from one series to another using piecewise linear interpolation across the given dimension, and retains metadata.
+linint1_Wrap 	Interpolates from one series to another using piecewise linear interpolation, and retains metadata.
+linint2 	Interpolates from a rectilinear grid to another rectilinear grid using bilinear interpolation.
+linint2_points 	Interpolates from a rectilinear grid to an unstructured grid using bilinear interpolation.
+linint2_points_Wrap 	Interpolates from a rectilinear grid to an unstructured grid using bilinear interpolation, and retains metadata.
+linint2_Wrap 	Interpolates from a rectilinear grid to another rectilinear grid using bilinear interpolation, and retains metadata.
+linmsg 	Linearly interpolates to fill in missing values.
+linmsg_n 	Linearly interpolates to fill in missing values, given the dimension to do the interpolation across.
+linrood_latwgt 	Computes the latitudes and weights used by the Lin-Rood Model.
+linrood_wgt 	Computes the weights used by the Lin-Rood Model.
+list_files 	Lists all of the variables that reference files.
+list_filevars 	Lists all of the variables associated with a specific file.
+list_hlus 	Lists all of the HLU objects currently referenced by NCL variables.
+list_procfuncs 	Lists all of the currently defined NCL functions and procedures and their argument lists.
+list_vars 	Lists the currently defined variables that do not reference files or HLU objects.
+ListAppend 	Append a variable into the list.
+ListCount 	Queries the number of element(s) in a list.
+ListGetType 	Queries the manner in which a variable of type list was created.
+ListIndex 	Queries the index of a variable in a list.
+ListIndexFromName 	Returns the index of a variable in a list given its name.
+ListPop 	Pop (out) an element from a list.
+ListPush 	Push a variable into the list.
+ListSetType 	Specifies the manner in which a variable of type list is to be implemented.
+loadscript 	Loads the given NCL script.
+local_max 	Determines the relative maxima for a 2-dimensional array.
+local_max_1d 	Determines the relative maxima for a 1-dimensional array.
+local_min 	Determines the relative minima for a 2-dimensional array.
+local_min_1d 	Determines the relative minima for a 1-dimensional array.
+log 	Computes the natural log of a numeric type.
+log10 	Computes the log base 10 of a numeric type.
+lonFlip 	Reorders an array about the central longitude coordinate variable (rectilinear grids only).
+lonGlobeF 	Generates longitudes and associated metadata for a global fixed grid.
+lonGlobeFo 	Generates longitudes and associated metadata for a global fixed offset grid.
+longtobyte 	Coerces values of type long to values of type byte.
+longtochar 	Coerces values of type long to values of type character.
+longtocharacter 	Coerces values of type long to values of type character.
+longtoint 	Coerces values of type long to values of type integer.
+longtointeger 	Coerces values of type long to values of type integer.
+longtoshort 	Coerces values of type long to values of type short.
+lonPivot 	Pivots about a user-specified longitude (rectilinear grids only).
+lspoly 	Calculates a set of coefficients for a weighted least squares polynomial fit to the given data.
+lspoly_n 	Calculates a set of coefficients for a weighted least squares polynomial fit to the given data on the given dimension.
+mask 	Masks a multi-dimensional array against another given a single mask value.
+max 	Computes the maximum value of a multi-dimensional array.
+maximize_output 	Maximizes the sizes of a series of plots drawn in a single frame.
+maxind 	Returns the index of the first occurrence of a maximum value.
+merge_levels_sfc 	Merges a multiple level variable with the corresponding surface variable.
+min 	Computes the minimum value of a multi-dimensional array.
+minind 	Returns the index of the first occurrence of a minimum value.
+mixed_layer_depth 	Calculates a quantity derived from the Potential Density of significance. (Documentation under construction.)
+mixhum_ptd 	Calculates the mixing ratio or specific humidity given pressure and dew point temperature.
+mixhum_ptrh 	Calculates the mixing ratio or specific humidity given pressure, temperature and relative humidity.
+mjo_cross 	Calculate space-time cross spectrum over multiple segments.
+mjo_cross_coh2pha 	Calculate space-time coherence-squared and phase using the array returned by mjo_cross_segment .
+mjo_cross_plot 	Plot coherence-squared and phase spectra as returned by mjo_cross.
+mjo_cross_segment 	Calculate space-time cross spectrum for a single time segment.
+mjo_phase_background 	Plot background for MJO phase-space diagram.
+mjo_space_time_cross 	Calculate space-time cross spectrum over multiple segments.
+mjo_spectra 	Driver to calculate and plot seasonal spectra via segment averaging as defined by the US-CLIVAR MJO diagnostics website.
+mjo_spectra_season 	Calculates seasonal spectra via segment averaging as defined by the US-CLIVAR MJO diagnostics website.
+mjo_wavenum_freq_season 	Calculates wavenumber-frequency spectra via seasonal averaging as defined by the US-CLIVAR MJO diagnostics website.
+mjo_wavenum_freq_season_plot 	Plot wavenumber-frequency spectra as returned by mjo_wavenum_freq_season.
+mjo_xcor_lag_ovly 	Plot lagged cross-correlations as returned by mjo_xcor_lag_season.
+mjo_xcor_lag_ovly_panel 	Plot lagged cross-correlations as returned by mjo_xcor_lag_season as panels.
+mjo_xcor_lag_season 	Calculates lagged correlations between a reference series and gridded data as specified by the US-CLIVAR MJO diagnostics website.
+moc_globe_atl 	Facilitates calculating the meridional overturning circulation for the globe and Atlantic.
+mod 	Remainder function which emulates the Fortran "mod" intrinsic function.
+month_to_annual 	Converts monthly values to annual values.
+month_to_annual_weighted 	Converts monthly values to annual values weighted by the number of days in a month.
+month_to_season 	Computes a user-specified three-month seasonal mean (DJF, JFM, FMA, MAM, AMJ, MJJ, JJA, JAS, ASO, SON, OND, NDJ).
+month_to_season12 	Computes three-month seasonal means (DJF, JFM, FMA, MAM, AMJ, MJJ, JJA, JAS, ASO, SON, OND, NDJ).
+month_to_seasonN 	Computes a user-specified list of three-month seasonal means (DJF, JFM, FMA, MAM, AMJ, MJJ, JJA, JAS, ASO, SON, OND, NDJ).
+monthday 	Calculates a concatenated month_day given a day and year.
+monthly_total_to_daily_mean 	Convert monthly total values [e.g., precipitation] to "per day" values.
+msgValOutline 	Draws an outline around missing data in vector and streamline plots.
+namedcolor2rgb 	Returns the RGB triplets of the given list of named colors.
+namedcolor2rgba 	Returns the RGBA quadruplets of the given list of named colors.
+nameDim 	Assigns given named dimensions, long_name, and units to the input variable.
+natgrid 	Interpolates data from an unstructured (randomly-spaced) grid to a rectilinear grid using natural neighbor interpolation.
+natgrid_Wrap 	Interpolates data from an unstructured (randomly-spaced) grid to a rectilinear grid using natural neighbor interpolation and retains metadata.
+natgridd 	Interpolates double data on an unstructured grid to a rectilinear grid. (Deprecated version.)
+natgrids 	Interpolates float data on an unstructured grid to a rectilinear grid. (Deprecated version.)
+ncargpath 	Returns the absolute pathnames of various NCAR Graphics directories.
+ncargversion 	Prints the NCAR Graphics version, copyright, trademark and general licensing terms.
+ndctodata 	Converts normalized device coordinates (NDCs) into data coordinates.
+ndtooned 	Converts a multi-dimensional array to a one-dimensional array.
+netlw_fao56 	Compute longwave radiation as described in FAO 56.
+netrad_fao56 	Compute net radiation as the difference between net shortwave and net longwave radiation.
+netsw_fao56 	Compute net shortwave radiation as described in FAO 56.
+new 	Creates an NCL variable.
+NewCosWeight 	Performs cosine of the latitude weighting on the given array.
+NewList 	Create a list (type variable).
+ngezlogo 	Draws the NCAR logo in the lower right corner of the given workstation.
+nggcog 	Calculates the latitudes and longitudes of a set of points approximating a circle at a given point on the surface of the globe.
+nggetp 	Retrieves values for various parameters for the NCAR ngezlogo procedure.
+nglogo 	Draws various NCAR and UCAR logos on the given workstation.
+ngsetp 	Sets values for various parameters for the NCAR ngezlogo procedure.
+NhlAddAnnotation 	Add annotations to a plot object as an external annotation.
+NhlAddData 	Adds one or more additional data items to a plot.
+NhlAddOverlay 	Overlays one plot object on another.
+NhlAddPrimitive 	Adds a Primitive object to an existing plot.
+NhlAppGetDefaultParentId 	Returns a reference to the current default App object.
+NhlChangeWorkstation 	Changes the output workstation of one or more NCL View objects.
+NhlClassName 	Retrieve the class name of one or more NCL objects.
+NhlClearWorkstation 	Clears the given workstation objects.
+NhlDataPolygon 	Draws a polygon using data coordinates.
+NhlDataPolyline 	Draws a polyline using data coordinates.
+NhlDataPolymarker 	Draws polymarkers using data coordinates.
+NhlDataToNDC 	Converts data units into normalized device coordinates (NDCs).
+NhlDestroy 	Destroys objects from NCL.
+NhlDraw 	Draws the given graphical objects.
+NhlFrame 	Updates and clears the given workstation objects.
+NhlFreeColor 	Removes one or more color entries from one or more workstations.
+NhlGetBB 	Retrieves the bounding boxes of a list of NCL objects.
+NhlGetClassResources 	Returns a list of resources associated with the given class name and an optional filter string.
+NhlGetErrorObjectId 	Returns a reference to the current Error object.
+NhlGetNamedColorIndex 	Returns color map indexes that match the given color names in the color maps of the given workstations.
+NhlGetParentId 	Returns the ids of the parent ids of the given objects.
+NhlGetParentWorkstation 	Returns the ids of the parent workstations of the given objects.
+NhlGetWorkspaceObjectId 	Returns a reference to the current Workspace object.
+NhlIsAllocatedColor 	Queries a list of workstations to determine whether or not the given color indexes have been allocated.
+NhlIsApp 	Returns True for each given object that is an App object.
+NhlIsDataComm 	Returns True for each given object that is a DataComm object.
+NhlIsDataItem 	Returns True for each given object that is a DataItem object.
+NhlIsDataSpec 	Returns True for each given object that is a DataSpec object.
+NhlIsTransform 	Returns True for each given object that is a Transform object.
+NhlIsView 	Returns True for each given object that is a View object.
+NhlIsWorkstation 	Returns True for each given object that is a Workstation object.
+NhlName 	Retrieves the name of one or more NCL objects.
+NhlNDCPolygon 	Draws a polygon using NDC (Normalized Device Coordinate) units.
+NhlNDCPolyline 	Draws a polyline using NDC (Normalized Device Coordinate) units.
+NhlNDCPolymarker 	Draws polymarkers using NDC (Normalized Device Coordinate) units.
+NhlNDCToData 	Converts normalized device coordinates (NDCs) into data coordinates.
+NhlNewColor 	Allocates new workstation color indexes.
+NhlNewDashPattern 	Adds new dash patterns to the existing table of dash patterns.
+NhlNewMarker 	Adds new markers to the existing table of markers.
+NhlPalGetDefined 	Returns a list of available color maps.
+NhlRemoveAnnotation 	Remove annotations from the plot they are registered in.
+NhlRemoveData 	Removes data items from one or more plots.
+NhlRemoveOverlay 	Removes one or more plots from an overlay.
+NhlRemovePrimitive 	Removes one or more primitives from the given Transform object.
+NhlSetColor 	Sets the colors for a given list of color indexes and workstations.
+NhlSetDashPattern 	Sets the dash patterns for a given list of dash pattern indexes and workstations.
+NhlSetMarker 	Sets the markers for a given list of marker indexes and workstations.
+NhlUpdateData 	Forces the DataComm instances to update their internal states.
+NhlUpdateWorkstation 	Updates the given workstation objects.
+nice_mnmxintvl 	Calculates "nice" values for endpoints and spacing to be used for creating a series of equally-spaced levels through the data domain.
+niceLatLon2D 	Check two-dimensional map coordinates to see if they have a "nice" structure.
+nngetaspectd 	Retrieves an aspect at a specified coordinate position.
+nngetaspects 	Retrieves an aspect at a specified coordinate position.
+nngetp 	Retrieves control parameters for Natgrid routines.
+nngetsloped 	Retrieves a slope at a specified coordinate position.
+nngetslopes 	Retrieves a slope at a specified coordinate position.
+nngetwts 	Retrieves natural neighbors and weights for the function values at those neighbors.
+nngetwtsd 	Retrieves natural neighbors and weights for the function values at those neighbors.
+nnpnt 	Interpolates from 2D random data to get values at a specified set of points.
+nnpntd 	Interpolates from 2D random double data to get values at a specified set of points. (Deprecated version.)
+nnpntend 	Terminates interpolation from 2D random data to get values at a specified set of points.
+nnpntendd 	Terminates interpolation from 2D random data to get values at a specified set of points.
+nnpntinit 	Initializes internal quantities, for given input data, to allow subsequent nnpnt calls to interpolate at specified points.
+nnpntinitd 	Initializes internal quantities, for given input data, to allow subsequent nnpntd calls to interpolate at specified points.
+nnpntinits 	Initializes internal quantities, for given input data, to allow subsequent nnpnts calls to interpolate at specified points.
+nnpnts 	Interpolates from 2D random float data to get values at a specified set of points. (Deprecated version.)
+nnsetp 	Sets control parameters for Natgrid routines.
+NormCosWgtGlobe 	Create normalized cosine weights that sum to 2.0.
+num 	Counts the number of True values in the input.
+numAsciiCol 	Returns the number of columns in an ASCII file.
+numAsciiRow 	Returns the number of rows in an ASCII file.
+numeric2int 	Converts values of any numeric type to type integer.
+obj_anal_ic 	Iterative improvement objective analysis.
+obj_anal_ic_deprecated 	Iterative correction objective analysis (Cressman, Barnes) (deprecated)
+obj_anal_ic_Wrap 	Iterative improvement objective analysis and returns meta data.
+omega_ccm 	Calculates omega [vertical pressure velocity] using the model diagnostic method.
+omega_ccm_driver 	Computes vertical pressure velocity [omega] via model diagnostic code.
+omega_to_w 	Convert omega vertical velocity (Pa/s) to (m/s).
+onedtond 	Converts a one-dimensional array to a multi-dimensional array.
+oneDtostring 	Converts a 1-dimensional array to a single string.
+overlay 	Overlays one plot object on another.
+pack_values 	Compress values of type float or double to values of type short or byte.
+paleo_outline 	Creates continental outlines from model orography data.
+parse_globalatts_hdf5 	Parse a HDF5 global attribute into an array containing KEYWORDs and associated VALUEs.
+pattern_cor 	Compute centered or uncentered pattern correlation.
+pdfx 	Generates a univariate probability density distribution (PDF).
+pdfxy 	Generates a joint probability density distribution. (Please use pdfxy_conform.)
+pdfxy_bin 	Performs looping necessary to calculate the bivariate (joint) probability distribution (see pdfxy).
+pdfxy_conform 	An interface to pdfxy that allows the input arrays to be different sizes.
+pie_chart 	Creates a basic pie chart.
+plt_pdfxy 	Creates a nice plot of the joint probability array created by the pdfxy function.
+poisson_grid_fill 	Replaces all missing (_FillValue) values in a grid with values derived from solving Poisson's equation via relaxation.
+pop_remap 	Regrids a POP ocean model grid to another grid.
+PopLatLon 	Regrids a scalar variable on a POP grid to a lat/lon grid or vice-versa.
+PopLatLonV 	Converts vectors on a POP grid to a lat/lon grid and vice-versa.
+pot_temp 	Compute potential temperature.
+pot_vort_hybrid 	Compute potential vorticity on hybrid levels and a global grid.
+pot_vort_isobaric 	Compute potential vorticity on isobaric levels and a global rectilinear grid.
+potmp_insitu_ocn 	Calculate seawater potential temperature at an arbitrary reference pressure given insitu temperature, salinity and depth.
+prcwater_dp 	Computes column precipitable water of the rightmost dimension.
+pres2hybrid 	Interpolates data on constant pressure levels to hybrid levels.
+pres2hybrid_Wrap 	Interpolates data on constant pressure levels to hybrid levels and retains metadata.
+pres_hybrid_ccm 	Calculates pressure at the hybrid levels.
+pres_hybrid_jra55 	Calculates the "full" hybrid levels for the 60-level Japanese ReAnalysis.
+pres_sigma 	Calculates the pressure at specified sigma levels.
+print 	Prints the value of a variable or expression.
+print_clock 	Prints the given string along with a current timestamp.
+print_table 	Prints all elements from a list (to stdout).
+printFileVarSummary 	Prints a summary of a file variable's information.
+printMinMax 	Prints the minimum and maximum values of a variable.
+printVarSummary 	Prints a summary of a variable's information.
+product 	Computes the product of the input.
+prsatm_tz_fao56 	Compute atmospheric pressure as described in FAO 56.
+prsatm_z_fao56 	Compute atmospheric pressure using the approximation described in FAO 56: Chapter 3; equation 7.
+pslec 	Computes sea level pressure from CCM/CAM hybrid model variables using the ECMWF formulation.
+pslhor 	Computes sea level pressure from CCM/CAM hybrid model variables using the ECMWF formulation and Trenberth's horizontal correction.
+pslhyp 	Computes sea level pressure using the hypsometric equation.
+psychro_fao56 	Computes the psychrometric constant [kPa/C] as described in FAO 56.
+qsort 	Sorts a singly dimensioned array.
+quadroots 	Determine roots of a quadratic equation [ a*x^2 + b*x + c].
+radext_fao56 	Compute extraterrestrial radiation for daily periods as described in FAO 56.
+radsol2_fao56 	Compute solar radiation from daily sunshine and day-of-year as described in FAO 56.
+radsol3_hargreaves_fao56 	Compute solar radiation derived from air temperature differences using Hargreaves method as described in FAO 56.
+radsol_clrsky_fao56 	Compute clear sky solar radiation as described in FAO 56.
+radsol_fao56 	Compute solar radiation via the 'Angstrom Formula' which uses extraterrestrial radiation and relative sunshine as described in FAO 56 (equation 35).
+rand 	Generates a pseudo-random number.
+random_chi 	Generates random numbers using a chi-squared distribution.
+random_gamma 	Generates random numbers using a gamma distribution.
+random_normal 	Generates random numbers using a normal distribution.
+random_setallseed 	Sets initial seeds for random number generators.
+random_uniform 	Generates random numbers using a uniform range distribution.
+rcm2points 	Interpolates data on a curvilinear grid (i.e. RCM, WRF, NARR) to an unstructured grid.
+rcm2points_Wrap 	Interpolates data on a curvilinear grid (i.e. RCM, WRF, NARR) to an unstructured grid and retains metadata.
+rcm2rgrid 	Interpolates data on a curvilinear grid (i.e. RCM, WRF, NARR) to a rectilinear grid.
+rcm2rgrid_Wrap 	Interpolates data on a curvilinear grid (i.e. RCM, WRF, NARR) to a rectilinear grid and retains metadata.
+rdsstoi 	Reads weekly/monthly compocp site and climatology grids.
+read_colormap_file 	Reads an NCL system colormap file or a user-defined colormap.
+readAsciiHead 	Reads an ASCII file and returns just the header.
+readAsciiTable 	Reads an ASCII file given the number of lines at the beginning and end of the file to ignore.
+rectilinear_to_SCRIP 	Writes the description of a rectilinear grid to a SCRIP file.
+refevt_hargreaves_fao56 	Use the Hargreaves ETo equation to derive reference evapotranspiration as described in FAO 56.
+refevt_penman_fao56 	Use the full Penman-Monteith equation to derive reference evapotranspiration as described in FAO 56.
+refevt_turc 	Use the Turc ETo formulation to derive reference evapotranspiration.
+refevt_turc_rh 	Use the Turc ETo formulation with a correction for low relative humidity to derive reference evapotranspiration.
+reg_multlin 	Performs basic multiple linear regression analysis.
+reg_multlin_stats 	Performs multiple linear regression analysis including confidence estimates and creates an ANOVA table.
+regCoef 	Calculates the linear regression coefficient between two variables.
+regcoef 	Calculates the linear regression coefficient between two variables.
+regCoef_n 	Calculates the linear regression coefficient between two variables on the given dimensions.
+region_ind 	Returns the indices (subscripts) of two-dimensional latitude/longitude arrays that span user specified latitude/longitude boundaries.
+regline 	Calculates the linear regression coefficient between two series.
+regline_stats 	Performs simple linear regression including confidence estimates, an ANOVA table and 95% mean response estimates.
+relhum 	Calculates relative humidity given temperature, mixing ratio, and pressure.
+relhum_ice 	Calculates relative humidity with respect to ice, given temperature, mixing ratio, and pressure.
+relhum_ttd 	Calculates relative humidity given temperature and dew point temperature.
+relhum_water 	Calculates relative humidity with respect to water, given temperature, mixing ratio, and pressure.
+replace_ieeenan 	Changes all occurrences of IEEE NaN to a user-specified value.
+replaceSingleChar 	Within a string replace one character with another character. (Deprecated: see str_sub_str.)
+reset_device_coordinates 	Resets the PS/PDF device coordinates back to their default values.
+reshape 	Reshapes a multi-dimensional array to another multi-dimensional array.
+reshape_ind 	Places values from a smaller one-dimensional array to a larger one-dimensional array, and reshapes it.
+resolveWavesHayashi 	Reorder the complex coefficients returned by cfftf to resolve the progressive and retrogressive waves.
+rgbhls 	Converts RGB color values to HLS.
+rgbhsv 	Converts RGB color values to HSV.
+RGBtoCmap 	Reads a text file of RGB triplets and converts them to a colormap.
+rgbyiq 	Converts RGB color values to YIQ values.
+rgrid2rcm 	Interpolates data on a rectilinear lat/lon grid to a curvilinear grid like those used by the RCM, WRF and NARR models/datasets.
+rgrid2rcm_Wrap 	Interpolates data on a rectilinear lat/lon grid to a curvilinear grid like those used by the RCM, WRF and NARR models/datasets and retains metadata.
+rho_mwjf 	Computes ocean water density given a specified range for potential temperature (deg Celsius) and salinity (psu).
+rhomb_trunc 	Performs rhomboidal truncation on spherical harmonic coefficients.
+rhomb_trunC 	Performs rhomboidal truncation on spherical harmonic coefficients.
+rhum_fao56 	Compute relative humidity as described in FAO 56.
+rigrad_bruntv_atm 	Compute the atmospheric gradient Richardson number and, optionally, the Brunt-Vaisala, buoyancy and shear.
+rip_cape_2d 	Computes convective available potential energy (CAPE), convective inhibition (CIN), lifted condensation level (LCL), and level of free convection (LFC) (deprecated version).
+rip_cape_3d 	Computes convective available potential energy (CAPE) and convective inhibition (CIN) (deprecated version).
+rm_single_dims 	Removes (squeezes) singleton (degenerate) dimensions from an array while preserving metadata.
+rmAnnCycle1D 	Removes annual cycle from a one-dimensional time series.
+rmInsufData 	Sets all instances (i.e., time) of a grid point to missing if a user-prescribed percentage of points is missing.
+rmMonAnnCycLLLT 	Removes the annual cycle from "monthly" data.
+rmMonAnnCycLLT 	Removes the annual cycle from "monthly" data.
+rmMonAnnCycTLL 	Removes the annual cycle from "monthly" data.
+round 	Rounds a float or double variable to the nearest whole number.
+rtest 	Determines the statistical significance of a linear correlation coefficient.
+run_cor 	Calculates a running correlation.
+runave 	Calculates an unweighted running average on the rightmost dimension.
+runave_n 	Calculates an unweighted running average on the given dimension.
+runave_n_Wrap 	Calculates an unweighted running average on the given dimension and retains metadata.
+runave_Wrap 	Calculates an unweighted running average on the rightmost dimension and retains metadata.
+satvpr_mean_fao56 	Compute mean saturation vapor pressure using minimum and maximum temperature temperature as described in FAO 56.
+satvpr_slope_fao56 	Compute the slope of the saturation vapor pressure curve as described in FAO 56.
+satvpr_tdew_fao56 	Compute actual saturation vapor pressure as described in FAO 56.
+satvpr_temp_fao56 	Compute saturation vapor pressure using temperature as described in FAO 56.
+satvpr_water_bolton 	Estimate the saturation vapor pressure over water using Bolton's equation 10.
+satvpr_water_stipanuk 	Estimate the saturation vapor pressure over water using the Stipanuk approximation.
+set_default_fillvalue 	Sets the default missing value for the given variable type.
+set_sphere_radius 	Sets the radius of a sphere used in spherical harmonic routines.
+setColorContourClear 	Sets the color contours between two given levels to transparent.
+setfileoption 	Sets a number of file-format-specific options.
+sfvp2uvf 	Computes the wind components given stream function and velocity potential (on a fixed grid) via spherical harmonics.
+sfvp2uvg 	Computes the wind components given stream function and velocity potential (on a gaussian grid) via spherical harmonics.
+ShadeCOI 	Adds the cone of influence as a shaded polygon.
+ShadeGeLeContour 	Shades contour regions given low and high values and a shade pattern.
+(Deprecated. Use gsn_contour_shade.)
+ShadeGtContour 	Shades contour regions above a given value with the given fill pattern.
+(Deprecated. Use gsn_contour_shade.)
+ShadeLtContour 	Shades contour regions below a given value with the given fill pattern.
+(Deprecated. Use gsn_contour_shade.)
+ShadeLtGtContour 	Shades contour regions below a given value and above a given value with the specified fill patterns.
+(Deprecated. Use gsn_contour_shade.)
+shaeC 	Computes spherical harmonic analysis of a scalar field on a fixed grid via spherical harmonics.
+shaec 	Computes spherical harmonic analysis of a scalar field on a fixed grid via spherical harmonics.
+shagC 	Computes spherical harmonic analysis of a scalar field on a gaussian grid via spherical harmonics.
+shagc 	Computes spherical harmonic analysis of a scalar field on a gaussian grid via spherical harmonics.
+shgetnp 	Finds the nearest point, or points (in a specified set of points), to a given point in 3-space.
+shgetp 	Retrieves control parameters for Shgrid routines.
+shgrid 	Interpolates data from an unstructured grid to a grid in 3-space.
+short2flt 	Converts values of type short to values of type float using the "scale" and "offset" attributes (if present).
+short2flt_hdf 	Converts values of type short to values of type float using the "scale" and "offset" attributes (if present).
+shorttobyte 	Coerces values of type short to values of type byte.
+shorttochar 	Coerces values of type short to values of type character.
+shorttocharacter 	Coerces values of type short to values of type character.
+show_ascii 	Prints the ASCII table to the screen.
+shseC 	Computes the spherical harmonic synthesis of a scalar quantity on a fixed grid via spherical harmonics.
+shsec 	Computes spherical harmonic synthesis of a scalar quantity on a fixed grid via spherical harmonics.
+shsetp 	Sets control parameters for Shgrid routines.
+shsgC 	Computes the spherical harmonic synthesis of a scalar quantity on a gaussian grid via spherical harmonics.
+shsgc 	Computes spherical harmonic synthesis of a scalar quantity on a gaussian grid via spherical harmonics.
+shsgc_R42 	Computes spherical harmonic synthesis of a scalar quantity via rhomboidally truncated (R42) spherical harmonic coefficients onto a (108x128) gaussian grid.
+shsgc_R42_Wrap 	Computes spherical harmonic synthesis of a scalar quantity via rhomboidally truncated (R42) spherical harmonic coefficients onto a (108x128) gaussian grid. (creates metadata).
+sigma2hybrid 	Interpolates from sigma to hybrid coordinates.
+sign_f90 	Mimic the behavior of Fortran-90's sign transfer function.
+sign_matlab 	Mimic the behavior of Matlab's sign function.
+simpeq 	Integrate a sequence of equally spaced points using Simpson's Rule.
+simpne 	Integrates a sequence of unequally or equally spaced points using Simpson's three-point formula.
+sin 	Computes the sine of numeric types.
+sindex_yrmo 	Calculates the Southern Oscillation Index given two series of year-month values.
+sinh 	Computes the hyperbolic sine of numeric types.
+sizeof 	Returns the total size, in bytes, of the input variable.
+skewT_BackGround 	Creates a background chart for Skew T, Log P plotting.
+skewT_PlotData 	Plot a sounding and (optionally) winds on Skew T, Log P charts created by skewT_BackGround.
+sleep 	Pauses execution of NCL scripts for a specified number of seconds.
+smth9 	Performs nine point local smoothing on one or more 2D grids.
+smth9_Wrap 	Performs nine point local smoothing on one or more 2D grids and retains metadata.
+smthClmDayTLL 	Calculates a smooth mean daily annual cycle for an array nominally dimensioned (Time,Lat,Lon).
+smthClmDayTLLL 	Calculates a smooth mean daily annual cycle for an array nominally dimensioned (Time,Level,Lat,Lon).
+snindex_yrmo 	Calculates the Southern Oscillation Index and the noise index given two series of year-month values.
+soil_heatflux_month_fao56 	Compute soil heat flux for monthly periods as described in FAO 56.
+solve_linsys 	Computes the solution to a real system of linear equations.
+span_color_indexes 	Given the number of desired color values, return an array of indexes that nicely span the given color map.
+span_color_rgba 	Given the number of desired color values, return an array of RGB triplets or RGBA quadruplets that nicely span the given color map.
+span_named_colors 	Returns an RGB array that is a span between given list of named colors.
+sparse_matrix_mult 	Multiplies a sparse matrix with a dense matrix.
+spcorr 	Computes Spearman rank order correlation (Rho) correlation coefficient.
+spcorr_n 	Computes Spearman rank order correlation (Rho) correlation coefficient across the given dimension.
+specx_anal 	Calculates spectra of a series.
+specx_ci 	Calculates the theoretical Markov spectrum and the lower and upper confidence curves.
+specxy_anal 	Calculates cross spectra quantities of a series.
+sprintf 	Converts floats or doubles into formatted strings.
+sprinti 	Converts integers into formatted strings.
+sqrt 	Computes the square root of its input.
+SqrtCosWeight 	Performs square-root of the cosine of the latitude weighting on the given array.
+sqsort 	Sorts a singly dimensioned arrays of strings.
+srand 	Establishes a seed for the rand function.
+stat2 	Calculates the first two moments of the given input.
+stat4 	Calculates estimates of the first four moments (mean, variance, skewness, and kurtosis) of the given input.
+stat_dispersion 	Computes a number of robust statistics.
+stat_medrng 	Calculates median, range, and mid-range of the given input.
+stat_trim 	Calculates trimmed estimates of the first two moments of the given input.
+static_stability 	Compute static stability.
+status_exit 	Exits an NCL script passing a status code to the calling environment.
+stdatmus_p2tdz 	Calculates the corresponding temperature, density, and height based on the 1976 U.S. standard atmosphere, given the pressure.
+stdatmus_z2tdp 	Calculates the corresponding temperature, density, and pressure based on the 1976 U.S. standard atmosphere, given the height.
+stddev 	Calculates the sample standard deviation.
+stdMonLLLT 	Calculates standard deviations of monthly means.
+stdMonLLT 	Calculates standard deviations of monthly means.
+stdMonTLL 	Calculates standard deviations of monthly means.
+stdMonTLLL 	Calculates standard deviations of monthly means.
+str_capital 	Capitalizes all words in each string.
+str_concat 	Concatenates all strings into a single string.
+str_fields_count 	Counts the number of fields separated by the given delimiters in an array of strings.
+str_get_cols 	Returns an array of substrings, given a start and end index into the given string.
+str_get_dq 	Returns the double quote (") character as a string.
+str_get_field 	Returns an array of substrings given a field number and a combination of delimiters.
+str_get_nl 	Returns the newline (\n) character as a string.
+str_get_sq 	Returns the single quote (') character as a string.
+str_get_tab 	Returns the tab ('\t' in C) character as a string.
+str_index_of_substr 	Returns the start indexes where one or more occurrences of a substring is found in a string.
+str_insert 	Inserts a substring into the given strings.
+str_is_blank 	Returns True for strings that contain all blanks.
+str_join 	Joins all strings into one string, with each string separated by delimiter.
+str_left_strip 	Strips leading spaces and TABs from the input strings.
+str_lower 	Converts all input strings to lowercase.
+str_match 	Returns a list of strings that contain the given substring (case sensitive).
+str_match_ic 	Returns a list of strings that contain the given substring (case insensitive).
+str_match_ic_regex 	Returns a list of strings that contain the given substring (case insensitive), allowing for regular expressions.
+str_match_ind 	Returns a list of indexes into an array of strings that contain the given substring (case sensitive).
+str_match_ind_ic 	Returns a list of indexes into an array of strings that contain the given substring (case insensitive).
+str_match_ind_ic_regex 	Returns a list of indexes into an array of strings that contain the given substring (case insensitive), allowing for regular expressions.
+str_match_ind_regex 	Returns a list of indexes into an array of strings that contain the given substring (case sensitive), allowing for regular expressions.
+str_match_regex 	Returns a list of strings that contain the given substring (case sensitive), allowing for regular expressions.
+str_right_strip 	Strips ending spaces and TABs from the input strings.
+str_split 	Splits a string into an array of strings given one or more delimiters.
+str_split_by_length 	Splits a string or strings into an array of strings given a length, or an array of lengths.
+str_split_csv 	Splits strings into an array of strings using the given delimiter.
+str_squeeze 	Strips off leading and ending spaces and TABs, and replaces multiple spaces and/or TABs with a single space.
+str_strip 	Strips leading and ending spaces and TABs from the input strings.
+str_sub_str 	Replaces a substring with a new substring.
+str_switch 	Switches the case of characters in the given string(s).
+str_upper 	Converts all input strings to uppercase.
+stringtochar 	Coerces values of type string to values of type character.
+stringtocharacter 	Coerces values of type string to values of type character.
+stringtodouble 	Coerces values of type string to values of type double.
+stringtofloat 	Coerces values of type string to values of type float.
+stringtoint 	Coerces values of type string to values of type integer.
+stringtointeger 	Coerces values of type string to values of type integer.
+stringtolong 	Coerces values of type string to values of type long.
+stringtoshort 	Coerces values of type string to values of type short.
+strlen 	Returns the length of a string variable.
+student_t 	Calculates the two-tailed probability of the Student-t distribution.
+sum 	Sums the input.
+svd_lapack 	Calculates the singular value decomposition of a general rectangular matrix.
+svdcov 	Uses singular value decomposition and returns the left and right homogeneous and heterogeneous arrays associated with the two input datasets.
+svdcov_sv 	Uses singular value decomposition to return the left and right singular vectors associated with the two input datasets.
+svdstd 	Uses singular value decomposition and returns the left and right homogeneous and heterogeneous arrays associated with the two input datasets.
+svdstd_sv 	Uses singular value decomposition to return the left and right singular vectors associated with the two input datasets.
+symMinMaxPlt 	Calculates the minimum/maximum values for a variable and uses nice_mnmxintvl to calculate the symmetric contour interval.
+system 	Executes a shell command.
+systemfunc 	Executes a shell command and returns the output.
+table_attach_columns 	Attaches [appends] additional columns to a previously existing two-dimensional array.
+table_attach_rows 	Attaches [appends] additional rows to a previously existing two-dimensional array.
+tan 	Computes the tangent of numeric types.
+tanh 	Computes the hyperbolic tangent of numeric types.
+taper 	Applies split-cosine-bell tapering to one or more series across the rightmost dimension.
+taper_n 	Applies split-cosine-bell tapering to one or more series across the given dimension.
+tdclrs 	Defines a set of colors for use with selected TDPACK routines.
+tdctri 	Cuts the triangles in a triangle list with a plane perpendicular to an axis (for use with selected TDPACK routines).
+tdcudp 	Not yet implemented.
+tdcurv 	Draws the projection of a curve defined by an array of points in 3-space.
+tddtri 	Draws triangles defined by a triangle list (for use with selected TDPACK routines).
+tdew_actvpr_fao56 	Compute dew point temperature as a function of actual vapor pressure as described in FAO 56.
+tdez2d 	Draws a surface on the specified workstation.
+tdez3d 	Draws an isosurface on the specified workstation.
+tdgetp 	Retrieves TDPACK parameter values.
+tdgrds 	Draws perimeters, ticks, and grid lines on the six sides of a box (for use with selected TDPACK routines).
+tdgrid 	Draws a grid on a particular face of a box in 3-space (for use with selected TDPACK routines).
+tdgtrs 	Gets the definition of a specified rendering style (for use with selected TDPACK routines).
+tdinit 	Defines eye position, line of sight, up direction, and stereo flag for selected TDPACK routines.
+tditri 	Adds triangles defining an isosurface to a triangle list (for use with selected TDPACK routines).
+tdlbla 	Draws labels for a particular face of a box in 3-space (for use with selected TDPACK routines).
+tdlblp 	Not yet implemented.
+tdlbls 	Draws labels for all faces of a box in 3-space (for use with selected TDPACK routines).
+tdline 	Draws the projection of a solid line in 3-space (for use with selected TDPACK routines).
+tdlndp 	Not yet implemented.
+tdlnpa 	Draws the projection of a line joining two points in the reference parallelogram (for use with selected TDPACK routines).
+tdlpdp 	Not yet implemented.
+tdmtri 	Adds triangles defining a 3D marker to a triangle list for use with selected TDPACK routines.
+tdotri 	Orders the triangles in a triangle list for proper rendering (for use with selected TDPACK routines).
+tdpara 	Defines the reference parallelogram for use with selected TDPACK routines.
+tdplch 	Draws a string in the plane of the reference parallelogram (for use with selected TDPACK routines).
+tdprpa 	Retrieves the coordinates of a projection in the projection plane, given the parallelogram coordinates of a point (for use with selected TDPACK routines).
+tdprpi 	Retrieves the parallelogram coordinates of a point in the reference parallelogram, given a point in the projection plane (for use with selected TDPACK routines.)
+tdprpt 	Retrieves the coordinates of its projection in the projection plane, given the coordinates of a point in 3-space (for use with selected TDPACK routines).
+tdsetp 	Sets TDPACK parameter values.
+tdsort 	Sorts an array (for use with selected TDPACK routines).
+tdstri 	Adds triangles defining a simple surface to a triangle list (for use with selected TDPACK routines).
+tdstrs 	Sets the values defining a selected rendering style (for use with selected TDPACK routines).
+tdttri 	Adds triangles defining a trajectory to a triangle list (for use with selected TDPACK routines).
+thornthwaite 	Estimate the potential evapotranspiration (PET) via the Thornthwaite method.
+time_axis_labels 	Sets resources necessary to draw nice tickmark labels using a format of date/time on an axis.
+time_reassign 	Reassign (replace) a CF-conforming "time" variable by calculating the mid-time values using the "bounds" attribute.
+time_reassign_cv2var 	Reassign (replace) a CF-conforming "time" coordinate variable associated with a variable by calculating the mid-time values using the "bounds" attribute.
+time_to_newtime 	Change a "udunits" recognized time unit to a new (different) "udunits" recognized time unit.
+tobyte 	Converts values of any snumeric data type or string to values of type (NCL) byte (unsigned char).
+tochar 	Converts values of any snumeric data type or string to values of type char.
+todouble 	Converts values of any snumeric data type or string to values of type double.
+tofloat 	Converts values of any snumeric data type or string to values of type float.
+toint 	Converts values of any snumeric data type or string to values of type integer.
+toint64 	Converts values of any snumeric data type or string to values of type int64 (64 bit long, or long long).
+tointeger 	Converts values of any snumeric data type or string to values of type integer.
+tolong 	Converts values of any snumeric data type or string to values of type long.
+toshort 	Converts values of any snumeric data type or string to values of type short.
+tosigned 	Converts any kind of 8/16/32/64 integers to its corresponding signed integers.
+tostring 	Converts values of any snumeric data type to values of type string.
+tostring_with_format 	Converts values of any snumeric data type to values of type string, with specified format.
+totype 	Converts values of any snumeric data type or string to values of the given type.
+toubyte 	Converts values of any snumeric data type or string to values of type unsigned byte.
+touint 	Converts values of any snumeric data type or string to values of type unsigned integer.
+touint64 	Converts values of any snumeric data type or string to values of type uint64 (unsigned 64 bit long, or unsigned long long).
+toulong 	Converts values of any snumeric data type or string to values of type unsigned long.
+tounsigned 	Converts any kind of 8/16/32/64 integers to its corresponding unsigned integers.
+toushort 	Converts values of any snumeric data type or string to values of type unsigned short.
+transpose 	Transposes a matrix and copies all attributes and coordinate variables.
+trend_manken 	Calculates Mann-Kendall non-parametric test for monotonic trend and the Theil-Sen robust estimate of linear trend.
+tri_trunC 	Performs triangular truncation on spherical harmonic coefficients.
+tri_trunc 	Performs triangular truncation on spherical harmonic coefficients.
+triple2grid 	Places unstructured (randomly-spaced) data onto the nearest locations of a rectilinear grid.
+triple2grid2d 	Places unstructured (randomly-spaced) data onto the nearest locations of a curvilinear grid.
+triple2grid_Wrap 	Places unstructured (randomly-spaced) data onto the nearest locations of a rectilinear grid and retains metadata.
+trop_wmo 	Determines the level of the thermal tropopause.
+ttest 	Returns an estimate of the statistical significance and, optionally, the t-values.
+typeof 	Returns the string name of the type of the input variable.
+u2_fao56 	Compute 2-meter wind speed (m/s) as described in FAO 56.
+undef 	Undefines defined NCL symbols (functions, procedures, variables).
+unique_string 	Returns a unique string given the input string as a prefix.
+unstructured_to_ESMF 	Writes the description of an unstructured grid to an ESMF file.
+update 	Updates the given workstation objects.
+ushorttoint 	Coerces values of type unsigned short to values of type integer.
+ut_calendar 	Converts a mixed Julian/Gregorian date to a UT-referenced date (deprecated; use cd_calendar).
+ut_convert 	Converts a time variable from one set of units to another (deprecated; use cd_convert).
+ut_inv_calendar 	Converts a UT-referenced date to a mixed Julian/Gregorian date (deprecated; use cd_inv_calendar).
+ut_string 	Converts time values into nicely formatted strings (deprecated; use cd_string)
+utm2latlon 	Converts from UTM to lat/lon using a specified datum.
+uv2dv_cfd 	Computes divergence using centered finite differences.
+uv2dvf 	Computes the divergence using spherical harmonics given the u and v wind components on a fixed grid.
+uv2dvF 	Computes the divergence using spherical harmonics given the u and v wind components on a fixed grid.
+uv2dvF_Wrap 	Computes the divergence using spherical harmonics given the u and v wind components on a fixed grid (retains metadata).
+uv2dvg 	Computes the divergence using spherical harmonics given the u and v wind components on a gaussian grid.
+uv2dvG 	Computes the divergence using spherical harmonics given the u and v wind components on a gaussian grid.
+uv2dvG_Wrap 	Computes the divergence using spherical harmonics given the u and v wind components on a gaussian grid (retains metadata).
+uv2sfvpF 	Computes the stream function and velocity potential via spherical harmonics given u and v on a fixed grid.
+uv2sfvpf 	Computes the stream function and velocity potential via spherical harmonics given u and v on a fixed grid.
+uv2sfvpG 	Computes the stream function and velocity potential via spherical harmonics given u and v on a gaussian grid.
+uv2sfvpg 	Computes the stream function and velocity potential via spherical harmonics given u and v on a gaussian grid.
+uv2vr_cfd 	Computes relative vorticity using centered finite differences.
+uv2vrdvF 	Computes the vorticity and divergence via spherical harmonics, given the u and v wind components on a fixed grid.
+uv2vrdvf 	Computes the vorticity and divergence via spherical harmonics, given the u and v wind components on a fixed grid.
+uv2vrdvG 	Computes the vorticity and divergence via spherical harmonics, given the u and v wind components on a gaussian grid.
+uv2vrdvg 	Computes the vorticity and divergence via spherical harmonics, given the u and v wind components on a gaussian grid.
+uv2vrF 	Computes the vorticity via spherical harmonics, given the u and v wind components on a fixed grid.
+uv2vrf 	Computes the vorticity via spherical harmonics, given the u and v wind components on a fixed grid.
+uv2vrF_Wrap 	Computes the vorticity via spherical harmonics, given the u and v wind components on a fixed grid (retains metadata).
+uv2vrG 	Computes the vorticity via spherical harmonics, given the u and v wind components on a gaussian grid.
+uv2vrg 	Computes the vorticity via spherical harmonics, given the u and v wind components on a gaussian grid.
+uv2vrG_Wrap 	Computes the vorticity via spherical harmonics, given the u and v wind components on a gaussian grid (retains metadata).
+v5d_close 	Closes a Vis5D+ format file.
+v5d_create 	Creates a Vis5D+ format file.
+v5d_setLowLev 	Sets the lowest vertical offset, in grid level, for each 3-dimensional gridded variable in a Vis5D+ format file.
+v5d_setUnits 	Sets a name for physical units for a variable in a Vis5D+ format file.
+v5d_write 	Writes compressed data to a Vis5D+ format file.
+v5d_write_var 	Writes a single 3-dimensional gridded variable to a Vis5D+ format file.
+vapor_pres_rh 	Compute vapor pressure given relative humidity (%) and saturation vapor pressure.
+variance 	Computes an unbiased estimate the variance of all input points.
+vhaeC 	Computes vector spherical harmonic analysis of vector fields on a fixed grid via spherical harmonics.
+vhaec 	Computes vector spherical harmonic analysis of vector fields on a fixed grid via spherical harmonics.
+vhagC 	Computes vector spherical harmonic analysis of vector fields on a gaussian grid via spherical harmonics.
+vhagc 	Computes vector spherical harmonic analysis of vector fields on a gaussian grid via spherical harmonics.
+vhsec 	Computes vector spherical harmonic syntheses of vector fields on a fixed grid via spherical harmonics.
+vhseC 	Computes vector spherical harmonic syntheses of vector fields on a fixed grid via spherical harmonics.
+vhsgc 	Computes vector spherical harmonic syntheses of vector fields on a gaussian grid via spherical harmonics.
+vhsgC 	Computes vector spherical harmonic syntheses of vector fields on a gaussian grid via spherical harmonics.
+vibeta 	Performs vertical integration using beta factors.
+vinth2p 	Interpolates CAM (Community Atmosphere Model) hybrid coordinates to pressure coordinates.
+vinth2p_ecmwf 	Interpolates CESM hybrid coordinates to pressure coordinates but uses an ECMWF formulation to extrapolate values below ground.
+vinth2p_ecmwf_nodes 	Interpolates CESM hybrid coordinates to pressure coordinates but uses an ECMWF formulation to extrapolate values below ground.
+vinth2p_nodes 	Interpolates CESM hybrid coordinates to pressure coordinates on an unstructured grid.
+vintp2p_ecmwf 	Interpolates data at multidimensional pressure levels to constant pressure coordinates and uses an ECMWF formulation to extrapolate values below ground.
+vr2uvF 	Computes the rotational wind components via spherical harmonics, given an array containing relative vorticity on a fixed grid.
+vr2uvf 	Computes the rotational wind components via spherical harmonics, given an array containing relative vorticity on a fixed grid.
+vr2uvF_Wrap 	Computes the rotational wind components via spherical harmonics, given an array containing relative vorticity on a fixed grid (retains metadata).
+vr2uvG 	Computes the rotational wind components via spherical harmonics, given an array containing relative vorticity on a gaussian grid.
+vr2uvg 	Computes the rotational wind components via spherical harmonics, given an array containing relative vorticity on a gaussian grid.
+vr2uvG_Wrap 	Computes the rotational wind components via spherical harmonics, given an array containing relative vorticity on a gaussian grid (retains metadata).
+vrdv2uvf 	Computes the wind components via spherical harmonics, given vorticity and divergence on a fixed grid.
+vrdv2uvF 	Computes the wind components via spherical harmonics, given vorticity and divergence on a fixed grid.
+vrdv2uvg 	Computes the wind components via spherical harmonics, given vorticity and divergence on a gaussian grid.
+vrdv2uvG 	Computes the wind components via spherical harmonics, given vorticity and divergence on a gaussian grid.
+w_to_omega 	Convert vertical velocity with units (m/s) to Pa/s.
+wallClockElapseTime 	Calculates and prints elapsed 'wall clock' time.
+wave_number_spc 	Computes the total power spectrum as a function of latitudinal wave number.
+wavelet 	Calculates the wavelet transform of a time series and significance levels.
+wavelet_default 	Calculates the wavelet transform of a time series and significance levels.
+weibull 	Derives the shape and scale parameters for the Weibull distribution via maximum likelihood estimates.
+wetbulb 	Compute wetbulb temperature.
+wetbulb_stull 	Calculate wet bulb temperature at standard sea level pressure (1013.25 hPa) using the method of R.Stull.
+wgt_area_smooth 	Smooths an array of data using a 5-point 2D area-weighted smoothing algorithm.
+wgt_areaave 	Calculates the area average of a quantity using weights.
+wgt_areaave2 	Calculates the area average of a quantity using two-dimensional weights.
+wgt_areaave_Wrap 	Calculates the area average of a quantity using weights and retains metadata.
+wgt_arearmse 	Calculates a weighted area root-mean-square-difference between two variables.
+wgt_arearmse2 	Calculates a weighted area root-mean-square-difference (rmse) between two variables using two-dimensional weights.
+wgt_areasum2 	Calculates the area sum (total) of a quantity using two-dimensional weights.
+wgt_runave 	Calculates a weighted running average across the rightmost dimension.
+wgt_runave_leftdim 	Calculate a weighted running average over the leftmost dimension (usually, "time") and return in the original order with metadata.
+wgt_runave_n 	Calculates a weighted running average across the given dimension.
+wgt_runave_n_Wrap 	Calculates a weighted running average on the given dimension and retains metadata.
+wgt_runave_Wrap 	Calculates a weighted running average on the rightmost dimension and retains metadata.
+wgt_vert_avg_beta 	Computes weighted vertical average or sum using pressure thickness and beta factors.
+wgt_vertical_n 	Calculate a weighted vertical average and/or sum (integral).
+wgt_volave 	Calculates the volume average of a quantity using weights.
+wgt_volave_ccm 	Calculates the volume average of a quantity from the CCM using weights.
+wgt_volrmse 	Calculates a weighted volume root-mean-square-difference between two variables.
+wgt_volrmse_ccm 	Calculates a weighted volume root-mean-square-difference between two variables from the CCM.
+where 	Performs array assignments based on a conditional array.
+wind_component 	Calculate zonal and meridional wind components from wind speed and wind direction.
+wind_direction 	Calculate meteorological wind direction from zonal and meridional wind components.
+wind_speed 	Calculate wind speed from zonal and meridional wind components.
+wind_stats 	Given a sequence of wind speeds and directions, compute assorted wind-related statistics including the standard deviation of the wind direction.
+WindRoseBasic 	Plots a basic wind rose.
+WindRoseColor 	Plot a wind rose diagram where different colors are used to differentiate speed ranges.
+WindRoseThickLine 	Plot a black and white wind rose diagram where different line thicknesses are used to differentiate speed ranges.
+wk_smooth121 	Performs a specialized 1-2-1 filter for Wheeler-Kiladis plots.
+wkSpaceTime 	Calculates Wheeler-Kiladis space-time spectra.
+wkSpaceTime_cam 	Calculates Wheeler-Kiladis space-time spectra using a generic CAM interface.
+wmbarb 	Draws wind barbs on the given workstation.
+wmbarbmap 	Draws wind barbs over maps.
+wmdrft 	Draws weather front lines on the given workstation.
+wmgetp 	Retrieves parameter values for selected Wmap routines.
+wmlabs 	Plots special symbols and icons for daily weather.
+wmsetp 	Sets parameter values for selected Wmap routines.
+wmstnm 	Plots station model data on the given workstation.
+wmvect 	Draws vectors on the given workstation.
+wmvectmap 	Draws vectors over maps.
+wmvlbl 	Draws an informational label box for plots produced by wmvect or wmvectmap.
+wrf_avo 	Calculates absolute vorticity from WRF model output.
+wrf_cape_2d 	Computes maximum convective available potential energy (CAPE), maximum convective inhibition (CIN), lifted condensation level (LCL), and level of free convection (LFC).
+wrf_cape_3d 	Computes convective available potential energy (CAPE) and convective inhibition (CIN).
+wrf_contour 	Creates a contour plot from ARW WRF model output.
+wrf_dbz 	Calculates simulated equivalent radar reflectivity factor [dBZ] from WRF model output.
+wrf_eth 	Calculates equivalent potential temperature from WRF model output.
+wrf_helicity 	Calculates storm relative helicity from WRF model output.
+wrf_ij_to_ll 	Finds the nearest longitude, latitude locations to the specified model grid indices (i,j).
+wrf_interp_1d 	Linearly interpolates a one-dimensional variable in the vertical.
+wrf_interp_2d_xy 	Extracts a cross section from a given input field.
+wrf_interp_3d_z 	Interpolates to a specified pressure/height level.
+wrf_latlon_to_ij 	Finds the nearest model grid indices (i,j) to the specific location(s) in latitude and longitude (deprecated).
+wrf_ll_to_ij 	Finds the nearest model grid indices (i,j) to the specified location(s) in longitude and latitude.
+wrf_map 	Creates a map background for ARW WRF model data.
+wrf_map_overlay 	Overlays different plot id's over a map background (deprecated in version 5.1.0).
+wrf_map_overlays 	Overlays different contour and vector plots over a WRF-ARW map background.
+wrf_map_resources 	Sets map plotting resources based on an input WRF-ARW file.
+wrf_map_zoom 	Zooms into a portion of the ARW WRF model domain, and creates a map background (deprecated in version 5.1.0).
+wrf_mapres_c 	Sets the appropriate geographical mapping resources based upon WRF file contents. (deprecated)
+wrf_omega 	Calculates approximate omega in C, given vertical velocity, water vapor mixing ratio, temperature, and pressure from WRF model output.
+wrf_overlay 	Overlays multiple plots, created from other ARW WRF plot functions (deprecated in version 5.1.0).
+wrf_overlays 	Overlays multiple plots, created from other ARW WRF plot functions.
+wrf_pvo 	Calculates potential vorticity from WRF model output.
+wrf_rh 	Calculates relative humidity from ARW WRF model output.
+wrf_slp 	Calculates sea level pressure from ARW WRF model output.
+wrf_smooth_2d 	Smooths a given field.
+wrf_td 	Calculates dewpoint temperature in [C] from ARW WRF model output.
+wrf_times_c 	Converts WRF variable "Times" which is of type character to user specified numeric units.
+wrf_tk 	Calculates temperature in [K] from ARW WRF model output.
+wrf_updraft_helicity 	Calculates updraft helicity from WRF model output.
+wrf_user_getvar 	Extracts data from ARW WRF model output, and does basic diagnostics calculations.
+wrf_user_ij_to_ll 	Finds the nearest longitude, latitude locations to the specified model grid indices (i,j).
+wrf_user_intrp2d 	Interpolates ARW WRF 2D model data along a given line.
+wrf_user_intrp3d 	Interpolates ARW WRF model data vertically or horizontally.
+wrf_user_latlon_to_ij 	Finds the nearest model grid indices (i,j) to the specific location (deprecated).
+wrf_user_list_times 	Extracts the list of available times in the ARW WRF model output.
+wrf_user_ll_to_ij 	Finds the nearest model grid indices (i,j) to the specified location(s) in longitude and latitude.
+wrf_user_unstagger 	Unstaggers an input variable along a specified dimension.
+wrf_user_vert_interp 	Vertically interpolates ARW WRF variables given the type of surface and a set of new levels.
+wrf_uvmet 	Rotates u,v components of the wind to earth coordinates.
+wrf_vector 	Creates a vector plot from ARW WRF model output.
+wrf_virtual_temp 	Calculates virtual temperature, given temperature and mixing ratio from WRF model output.
+wrf_wetbulb 	Calculates wet bulb temperature in K, given pressure in temperature in K and mixing ratio in kg/kg from WRF model output.
+wrf_wps_close_int 	Closes a currently open WPS intermediate file.
+wrf_wps_open_int 	Opens a WPS intermediate file and returns a status.
+wrf_wps_rddata_int 	Reads a 2D field from an open WPS intermediate file.
+wrf_wps_rdhead_int 	Reads header information for the current field of an open WPS intermediate file.
+wrf_wps_read_int 	Reads data from a WPS intermediate file.
+wrf_wps_write_int 	Writes data to a WPS intermediate file.
+write_matrix 	Writes nicely-formatted integer, float, or double precision two-dimensional (2D) arrays to standard out or to a file.
+write_table 	Writes all elements from a list (to a file).
+yiqrgb 	Converts YIQ color values to RGB.
+yyyyddd_to_yyyymmdd 	Given concatenated year and day-of-year (yyyyddd) create a one-dimensional array containing concatenated year, month and day-of-month (yyyymmdd) values.
+yyyymm_time 	Creates a one-dimensional array containing year-month (yyyymm) values.
+yyyymm_to_yyyyfrac 	Converts a one dimensional array containing yyyymm values to yyyy and fractional year.
+yyyymmdd_time 	Creates a one-dimensional array containing year-month-day (yyyymmdd) values.
+yyyymmdd_to_yyyyddd 	Given concatenated year-month-day_of_month (yyyymmdd) create a one-dimensional array containing concatenated year and day_of_year (yyyyddd) values.
+yyyymmdd_to_yyyyfrac 	Converts a one-dimensional array containing yyyymmdd values to yyyy and fractional year.
+yyyymmddhh_time 	Creates a one-dimensional array containing year-month-day-hour (yyyymmddhh) values.
+yyyymmddhh_to_yyyyfrac 	Converts a one-dimensional array containing yyyymmddhh values to yyyy and fractional year.
+z2geouv 	Computes the geostrophic zonal and meridional wind components using geopotential height on isobaric levels (rectilinear grid only).
+zonal_mpsi 	Computes a zonal mean meridional stream function.
+zonal_mpsi_Wrap 	Computes a zonal mean meridional stream function and retains metadata.
+zonalAve 	Computes a zonal average of the input array.
