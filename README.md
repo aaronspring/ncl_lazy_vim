@@ -9,8 +9,8 @@ If you are using vi/vim/gvim for scripting with NCL, you can sometimes hardly re
 
 Configuration instructions
 --------------------------
-
-* Add the lines of "add_ncl_complete_to_your_vimrc" to your "~/.vimrc" to include the complete function <br>
+1. Download the two .txt files from this repositories ".vim" folder into your ".vim" folder, this release uses static ncl data
+2. Add the lines of "add_ncl_complete_to_your_vimrc" to your "~/.vimrc" to include the complete function <br>
 ```
 cat add_ncl_complete_to_your_vimrc >> ~/.vimrc
 ```
@@ -95,22 +95,23 @@ Looking forward to receiving your questions, comments or wishes
 
 Changelog
 ---------
-* v0.1:  uses all NCL resources and NCL functions from website <br>
-        also completes variables gathered by 'cdo vardes files' if cdo installed <br>
-        requires '*.ncl' files, variable_completion <br>
-        ncl_completion can be enabled or disabled in .vimrc <br> 
+* v0.1: 
+uses all NCL resources and NCL functions from website as of 2016/09/18 <br>
+also completes variables gathered by 'cdo vardes files' if cdo installed and vars_completion enabled <br>
+requires '*.ncl' files <br>
+ncl_completion can be enabled or disabled in .vimrc <br> 
 
 Working on
 ----------
 * syntax highlighting
-* getting functions and resources dynamically, see https://github.com/aaronspring/cdo_lazy_vim
+* getting functions and resources dynamically, see example uses 'cdo --operators' https://github.com/aaronspring/cdo_lazy_vim
 * anything else needed?
 
 Credits and acknowledgements
 ----------------------------
-* Prince K Xavier, the dude who set up auto-completion for NCL and made me think to do this for CDO 
+* Prince K Xavier, the dude who set up auto-completion for NCL and made me think to do this for CDO first and now back to NCL
  
 
 Sister project
 --------------
-* same stuff for NCL: https://github.com/aaronspring/cdo_lazy_vim
+* same stuff for CDO: https://github.com/aaronspring/cdo_lazy_vim
