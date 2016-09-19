@@ -57,12 +57,12 @@ endfunction
 "  * ncl_completion or cdo_completion are enabled
 
 " 'ENABLE' variablecompletion or 'DISABLE'
-let s:vars_completion = 'ENABLE' 
+let s:vars_completion = 'DISABLE' 
 
 " variable completion data gathering
 " set path for file to act cdo vardes on
 " CHANGE for your own data
-if s:vars_completion == 'DISABLE'
+if s:vars_completion == 'ENABLE'
   silent echo "vars completion enabled"
   let s:vars_data_dir = '/work/mh1007/mpiesm1/experiments/lkm0101/outdata/'
   let s:vars_data_strs = ['hamocc/lkm0101_hamocc_data_2d_mm_19990101_19991231.nc', 'mpiom/lkm0101_mpiom_data_2d_mm_19990101_19991231.nc', 'mpiom/lkm0101_mpiom_data_3d_mm_19990101_19991231.nc', 'hamocc/lkm0101_hamocc_data_3d_ym_19990101_19991231.nc' ]
@@ -95,8 +95,8 @@ if bufname("%")[-3:] == 'ncl' && s:ncl_completion == 'ENABLE'
   let s:completion_language='ncl'
 
   " read in ncl functions and resources
-  let s:ncl_func = readfile('.vim/NCL_functions.txt')
-  let s:ncl_resources = readfile('.vim/NCL_resources.txt')
+  let s:ncl_func = readfile($HOME . '/.vim/NCL_functions.txt')
+  let s:ncl_resources = readfile($HOME . '/.vim/NCL_resources.txt')
  
   " vars complete
   " check if cdo is installed

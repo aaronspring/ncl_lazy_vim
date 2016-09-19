@@ -18,8 +18,8 @@ if bufname("%")[-3:] == 'ncl' && s:ncl_completion == 'ENABLE'
   let s:completion_language='ncl'
 
   " read in ncl functions and resources
-  let s:ncl_func = readfile('.vim/NCL_functions.txt')
-  let s:ncl_resources = readfile('.vim/NCL_resources.txt')
+  let s:ncl_func = readfile($HOME . '/.vim/NCL_functions.txt')
+  let s:ncl_resources = readfile($HOME . '/.vim/NCL_resources.txt')
  
   " vars complete
   " check if cdo is installed
