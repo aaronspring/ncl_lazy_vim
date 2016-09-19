@@ -24,7 +24,7 @@ if bufname("%")[-3:] == 'ncl' && s:ncl_completion == 'ENABLE'
   " vars complete
   " check if cdo is installed
   let s:cdo_installed = system('cdo --version 2>&1 | head -n 1 | grep -o "[0-9].[0-9].[0-9]"')
-  if empty(s:cdo_installed) && s:vars_completion = 'ENABLE'
+  if empty(s:cdo_installed) && s:vars_completion == 'ENABLE'
     echo "cdo not found"
 	let s:vars_completion = 'DISABLE'
   endif 
