@@ -100,10 +100,10 @@ if bufname("%")[-3:] == 'ncl' && s:ncl_completion == 'ENABLE'
  
   " vars complete
   " check if cdo is installed
-  let s:cdo_installed = system('which cdo | grep -o "cdo-[0-9].[0-9].[0-9]"')
-  if empty(s:cdo_installed)
+  let s:cdo_installed = system('cdo --version 2>&1 | head -n 1 | grep -o "[0-9].[0-9].[0-9]"')
+  if empty(s:cdo_installed) && s:vars_completion == 'ENABLE'
     echo "cdo not found"
-	let s:vars_completion = 'DISABLE'
+    let s:vars_completion = 'DISABLE'
   endif 
 
   set completefunc=NCLComplete
@@ -154,10 +154,8 @@ if bufname("%")[-3:] == 'ncl' && s:ncl_completion == 'ENABLE'
           endif
         endfor
 
-          " varibale completion
-        if empty(s:vars_data)
-          echo "no variable completion possible"
-        elseif s:vars_completion == 'ENABLE'
+        " varibale completion
+        if s:vars_completion == 'ENABLE'
           " Find variable matches
           for l:line in s:vars_data
           " Check if it matches what we're trying to complete
