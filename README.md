@@ -9,16 +9,18 @@ If you are using vi/vim/gvim for scripting with NCL, you can sometimes hardly re
 
 Configuration instructions
 --------------------------
-1. Download the two .txt files from this repositories ".vim" folder into your ".vim" folder, this release uses static ncl data
+1. Download the two .txt files "NCL_functions.txt" and "NCL_resources.txt" from the ".vim" folder in this repository into your ".vim" folder
 2. Add the lines of "add_ncl_complete_to_your_vimrc" to your "~/.vimrc" to include the complete function <br>
 ```
 cat add_ncl_complete_to_your_vimrc >> ~/.vimrc
 ```
+If you don't have a .vimrc file yet, you may also just my working example "example.vimrc" and rename it in your $HOME <br>
 
 Optional: <br>
-1. Variable completion: Set a file path and enable vars_completion in your ".vimrc" <br>
+1. Variable completion: Set a file path and 'ENABLE' vars_completion in your ".vimrc" <br> - requires CDO - if you have a neat idea how to implement it with NCL commands please approach me
 ![animation]( vars_completion.gif ) <br>
-2. If you want to use &lt;Tab> for auto-completion like in your shell, add those lines to your .vimrc <br> FIXME: Doesnt replace <C-U><C-U> yet, but only <C-N>
+2. For now, the first 12 (random number) words of NCL Resources are displayed in the pop-up window before the last two words as "Default information" separated by "...". If you usually work on a wide vi window, you can modify this number of strings.
+3. If you want to use &lt;Tab> for auto-completion like in your shell, add those lines to your .vimrc <br> FIXME: Doesnt replace &lt;C-U>&lt;C-U> yet, but only &lt;C-N> - should replace &lt;C-X><lt;C-U> for initial hit, &lt;C-U> or &lt;C-N> for others and <lt;Tab> if no string before 
 ```
 " Use TAB to complete when typing words, else inserts TABs as usual.
 " Uses dictionary and source files to find matching words to complete.
@@ -38,7 +40,7 @@ endfunction
 ```
 Source: http://vim.wikia.com/wiki/Smart_mapping_for_tab_completion <br>
 The usual &lt;Tab> command will still be executed when no completion is feasable, eg. in the beginning of (empty) lines <br>
-3. If you fancy other auto-completion setting, play with the line
+4. If you fancy other auto-completion setting, play with the line
 ```
 set complete=longest,menuone
 ```
@@ -109,7 +111,7 @@ Working on
 
 Credits and acknowledgements
 ----------------------------
-* Prince K Xavier, the dude who set up auto-completion for NCL and made me think to do this for CDO first and now back to NCL
+* Prince K Xavier, the dude who set up auto-completion for NCL and made me think to do this for CDO first and now I'm back to NCL
  
 
 Sister project
