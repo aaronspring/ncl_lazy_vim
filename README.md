@@ -19,7 +19,7 @@ If you don't have a .vimrc file yet, you may also just my working example "examp
 Optional: <br>
 1. Variable completion: Set a file path and 'ENABLE' vars_completion in your ".vimrc" <br> - requires CDO - if you have a neat idea how to implement it with NCL commands please approach me
 ![animation]( vars_completion.gif ) <br>
-2. For now, the first 12 (random number) words of NCL Resources are displayed in the pop-up window before the last two words as "Default information" separated by "...". If you usually work on a wide vi window, you can modify this number of strings.
+2. For now, the first 12 (random number) words of NCL Resources are displayed in the pop-up window before the last two words as "Default information" separated by "...". If you usually work on a wide vi window, you can modify this number of strings. <br>
 3. If you want to use &lt;Tab> for auto-completion like in your shell, add those lines to your .vimrc <br> FIXME: Doesnt replace &lt;C-U>&lt;C-U> yet, but only &lt;C-N> - should replace &lt;C-X><lt;C-U> for initial hit, &lt;C-U> or &lt;C-N> for others and <lt;Tab> if no string before 
 ```
 " Use TAB to complete when typing words, else inserts TABs as usual.
