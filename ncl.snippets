@@ -1,0 +1,3772 @@
+snippet abs
+	abs(${1:value})
+
+snippet acos
+	acos(${1:value})
+
+snippet addfile
+	addfile(${1:file_path}, ${2:status})
+
+snippet addfiles
+	addfiles(${1:file_path}, ${2:status})
+
+snippet all
+	all(${1:logical_array})
+
+snippet angmom_atm
+	angmom_atm(${1:u}, ${2:dp}, ${3:lat}, ${4:wgt})
+
+snippet any
+	any(${1:logical_array})
+
+snippet area_conserve_remap
+	area_conserve_remap(${1:loni}, ${2:lati}, ${3:fi}, ${4:lono}, ${5:lato}, ${6:opt})
+
+snippet area_hi2lores
+	area_hi2lores(${1:xi}, ${2:yi}, ${3:fi}, ${4:fiCyclicX}, ${5:wy}, ${6:xo}, ${7:yo}, ${8:foOption})
+
+snippet area_poly_sphere
+	area_poly_sphere(${1:lat}, ${2:lon}, ${3:rsph})
+
+snippet asciiread
+	asciiread(${1:filepath}, ${2:dimensions}, ${3:datatype})
+
+snippet asciiwrite
+	asciiwrite(${1:filepath}, ${2:var})
+
+snippet asin
+	asin(${1:value})
+
+snippet atan
+	atan(${1:value})
+
+snippet atan2
+	atan2(${1:y}, ${2:x})
+
+snippet attsetvalues
+	attsetvalues(${1:objects}, ${2:resources})
+
+snippet avg
+	avg(${1:x})
+
+snippet betainc
+	betainc(${1:x}, ${2:a}, ${3:b})
+
+snippet bin_avg
+	bin_avg(${1:zlon}, ${2:zlat}, ${3:z}, ${4:glon}, ${5:glat}, ${6:opt})
+
+snippet bin_sum
+	bin_sum(${1:gbin}, ${2:gknt}, ${3:glon}, ${4:glat}, ${5:zlon}, ${6:zlat}, ${7:z})
+
+snippet bw_bandpass_filter
+	bw_bandpass_filter(${1:x}, ${2:fca}, ${3:fcb}, ${4:opt}, ${5:dims})
+
+snippet cancor
+	cancor(${1:x}, ${2:y}, ${3:option})
+
+snippet cbinread
+	cbinread(${1:filename}, ${2:dsizes}, ${3:datatype})
+
+snippet cbinwrite
+	cbinwrite(${1:filename}, ${2:var})
+
+snippet cd_calendar
+	cd_calendar(${1:time}, ${2:option})
+
+snippet cd_inv_calendar
+	cd_inv_calendar(${1:year}, ${2:month}, ${3:day}, ${4:hour}, ${5:minute}, ${6:second}, ${7:units}, ${8:option})
+
+snippet cdfbin_p
+	cdfbin_p(${1:s}, ${2:xn}, ${3:pr})
+
+snippet cdfbin_pr
+	cdfbin_pr(${1:p}, ${2:s}, ${3:xn})
+
+snippet cdfbin_s
+	cdfbin_s(${1:p}, ${2:xn}, ${3:pr})
+
+snippet cdfbin_xn
+	cdfbin_xn(${1:p}, ${2:s}, ${3:pr})
+
+snippet cdfchi_p
+	cdfchi_p(${1:x}, ${2:df})
+
+snippet cdfchi_x
+	cdfchi_x(${1:p}, ${2:df})
+
+snippet cdfgam_p
+	cdfgam_p(${1:x}, ${2:shape}, ${3:scale})
+
+snippet cdfgam_x
+	cdfgam_x(${1:p}, ${2:shape}, ${3:scale})
+
+snippet cdfnor_p
+	cdfnor_p(${1:x}, ${2:mean}, ${3:sd})
+
+snippet cdfnor_x
+	cdfnor_x(${1:p}, ${2:mean}, ${3:sd})
+
+snippet cdft_p
+	cdft_p(${1:t}, ${2:df})
+
+snippet cdft_t
+	cdft_t(${1:p}, ${2:df})
+
+snippet ceil
+	ceil(${1:value})
+
+snippet center_finite_diff
+	center_finite_diff(${1:q}, ${2:r}, ${3:rCyclic}, ${4:opt})
+
+snippet center_finite_diff_n
+	center_finite_diff_n(${1:q}, ${2:r}, ${3:rCyclic}, ${4:opt}, ${5:dim})
+
+snippet cfftb
+	cfftb(${1:cf}, ${2:cfopt})
+
+snippet cfftf
+	cfftf(${1:xr}, ${2:xi}, ${3:opt})
+
+snippet cfftf_frq_reorder
+	cfftf_frq_reorder(${1:cf})
+
+snippet charactertodouble
+	charactertodouble(${1:char_val})
+
+snippet charactertofloat
+	charactertofloat(${1:char_val})
+
+snippet charactertointeger
+	charactertointeger(${1:char_val})
+
+snippet charactertolong
+	charactertolong(${1:char_val})
+
+snippet charactertoshort
+	charactertoshort(${1:char_val})
+
+snippet charactertostring
+	charactertostring(${1:char_val})
+
+snippet chartodouble
+	chartodouble(${1:char_val})
+
+snippet chartofloat
+	chartofloat(${1:char_val})
+
+snippet chartoint
+	chartoint(${1:char_val})
+
+snippet chartointeger
+	chartointeger(${1:char_val})
+
+snippet chartolong
+	chartolong(${1:char_val})
+
+snippet chartoshort
+	chartoshort(${1:char_val})
+
+snippet chartostring
+	chartostring(${1:char_val})
+
+snippet chiinv
+	chiinv(${1:p}, ${2:df})
+
+snippet cla_sq
+	cla_sq(${1:strLeft}, ${2:strRight})
+
+snippet clear
+	clear(${1:wks})
+
+snippet color_index_to_rgba
+	color_index_to_rgba(${1:color_indexes})
+
+snippet conform
+	conform(${1:x}, ${2:r}, ${3:ndim})
+
+snippet conform_dims
+	conform_dims(${1:dims}, ${2:r}, ${3:ndim})
+
+snippet cos
+	cos(${1:value})
+
+snippet cosh
+	cosh(${1:value})
+
+snippet count_unique_values
+	count_unique_values(${1:x})
+
+snippet count_unique_values_n
+	count_unique_values_n(${1:x}, ${2:dim})
+
+snippet covcorm
+	covcorm(${1:x}, ${2:iopt})
+
+snippet covcorm_xy
+	covcorm_xy(${1:x}, ${2:y}, ${3:iopt})
+
+snippet craybinnumrec
+	craybinnumrec(${1:path})
+
+snippet craybinrecread
+	craybinrecread(${1:path}, ${2:rec_num}, ${3:rec_dims}, ${4:rec_type})
+
+snippet create_graphic
+	create_graphic(${1:name}, ${2:class}, ${3:parent}, ${4:resources})
+
+snippet csa1
+	csa1(${1:xi}, ${2:yi}, ${3:knots}, ${4:xo})
+
+snippet csa1d
+	csa1d(${1:xi}, ${2:yi}, ${3:knots}, ${4:xo})
+
+snippet csa1s
+	csa1s(${1:xi}, ${2:yi}, ${3:knots}, ${4:xo})
+
+snippet csa1x
+	csa1x(${1:xi}, ${2:yi}, ${3:wts}, ${4:knots}, ${5:smth}, ${6:nderiv}, ${7:xo})
+
+snippet csa1xd
+	csa1xd(${1:xi}, ${2:yi}, ${3:wts}, ${4:knots}, ${5:smth}, ${6:nderiv}, ${7:xo})
+
+snippet csa1xs
+	csa1xs(${1:xi}, ${2:yi}, ${3:wts}, ${4:knots}, ${5:smth}, ${6:nderiv}, ${7:xo})
+
+snippet csa2
+	csa2(${1:xi}, ${2:yi}, ${3:zi}, ${4:knots}, ${5:xo}, ${6:yo})
+
+snippet csa2d
+	csa2d(${1:xi}, ${2:yi}, ${3:zi}, ${4:knots}, ${5:xo}, ${6:yo})
+
+snippet csa2l
+	csa2l(${1:xi}, ${2:yi}, ${3:zi}, ${4:knots}, ${5:xo}, ${6:yo})
+
+snippet csa2ld
+	csa2ld(${1:xi}, ${2:yi}, ${3:zi}, ${4:knots}, ${5:xo}, ${6:yo})
+
+snippet csa2ls
+	csa2ls(${1:xi}, ${2:yi}, ${3:zi}, ${4:knots}, ${5:xo}, ${6:yo})
+
+snippet csa2lx
+	csa2lx(${1:xi}, ${2:yi}, ${3:zi}, ${4:wts}, ${5:knots}, ${6:smth}, ${7:nderiv}, ${8:xo}, ${9:yo})
+
+snippet csa2lxd
+	csa2lxd(${1:xi}, ${2:yi}, ${3:zi}, ${4:wts}, ${5:knots}, ${6:smth}, ${7:nderiv}, ${8:xo}, ${9:yo})
+
+snippet csa2lxs
+	csa2lxs(${1:xi}, ${2:yi}, ${3:zi}, ${4:wts}, ${5:knots}, ${6:smth}, ${7:nderiv}, ${8:xo}, ${9:yo})
+
+snippet csa2s
+	csa2s(${1:xi}, ${2:yi}, ${3:zi}, ${4:knots}, ${5:xo}, ${6:yo})
+
+snippet csa2x
+	csa2x(${1:xi}, ${2:yi}, ${3:zi}, ${4:wts}, ${5:knots}, ${6:smth}, ${7:nderiv}, ${8:xo}, ${9:yo})
+
+snippet csa2xd
+	csa2xd(${1:xi}, ${2:yi}, ${3:zi}, ${4:wts}, ${5:knots}, ${6:smth}, ${7:nderiv}, ${8:xo}, ${9:yo})
+
+snippet csa2xs
+	csa2xs(${1:xi}, ${2:yi}, ${3:zi}, ${4:wts}, ${5:knots}, ${6:smth}, ${7:nderiv}, ${8:xo}, ${9:yo})
+
+snippet csa3
+	csa3(${1:xi}, ${2:yi}, ${3:zi}, ${4:ui}, ${5:knots}, ${6:xo}, ${7:yo}, ${8:zo})
+
+snippet csa3d
+	csa3d(${1:xi}, ${2:yi}, ${3:zi}, ${4:ui}, ${5:knots}, ${6:xo}, ${7:yo}, ${8:zo})
+
+snippet csa3l
+	csa3l(${1:xi}, ${2:yi}, ${3:zi}, ${4:ui}, ${5:knots}, ${6:xo}, ${7:yo}, ${8:zo})
+
+snippet csa3ld
+	csa3ld(${1:xi}, ${2:yi}, ${3:zi}, ${4:ui}, ${5:knots}, ${6:xo}, ${7:yo}, ${8:zo})
+
+snippet csa3ls
+	csa3ls(${1:xi}, ${2:yi}, ${3:zi}, ${4:ui}, ${5:knots}, ${6:xo}, ${7:yo}, ${8:zo})
+
+snippet csa3lx
+	csa3lx(${1:xi}, ${2:yi}, ${3:zi}, ${4:ui}, ${5:wts}, ${6:knots}, ${7:smth}, ${8:nderiv}, ${9:xo}, ${10:yo}, ${11:zo})
+
+snippet csa3lxd
+	csa3lxd(${1:xi}, ${2:yi}, ${3:zi}, ${4:ui}, ${5:wts}, ${6:knots}, ${7:smth}, ${8:nderiv}, ${9:xo}, ${10:yo}, ${11:zo})
+
+snippet csa3lxs
+	csa3lxs(${1:xi}, ${2:yi}, ${3:zi}, ${4:ui}, ${5:wts}, ${6:knots}, ${7:smth}, ${8:nderiv}, ${9:xo}, ${10:yo}, ${11:zo})
+
+snippet csa3s
+	csa3s(${1:xi}, ${2:yi}, ${3:zi}, ${4:ui}, ${5:knots}, ${6:xo}, ${7:yo}, ${8:zo})
+
+snippet csa3x
+	csa3x(${1:xi}, ${2:yi}, ${3:zi}, ${4:ui}, ${5:wts}, ${6:knots}, ${7:smth}, ${8:nderiv}, ${9:xo}, ${10:yo}, ${11:zo})
+
+snippet csa3xd
+	csa3xd(${1:xi}, ${2:yi}, ${3:zi}, ${4:ui}, ${5:wts}, ${6:knots}, ${7:smth}, ${8:nderiv}, ${9:xo}, ${10:yo}, ${11:zo})
+
+snippet csa3xs
+	csa3xs(${1:xi}, ${2:yi}, ${3:zi}, ${4:ui}, ${5:wts}, ${6:knots}, ${7:smth}, ${8:nderiv}, ${9:xo}, ${10:yo}, ${11:zo})
+
+snippet csc2s
+	csc2s(${1:x}, ${2:y}, ${3:z})
+
+snippet csgetp
+	csgetp(${1:pnam})
+
+snippet css2c
+	css2c(${1:lat}, ${2:lon})
+
+snippet cssetp
+	cssetp(${1:pnam}, ${2:pval})
+
+snippet cssgrid
+	cssgrid(${1:rlat}, ${2:rlon}, ${3:fval}, ${4:plat}, ${5:plon})
+
+snippet csstri
+	csstri(${1:rlat}, ${2:rlon})
+
+snippet csvoro
+	csvoro(${1:rlati}, ${2:rloni}, ${3:index}, ${4:cflag}, ${5:rlato}, ${6:rlono}, ${7:alen}, ${8:nca}, ${9:numv}, ${10:nv})
+
+snippet cumsum
+	cumsum(${1:x}, ${2:opt})
+
+snippet cz2ccm
+	cz2ccm(${1:ps}, ${2:phis}, ${3:tv}, ${4:p0}, ${5:hyam}, ${6:hybm}, ${7:hyai}, ${8:hybi})
+
+snippet datatondc
+	datatondc(${1:plot}, ${2:x_in}, ${3:y_in}, ${4:x_out}, ${5:y_out})
+
+snippet day_of_week
+	day_of_week(${1:year}, ${2:month}, ${3:day})
+
+snippet day_of_year
+	day_of_year(${1:year}, ${2:month}, ${3:day})
+
+snippet days_in_month
+	days_in_month(${1:year}, ${2:month})
+
+snippet default_fillvalue
+	default_fillvalue(${1:var_type})
+
+snippet delete
+	delete(${1:data})
+
+snippet depth_to_pres
+	depth_to_pres(${1:z}, ${2:opt})
+
+snippet destroy
+	destroy(${1:objects})
+
+snippet determinant
+	determinant(${1:x})
+
+snippet dewtemp_trh
+	dewtemp_trh(${1:tk}, ${2:rh})
+
+snippet dgeevx_lapack
+	dgeevx_lapack(${1:Q}, ${2:balanc}, ${3:jobvl}, ${4:jobvr}, ${5:sense}, ${6:opt})
+
+snippet dim_acumrun_n
+	dim_acumrun_n(${1:x}, ${2:lrun}, ${3:opt}, ${4:dims})
+
+snippet dim_avg
+	dim_avg(${1:x})
+
+snippet dim_avg_n
+	dim_avg_n(${1:x}, ${2:dims})
+
+snippet dim_avg_wgt
+	dim_avg_wgt(${1:x}, ${2:w}, ${3:opt})
+
+snippet dim_avg_wgt_n
+	dim_avg_wgt_n(${1:x}, ${2:w}, ${3:opt}, ${4:dim})
+
+snippet dim_cumsum
+	dim_cumsum(${1:x}, ${2:opt})
+
+snippet dim_cumsum_n
+	dim_cumsum_n(${1:x}, ${2:opt}, ${3:dims})
+
+snippet dim_gamfit_n
+	dim_gamfit_n(${1:x}, ${2:optgam}, ${3:dims})
+
+snippet dim_gbits
+	dim_gbits(${1:npack}, ${2:ibit}, ${3:nbits}, ${4:nskip}, ${5:iter})
+
+snippet dim_max
+	dim_max(${1:x})
+
+snippet dim_max_n
+	dim_max_n(${1:x}, ${2:dims})
+
+snippet dim_median
+	dim_median(${1:x})
+
+snippet dim_median_n
+	dim_median_n(${1:x}, ${2:dims})
+
+snippet dim_min
+	dim_min(${1:x})
+
+snippet dim_min_n
+	dim_min_n(${1:x}, ${2:dims})
+
+snippet dim_num
+	dim_num(${1:x})
+
+snippet dim_num_n
+	dim_num_n(${1:x}, ${2:dims})
+
+snippet dim_numrun_n
+	dim_numrun_n(${1:x}, ${2:opt}, ${3:dim})
+
+snippet dim_pqsort
+	dim_pqsort(${1:x}, ${2:kflag})
+
+snippet dim_pqsort_n
+	dim_pqsort_n(${1:x}, ${2:kflag}, ${3:dim})
+
+snippet dim_product
+	dim_product(${1:x})
+
+snippet dim_product_n
+	dim_product_n(${1:x}, ${2:dims})
+
+snippet dim_rmsd
+	dim_rmsd(${1:x}, ${2:y})
+
+snippet dim_rmsd_n
+	dim_rmsd_n(${1:x}, ${2:y}, ${3:dims})
+
+snippet dim_rmvmean
+	dim_rmvmean(${1:x})
+
+snippet dim_rmvmean_n
+	dim_rmvmean_n(${1:x}, ${2:dims})
+
+snippet dim_rmvmed
+	dim_rmvmed(${1:x})
+
+snippet dim_rmvmed_n
+	dim_rmvmed_n(${1:x}, ${2:dims})
+
+snippet dim_spi_n
+	dim_spi_n(${1:x}, ${2:nrun}, ${3:opt}, ${4:dims})
+
+snippet dim_standardize
+	dim_standardize(${1:x}, ${2:opt})
+
+snippet dim_standardize_n
+	dim_standardize_n(${1:x}, ${2:opt}, ${3:dims})
+
+snippet dim_stat4
+	dim_stat4(${1:x})
+
+snippet dim_stat4_n
+	dim_stat4_n(${1:x}, ${2:dims})
+
+snippet dim_stddev
+	dim_stddev(${1:x})
+
+snippet dim_stddev_n
+	dim_stddev_n(${1:x}, ${2:dims})
+
+snippet dim_sum
+	dim_sum(${1:x})
+
+snippet dim_sum_n
+	dim_sum_n(${1:x}, ${2:dims})
+
+snippet dim_sum_wgt
+	dim_sum_wgt(${1:x}, ${2:w}, ${3:opt})
+
+snippet dim_sum_wgt_n
+	dim_sum_wgt_n(${1:x}, ${2:w}, ${3:opt}, ${4:dim})
+
+snippet dim_variance
+	dim_variance(${1:x})
+
+snippet dim_variance_n
+	dim_variance_n(${1:x}, ${2:dims})
+
+snippet dimsizes
+	dimsizes(${1:data})
+
+snippet doubletobyte
+	doubletobyte(${1:double_val})
+
+snippet doubletochar
+	doubletochar(${1:double_val})
+
+snippet doubletocharacter
+	doubletocharacter(${1:double_val})
+
+snippet doubletofloat
+	doubletofloat(${1:double_val})
+
+snippet doubletoint
+	doubletoint(${1:double_val})
+
+snippet doubletointeger
+	doubletointeger(${1:double_val})
+
+snippet doubletolong
+	doubletolong(${1:double_val})
+
+snippet doubletoshort
+	doubletoshort(${1:double_val})
+
+snippet dpres_hybrid_ccm
+	dpres_hybrid_ccm(${1:ps}, ${2:p0}, ${3:hya}, ${4:hyb})
+
+snippet dpres_plevel
+	dpres_plevel(${1:plev}, ${2:psfc}, ${3:ptop}, ${4:iopt})
+
+snippet draw
+	draw(${1:objects})
+
+snippet draw_color_palette
+	draw_color_palette(${1:wks}, ${2:colors}, ${3:opt})
+
+snippet dsgetp
+	dsgetp(${1:pnam})
+
+snippet dsgrid2
+	dsgrid2(${1:x}, ${2:y}, ${3:z}, ${4:xo}, ${5:yo})
+
+snippet dsgrid2d
+	dsgrid2d(${1:x}, ${2:y}, ${3:z}, ${4:xo}, ${5:yo})
+
+snippet dsgrid2s
+	dsgrid2s(${1:x}, ${2:y}, ${3:z}, ${4:xo}, ${5:yo})
+
+snippet dsgrid3
+	dsgrid3(${1:x}, ${2:y}, ${3:z}, ${4:u}, ${5:xo}, ${6:yo}, ${7:zo})
+
+snippet dsgrid3d
+	dsgrid3d(${1:x}, ${2:y}, ${3:z}, ${4:u}, ${5:xo}, ${6:yo}, ${7:zo})
+
+snippet dsgrid3s
+	dsgrid3s(${1:x}, ${2:y}, ${3:z}, ${4:u}, ${5:xo}, ${6:yo}, ${7:zo})
+
+snippet dspnt2
+	dspnt2(${1:x}, ${2:y}, ${3:z}, ${4:xo}, ${5:yo})
+
+snippet dspnt2d
+	dspnt2d(${1:x}, ${2:y}, ${3:z}, ${4:xo}, ${5:yo})
+
+snippet dspnt2s
+	dspnt2s(${1:x}, ${2:y}, ${3:z}, ${4:xo}, ${5:yo})
+
+snippet dspnt3
+	dspnt3(${1:x}, ${2:y}, ${3:z}, ${4:u}, ${5:xo}, ${6:yo}, ${7:zo})
+
+snippet dspnt3d
+	dspnt3d(${1:x}, ${2:y}, ${3:z}, ${4:u}, ${5:xo}, ${6:yo}, ${7:zo})
+
+snippet dspnt3s
+	dspnt3s(${1:x}, ${2:y}, ${3:z}, ${4:u}, ${5:xo}, ${6:yo}, ${7:zo})
+
+snippet dssetp
+	dssetp(${1:pnam}, ${2:pval})
+
+snippet dtrend
+	dtrend(${1:y}, ${2:return_info})
+
+snippet dtrend_msg
+	dtrend_msg(${1:x}, ${2:y}, ${3:remove_mean}, ${4:return_info})
+
+snippet dtrend_msg_n
+	dtrend_msg_n(${1:x}, ${2:y}, ${3:remove_mean}, ${4:return_info}, ${5:dim})
+
+snippet dtrend_n
+	dtrend_n(${1:y}, ${2:return_info}, ${3:dim})
+
+snippet dtrend_quadratic
+	dtrend_quadratic(${1:y}, ${2:option})
+
+snippet dtrend_quadratic_msg_n
+	dtrend_quadratic_msg_n(${1:y}, ${2:remove_mean}, ${3:return_info}, ${4:dim})
+
+snippet dv2uvf
+	dv2uvf(${1:dv}, ${2:ud}, ${3:vd})
+
+snippet dv2uvg
+	dv2uvg(${1:dv}, ${2:ud}, ${3:vd})
+
+snippet dz_height
+	dz_height(${1:z}, ${2:zsfc}, ${3:ztop}, ${4:iopt})
+
+snippet echo_off
+	echo_off()
+
+snippet echo_on
+	echo_on()
+
+snippet eof2data
+	eof2data(${1:ev}, ${2:ev_ts})
+
+snippet eof_varimax
+	eof_varimax(${1:evec})
+
+snippet eofcor
+	eofcor(${1:data}, ${2:neval})
+
+snippet eofcor_pcmsg
+	eofcor_pcmsg(${1:data}, ${2:neval}, ${3:pcrit})
+
+snippet eofcor_ts
+	eofcor_ts(${1:data}, ${2:evec})
+
+snippet eofcov
+	eofcov(${1:data}, ${2:neval})
+
+snippet eofcov_pcmsg
+	eofcov_pcmsg(${1:data}, ${2:neval}, ${3:pcrit})
+
+snippet eofcov_ts
+	eofcov_ts(${1:data}, ${2:evec})
+
+snippet eofunc
+	eofunc(${1:data}, ${2:neval}, ${3:optEOF})
+
+snippet eofunc_ts
+	eofunc_ts(${1:data}, ${2:evec}, ${3:optETS})
+
+snippet eofunc_varimax
+	eofunc_varimax(${1:evec}, ${2:optEVX})
+
+snippet equiv_sample_size
+	equiv_sample_size(${1:x}, ${2:siglvl}, ${3:opt})
+
+snippet erf
+	erf(${1:x})
+
+snippet erfc
+	erfc(${1:x})
+
+snippet esacr
+	esacr(${1:x}, ${2:mxlag})
+
+snippet esacv
+	esacv(${1:x}, ${2:mxlag})
+
+snippet esccr
+	esccr(${1:x}, ${2:y}, ${3:mxlag})
+
+snippet esccv
+	esccv(${1:x}, ${2:y}, ${3:mxlag})
+
+snippet escorc
+	escorc(${1:x}, ${2:y})
+
+snippet escorc_n
+	escorc_n(${1:x}, ${2:y}, ${3:dims_x}, ${4:dims_y})
+
+snippet escovc
+	escovc(${1:x}, ${2:y})
+
+snippet exit
+	exit()
+
+snippet exp
+	exp(${1:value})
+
+snippet exp_tapersh
+	exp_tapersh(${1:a}, ${2:b}, ${3:N}, ${4:r})
+
+snippet exp_tapersh_wgts
+	exp_tapersh_wgts(${1:M}, ${2:N}, ${3:r})
+
+snippet exp_tapershC
+	exp_tapershC(${1:ab}, ${2:N}, ${3:r})
+
+snippet ezfftb
+	ezfftb(${1:cf}, ${2:xbar})
+
+snippet ezfftb_n
+	ezfftb_n(${1:cf}, ${2:xbar}, ${3:dim})
+
+snippet ezfftf
+	ezfftf(${1:x})
+
+snippet ezfftf_n
+	ezfftf_n(${1:x}, ${2:dim})
+
+snippet f2fosh
+	f2fosh(${1:grid})
+
+snippet f2foshv
+	f2foshv(${1:ureg}, ${2:vreg}, ${3:uoff}, ${4:voff})
+
+snippet f2fsh
+	f2fsh(${1:grid}, ${2:outdims})
+
+snippet f2fshv
+	f2fshv(${1:ua}, ${2:va}, ${3:ub}, ${4:vb})
+
+snippet f2gsh
+	f2gsh(${1:grid}, ${2:outdims}, ${3:twave})
+
+snippet f2gshv
+	f2gshv(${1:ua}, ${2:va}, ${3:ub}, ${4:vb}, ${5:twave})
+
+snippet fabs
+	fabs(${1:value})
+
+snippet fbindirread
+	fbindirread(${1:path}, ${2:rec_num}, ${3:rec_dims}, ${4:rec_type})
+
+snippet fbindirwrite
+	fbindirwrite(${1:path}, ${2:var})
+
+snippet fbinnumrec
+	fbinnumrec(${1:path})
+
+snippet fbinread
+	fbinread(${1:filepath}, ${2:rec_dims}, ${3:rec_type})
+
+snippet fbinrecread
+	fbinrecread(${1:path}, ${2:rec_num}, ${3:rec_dims}, ${4:rec_type})
+
+snippet fbinrecwrite
+	fbinrecwrite(${1:path}, ${2:rec_num}, ${3:var})
+
+snippet fbinwrite
+	fbinwrite(${1:filepath}, ${2:value})
+
+snippet fft2db
+	fft2db(${1:coef})
+
+snippet fft2df
+	fft2df(${1:x})
+
+snippet fftshift
+	fftshift(${1:x}, ${2:mode})
+
+snippet fileattdef
+	fileattdef(${1:thefile}, ${2:variable})
+
+snippet filechunkdimdef
+	filechunkdimdef(${1:thefile}, ${2:dim_names}, ${3:dim_sizes}, ${4:dim_unlimited})
+
+snippet filedimdef
+	filedimdef(${1:thefile}, ${2:dim_names}, ${3:dim_sizes}, ${4:dim_unlimited})
+
+snippet fileexists
+	fileexists(${1:file_path})
+
+snippet filegrpdef
+	filegrpdef(${1:thefile}, ${2:grp_names})
+
+snippet filevarattdef
+	filevarattdef(${1:thefile}, ${2:varnames}, ${3:variable})
+
+snippet filevarchunkdef
+	filevarchunkdef(${1:thefile}, ${2:var_name}, ${3:chunk_dim_sizes})
+
+snippet filevarcompressleveldef
+	filevarcompressleveldef(${1:thefile}, ${2:var_name}, ${3:compressLevel})
+
+snippet filevardef
+	filevardef(${1:thefile}, ${2:var_names}, ${3:var_types}, ${4:dim_names})
+
+snippet filevardimsizes
+	filevardimsizes(${1:thefile}, ${2:varname})
+
+snippet filwgts_lancos
+	filwgts_lancos(${1:nwt}, ${2:ihp}, ${3:fca}, ${4:fcb}, ${5:nsigma})
+
+snippet filwgts_lanczos
+	filwgts_lanczos(${1:nwt}, ${2:ihp}, ${3:fca}, ${4:fcb}, ${5:nsigma})
+
+snippet filwgts_normal
+	filwgts_normal(${1:nwt}, ${2:sigma}, ${3:option})
+
+snippet floattobyte
+	floattobyte(${1:float_val})
+
+snippet floattochar
+	floattochar(${1:float_val})
+
+snippet floattocharacter
+	floattocharacter(${1:float_val})
+
+snippet floattoint
+	floattoint(${1:float_val})
+
+snippet floattointeger
+	floattointeger(${1:float_val})
+
+snippet floattolong
+	floattolong(${1:float_val})
+
+snippet floattoshort
+	floattoshort(${1:float_val})
+
+snippet floor
+	floor(${1:value})
+
+snippet fluxEddy
+	fluxEddy(${1:x}, ${2:y})
+
+snippet fo2fsh
+	fo2fsh(${1:grid})
+
+snippet fo2fshv
+	fo2fshv(${1:uoff}, ${2:voff}, ${3:ureg}, ${4:vreg})
+
+snippet fourier_info
+	fourier_info(${1:x}, ${2:nhx}, ${3:sclPhase})
+
+snippet frame
+	frame(${1:wks})
+
+snippet fspan
+	fspan(${1:start}, ${2:finish}, ${3:npts})
+
+snippet ftcurv
+	ftcurv(${1:xi}, ${2:yi}, ${3:xo})
+
+snippet ftcurvd
+	ftcurvd(${1:xi}, ${2:yi}, ${3:xo})
+
+snippet ftcurvi
+	ftcurvi(${1:xl}, ${2:xr}, ${3:xi}, ${4:yi})
+
+snippet ftcurvp
+	ftcurvp(${1:xi}, ${2:yi}, ${3:p}, ${4:xo})
+
+snippet ftcurvpi
+	ftcurvpi(${1:xl}, ${2:xr}, ${3:p}, ${4:xi}, ${5:yi})
+
+snippet ftcurvps
+	ftcurvps(${1:xi}, ${2:yi}, ${3:p}, ${4:d}, ${5:xo})
+
+snippet ftcurvs
+	ftcurvs(${1:xi}, ${2:yi}, ${3:d}, ${4:xo})
+
+snippet ftest
+	ftest(${1:var1}, ${2:s1}, ${3:var2}, ${4:s2}, ${5:opt})
+
+snippet ftgetp
+	ftgetp(${1:pnam})
+
+snippet ftkurv
+	ftkurv(${1:xi}, ${2:yi}, ${3:t}, ${4:xo}, ${5:yo})
+
+snippet ftkurvd
+	ftkurvd(${1:xi}, ${2:yi}, ${3:t}, ${4:xo}, ${5:yo}, ${6:xd}, ${7:yd}, ${8:xdd}, ${9:ydd})
+
+snippet ftkurvp
+	ftkurvp(${1:xi}, ${2:yi}, ${3:t}, ${4:xo}, ${5:yo})
+
+snippet ftkurvpd
+	ftkurvpd(${1:xi}, ${2:yi}, ${3:t}, ${4:xo}, ${5:yo}, ${6:xd}, ${7:yd}, ${8:xdd}, ${9:ydd})
+
+snippet ftsetp
+	ftsetp(${1:pnam}, ${2:pval})
+
+snippet ftsurf
+	ftsurf(${1:xi}, ${2:yi}, ${3:zi}, ${4:xo}, ${5:yo})
+
+snippet g2fsh
+	g2fsh(${1:grid}, ${2:outdims})
+
+snippet g2fshv
+	g2fshv(${1:ua}, ${2:va}, ${3:ub}, ${4:vb})
+
+snippet g2gsh
+	g2gsh(${1:grid}, ${2:outdims}, ${3:twave})
+
+snippet g2gshv
+	g2gshv(${1:ua}, ${2:va}, ${3:ub}, ${4:vb}, ${5:twave})
+
+snippet gamma
+	gamma(${1:x})
+
+snippet gammainc
+	gammainc(${1:x}, ${2:a})
+
+snippet gaus
+	gaus(${1:nlat})
+
+snippet gaus_lobat
+	gaus_lobat(${1:nlat})
+
+snippet gaus_lobat_wgt
+	gaus_lobat_wgt(${1:lat})
+
+snippet gc_aangle
+	gc_aangle(${1:lat}, ${2:lon})
+
+snippet gc_clkwise
+	gc_clkwise(${1:lat}, ${2:lon})
+
+snippet gc_dangle
+	gc_dangle(${1:lat}, ${2:lon})
+
+snippet gc_inout
+	gc_inout(${1:plat}, ${2:plon}, ${3:lat}, ${4:lon})
+
+snippet gc_latlon
+	gc_latlon(${1:lat1}, ${2:lon1}, ${3:lat2}, ${4:lon2}, ${5:npts}, ${6:iu})
+
+snippet gc_onarc
+	gc_onarc(${1:p_lat}, ${2:p_lon}, ${3:lat}, ${4:lon})
+
+snippet gc_pnt2gc
+	gc_pnt2gc(${1:p_lat}, ${2:p_lon}, ${3:lat}, ${4:lon})
+
+snippet gc_qarea
+	gc_qarea(${1:lat}, ${2:lon})
+
+snippet gc_tarea
+	gc_tarea(${1:lat}, ${2:lon})
+
+snippet generate_2d_array
+	generate_2d_array(${1:mlow}, ${2:mhigh}, ${3:dlow}, ${4:dhigh}, ${5:iseed}, ${6:dsizes})
+
+snippet get_color_rgba
+	get_color_rgba(${1:color_map}, ${2:levels}, ${3:value})
+
+snippet get_cpu_time
+	get_cpu_time()
+
+snippet get_isolines
+	get_isolines(${1:contour_plot_id}, ${2:levels})
+
+snippet get_ncl_version
+	get_ncl_version()
+
+snippet get_script_name
+	get_script_name()
+
+snippet get_script_prefix_name
+	get_script_prefix_name()
+
+snippet get_sphere_radius
+	get_sphere_radius()
+
+snippet get_unique_values
+	get_unique_values(${1:x})
+
+snippet getbitsone
+	getbitsone(${1:npack})
+
+snippet getenv
+	getenv(${1:env_name})
+
+snippet getfiledimsizes
+	getfiledimsizes(${1:thefile})
+
+snippet getfilegrpnames
+	getfilegrpnames(${1:the_file})
+
+snippet getfilepath
+	getfilepath(${1:the_file})
+
+snippet getfilevaratts
+	getfilevaratts(${1:thefile}, ${2:varname})
+
+snippet getfilevarchunkdimsizes
+	getfilevarchunkdimsizes(${1:thefile}, ${2:varname})
+
+snippet getfilevardims
+	getfilevardims(${1:thefile}, ${2:varname})
+
+snippet getfilevardimsizes
+	getfilevardimsizes(${1:thefile}, ${2:varname})
+
+snippet getfilevarnames
+	getfilevarnames(${1:the_file})
+
+snippet getfilevartypes
+	getfilevartypes(${1:thefile}, ${2:var})
+
+snippet getvaratts
+	getvaratts(${1:var})
+
+snippet getvardims
+	getvardims(${1:var})
+
+snippet gradsf
+	gradsf(${1:z}, ${2:gzx}, ${3:gzy})
+
+snippet gradsg
+	gradsg(${1:z}, ${2:gzx}, ${3:gzy})
+
+snippet greg2jul
+	greg2jul(${1:year}, ${2:month}, ${3:day}, ${4:hour})
+
+snippet grid2triple
+	grid2triple(${1:x}, ${2:y}, ${3:z})
+
+snippet hlsrgb
+	hlsrgb(${1:hls})
+
+snippet hsvrgb
+	hsvrgb(${1:hsv})
+
+snippet hydro
+	hydro(${1:p}, ${2:tkv}, ${3:zsfc})
+
+snippet hyi2hyo
+	hyi2hyo(${1:p0}, ${2:hyai}, ${3:hybi}, ${4:ps}, ${5:xi}, ${6:hyao}, ${7:hybo}, ${8:intflg})
+
+snippet idsfft
+	idsfft(${1:xc}, ${2:yc}, ${3:zc}, ${4:dim})
+
+snippet igradsf
+	igradsf(${1:gzx}, ${2:gzy}, ${3:z})
+
+snippet igradsg
+	igradsg(${1:gzx}, ${2:gzy}, ${3:z})
+
+snippet ilapsf
+	ilapsf(${1:zlap}, ${2:zlmbda}, ${3:z})
+
+snippet ilapsg
+	ilapsg(${1:zlap}, ${2:zlmbda}, ${3:z})
+
+snippet ilapvf
+	ilapvf(${1:ulap}, ${2:vlap}, ${3:u}, ${4:v})
+
+snippet ilapvg
+	ilapvg(${1:ulap}, ${2:vlap}, ${3:u}, ${4:v})
+
+snippet ind
+	ind(${1:larray})
+
+snippet ind_resolve
+	ind_resolve(${1:indices}, ${2:dsizes})
+
+snippet int2p
+	int2p(${1:pin}, ${2:xin}, ${3:pout}, ${4:linlog})
+
+snippet int2p_n
+	int2p_n(${1:pin}, ${2:xin}, ${3:pout}, ${4:linlog}, ${5:pdim})
+
+snippet integertobyte
+	integertobyte(${1:integer_val})
+
+snippet integertochar
+	integertochar(${1:integer_val})
+
+snippet integertocharacter
+	integertocharacter(${1:integer_val})
+
+snippet integertoshort
+	integertoshort(${1:integer_val})
+
+snippet inttobyte
+	inttobyte(${1:integer_val})
+
+snippet inttochar
+	inttochar(${1:integer_val})
+
+snippet inttoshort
+	inttoshort(${1:integer_val})
+
+snippet inverse_matrix
+	inverse_matrix(${1:A})
+
+snippet is_string_numeric
+	is_string_numeric(${1:arg})
+
+snippet isatt
+	isatt(${1:var}, ${2:attnames})
+
+snippet isbigendian
+	isbigendian()
+
+snippet isbyte
+	isbyte(${1:arg})
+
+snippet ischar
+	ischar(${1:arg})
+
+snippet iscoord
+	iscoord(${1:var}, ${2:coord_names})
+
+snippet isdefined
+	isdefined(${1:idn_names})
+
+snippet isdim
+	isdim(${1:var}, ${2:dimnames})
+
+snippet isdimnamed
+	isdimnamed(${1:var}, ${2:dim_nums})
+
+snippet isdouble
+	isdouble(${1:arg})
+
+snippet isenumeric
+	isenumeric(${1:arg})
+
+snippet isfile
+	isfile(${1:arg})
+
+snippet isfilepresent
+	isfilepresent(${1:file_path})
+
+snippet isfilevar
+	isfilevar(${1:thefile}, ${2:varnames})
+
+snippet isfilevaratt
+	isfilevaratt(${1:thefile}, ${2:varname}, ${3:attnames})
+
+snippet isfilevarcoord
+	isfilevarcoord(${1:thefile}, ${2:varname}, ${3:coordname})
+
+snippet isfilevardim
+	isfilevardim(${1:thefile}, ${2:varname}, ${3:dimnames})
+
+snippet isfloat
+	isfloat(${1:arg})
+
+snippet isfunc
+	isfunc(${1:func_names})
+
+snippet isgraphic
+	isgraphic(${1:arg})
+
+snippet isint
+	isint(${1:arg})
+
+snippet isint64
+	isint64(${1:arg})
+
+snippet isinteger
+	isinteger(${1:arg})
+
+snippet isleapyear
+	isleapyear(${1:year})
+
+snippet islogical
+	islogical(${1:arg})
+
+snippet islong
+	islong(${1:arg})
+
+snippet ismissing
+	ismissing(${1:data})
+
+snippet isnan_ieee
+	isnan_ieee(${1:x})
+
+snippet isnumeric
+	isnumeric(${1:arg})
+
+snippet ispan
+	ispan(${1:start}, ${2:finish}, ${3:stride})
+
+snippet isproc
+	isproc(${1:proc_names})
+
+snippet isscalar
+	isscalar(${1:x})
+
+snippet isshort
+	isshort(${1:arg})
+
+snippet issnumeric
+	issnumeric(${1:arg})
+
+snippet isstring
+	isstring(${1:arg})
+
+snippet isubyte
+	isubyte(${1:arg})
+
+snippet isuint
+	isuint(${1:arg})
+
+snippet isuint64
+	isuint64(${1:arg})
+
+snippet isulong
+	isulong(${1:arg})
+
+snippet isunlimited
+	isunlimited(${1:thefile}, ${2:dim_name})
+
+snippet isunsigned
+	isunsigned(${1:arg})
+
+snippet isushort
+	isushort(${1:arg})
+
+snippet isvar
+	isvar(${1:varnames})
+
+snippet jul2greg
+	jul2greg(${1:julian})
+
+snippet kmeans_as136
+	kmeans_as136(${1:x}, ${2:k}, ${3:opt})
+
+snippet kolsm2_n
+	kolsm2_n(${1:x}, ${2:y}, ${3:dims})
+
+snippet kron_product
+	kron_product(${1:a}, ${2:b})
+
+snippet lapsf
+	lapsf(${1:z}, ${2:zlap})
+
+snippet lapsg
+	lapsg(${1:z}, ${2:zlap})
+
+snippet lapvf
+	lapvf(${1:u}, ${2:v}, ${3:ulap}, ${4:vlap})
+
+snippet lapvg
+	lapvg(${1:u}, ${2:v}, ${3:ulap}, ${4:vlap})
+
+snippet latlon2utm
+	latlon2utm(${1:latlon}, ${2:datum})
+
+snippet lclvl
+	lclvl(${1:p}, ${2:tk}, ${3:tdk})
+
+snippet lderuvf
+	lderuvf(${1:u}, ${2:v}, ${3:uy}, ${4:vy})
+
+snippet lderuvg
+	lderuvg(${1:u}, ${2:v}, ${3:uy}, ${4:vy})
+
+snippet linint1
+	linint1(${1:xi}, ${2:fi}, ${3:fiCyclic}, ${4:xo}, ${5:foOption})
+
+snippet linint1_n
+	linint1_n(${1:xi}, ${2:fi}, ${3:fiCyclic}, ${4:xo}, ${5:foOption}, ${6:dim})
+
+snippet linint2
+	linint2(${1:xi}, ${2:yi}, ${3:fi}, ${4:fiCyclicX}, ${5:xo}, ${6:yo}, ${7:foOption})
+
+snippet linint2_points
+	linint2_points(${1:xi}, ${2:yi}, ${3:fi}, ${4:fiCyclicX}, ${5:xo}, ${6:yo}, ${7:Option})
+
+snippet linmsg
+	linmsg(${1:x}, ${2:opt})
+
+snippet linmsg_n
+	linmsg_n(${1:x}, ${2:opt}, ${3:dim})
+
+snippet linrood_latwgt
+	linrood_latwgt(${1:nlat})
+
+snippet linrood_wgt
+	linrood_wgt(${1:nlat})
+
+snippet list_files
+	list_files()
+
+snippet list_filevars
+	list_filevars(${1:filevar})
+
+snippet list_hlus
+	list_hlus()
+
+snippet list_procfuncs
+	list_procfuncs()
+
+snippet list_vars
+	list_vars()
+
+snippet ListAppend
+	ListAppend(${1:f}, ${2:v})
+
+snippet ListCount
+	ListCount(${1:f})
+
+snippet ListGetType
+	ListGetType(${1:f})
+
+snippet ListIndex
+	ListIndex(${1:f}, ${2:v})
+
+snippet ListIndexFromName
+	ListIndexFromName(${1:f}, ${2:vn})
+
+snippet ListPop
+	ListPop(${1:f})
+
+snippet ListPush
+	ListPush(${1:f}, ${2:v})
+
+snippet ListSetType
+	ListSetType(${1:f}, ${2:option})
+
+snippet loadscript
+	loadscript(${1:filename})
+
+snippet local_max
+	local_max(${1:x}, ${2:cyclic}, ${3:delta})
+
+snippet local_min
+	local_min(${1:x}, ${2:cyclic}, ${3:delta})
+
+snippet log
+	log(${1:value})
+
+snippet log10
+	log10(${1:value})
+
+snippet longtobyte
+	longtobyte(${1:long_val})
+
+snippet longtochar
+	longtochar(${1:long_val})
+
+snippet longtocharacter
+	longtocharacter(${1:long_val})
+
+snippet longtoint
+	longtoint(${1:long_val})
+
+snippet longtointeger
+	longtointeger(${1:long_val})
+
+snippet longtoshort
+	longtoshort(${1:long_val})
+
+snippet lspoly
+	lspoly(${1:x}, ${2:y}, ${3:wgt}, ${4:n})
+
+snippet lspoly_n
+	lspoly_n(${1:x}, ${2:y}, ${3:wgt}, ${4:n}, ${5:dim})
+
+snippet mask
+	mask(${1:array}, ${2:marray}, ${3:mvalue})
+
+snippet max
+	max(${1:value})
+
+snippet maxind
+	maxind(${1:arg})
+
+snippet min
+	min(${1:value})
+
+snippet minind
+	minind(${1:arg})
+
+snippet mixed_layer_depth
+	mixed_layer_depth(${1:pot_density}, ${2:kmt}, ${3:ht}, ${4:depth}, ${5:offset})
+
+snippet mixhum_ptd
+	mixhum_ptd(${1:p}, ${2:tdk}, ${3:iswit})
+
+snippet mixhum_ptrh
+	mixhum_ptrh(${1:p}, ${2:tk}, ${3:rh}, ${4:iswit})
+
+snippet mjo_cross_coh2pha
+	mjo_cross_coh2pha(${1:STC}, ${2:opt})
+
+snippet mjo_cross_segment
+	mjo_cross_segment(${1:x}, ${2:y}, ${3:opt})
+
+snippet moc_globe_atl
+	moc_globe_atl(${1:lat_aux_grid}, ${2:a_wvel}, ${3:a_bolus}, ${4:a_submeso}, ${5:tlat}, ${6:rmlak})
+
+snippet monthday
+	monthday(${1:year}, ${2:day})
+
+snippet namedcolor2rgb
+	namedcolor2rgb(${1:colors})
+
+snippet namedcolor2rgba
+	namedcolor2rgba(${1:colors})
+
+snippet natgrid
+	natgrid(${1:x}, ${2:y}, ${3:z}, ${4:xo}, ${5:yo})
+
+snippet natgridd
+	natgridd(${1:x}, ${2:y}, ${3:z}, ${4:xo}, ${5:yo})
+
+snippet natgrids
+	natgrids(${1:x}, ${2:y}, ${3:z}, ${4:xo}, ${5:yo})
+
+snippet ncargpath
+	ncargpath(${1:char})
+
+snippet ncargversion
+	ncargversion()
+
+snippet ndctodata
+	ndctodata(${1:plot}, ${2:x_in}, ${3:y_in}, ${4:x_out}, ${5:y_out})
+
+snippet ndtooned
+	ndtooned(${1:val})
+
+snippet new
+	new(${1:dimension_sizes}, ${2:vartype}, ${3:parameter})
+
+snippet NewList
+	NewList(${1:s})
+
+snippet ngezlogo
+	ngezlogo(${1:wks})
+
+snippet nggcog
+	nggcog(${1:clat}, ${2:clon}, ${3:crad}, ${4:alat}, ${5:alon})
+
+snippet nggetp
+	nggetp(${1:pnam})
+
+snippet nglogo
+	nglogo(${1:wks}, ${2:x}, ${3:y}, ${4:size}, ${5:type}, ${6:col1}, ${7:col2})
+
+snippet ngsetp
+	ngsetp(${1:pnam}, ${2:pval})
+
+snippet NhlAddAnnotation
+	NhlAddAnnotation(${1:plot_id}, ${2:anno_view_id})
+
+snippet NhlAddData
+	NhlAddData(${1:dcomms}, ${2:res_name}, ${3:data_items})
+
+snippet NhlAddOverlay
+	NhlAddOverlay(${1:base_id}, ${2:transform_id}, ${3:after_id})
+
+snippet NhlAddPrimitive
+	NhlAddPrimitive(${1:base_id}, ${2:primitive_ids}, ${3:before_id})
+
+snippet NhlAppGetDefaultParentId
+	NhlAppGetDefaultParentId()
+
+snippet NhlChangeWorkstation
+	NhlChangeWorkstation(${1:objects}, ${2:workstation})
+
+snippet NhlClassName
+	NhlClassName(${1:objects})
+
+snippet NhlClearWorkstation
+	NhlClearWorkstation(${1:wks})
+
+snippet NhlDataPolygon
+	NhlDataPolygon(${1:objects}, ${2:style}, ${3:x}, ${4:y})
+
+snippet NhlDataPolyline
+	NhlDataPolyline(${1:objects}, ${2:style}, ${3:x}, ${4:y})
+
+snippet NhlDataPolymarker
+	NhlDataPolymarker(${1:objects}, ${2:style}, ${3:x}, ${4:y})
+
+snippet NhlDataToNDC
+	NhlDataToNDC(${1:plot}, ${2:x_in}, ${3:y_in}, ${4:x_out}, ${5:y_out})
+
+snippet NhlDestroy
+	NhlDestroy(${1:objects})
+
+snippet NhlDraw
+	NhlDraw(${1:objects})
+
+snippet NhlFrame
+	NhlFrame(${1:wks})
+
+snippet NhlFreeColor
+	NhlFreeColor(${1:workstations}, ${2:color_index})
+
+snippet NhlGetBB
+	NhlGetBB(${1:objects})
+
+snippet NhlGetClassResources
+	NhlGetClassResources(${1:class_name}, ${2:filter_string})
+
+snippet NhlGetErrorObjectId
+	NhlGetErrorObjectId()
+
+snippet NhlGetNamedColorIndex
+	NhlGetNamedColorIndex(${1:wks}, ${2:color_name})
+
+snippet NhlGetParentId
+	NhlGetParentId(${1:objs})
+
+snippet NhlGetParentWorkstation
+	NhlGetParentWorkstation(${1:objs})
+
+snippet NhlGetWorkspaceObjectId
+	NhlGetWorkspaceObjectId()
+
+snippet NhlIsAllocatedColor
+	NhlIsAllocatedColor(${1:workstations}, ${2:color_index})
+
+snippet NhlIsApp
+	NhlIsApp(${1:objects})
+
+snippet NhlIsDataComm
+	NhlIsDataComm(${1:objects})
+
+snippet NhlIsDataItem
+	NhlIsDataItem(${1:objects})
+
+snippet NhlIsDataSpec
+	NhlIsDataSpec(${1:objects})
+
+snippet NhlIsTransform
+	NhlIsTransform(${1:objects})
+
+snippet NhlIsView
+	NhlIsView(${1:objects})
+
+snippet NhlIsWorkstation
+	NhlIsWorkstation(${1:objects})
+
+snippet NhlName
+	NhlName(${1:objects})
+
+snippet NhlNDCPolygon
+	NhlNDCPolygon(${1:objects}, ${2:style}, ${3:x}, ${4:y})
+
+snippet NhlNDCPolyline
+	NhlNDCPolyline(${1:objects}, ${2:style}, ${3:x}, ${4:y})
+
+snippet NhlNDCPolymarker
+	NhlNDCPolymarker(${1:objects}, ${2:style}, ${3:x}, ${4:y})
+
+snippet NhlNDCToData
+	NhlNDCToData(${1:plot}, ${2:x_in}, ${3:y_in}, ${4:x_out}, ${5:y_out})
+
+snippet NhlNewColor
+	NhlNewColor(${1:workstations}, ${2:red}, ${3:green}, ${4:blue})
+
+snippet NhlNewDashPattern
+	NhlNewDashPattern(${1:wks}, ${2:dash_patterns})
+
+snippet NhlNewMarker
+	NhlNewMarker(${1:wks}, ${2:marker_strings}, ${3:font_num}, ${4:xoffset}, ${5:yoffset}, ${6:aspect_ratio}, ${7:size}, ${8:angle})
+
+snippet NhlPalGetDefined
+	NhlPalGetDefined()
+
+snippet NhlRemoveAnnotation
+	NhlRemoveAnnotation(${1:plot_id}, ${2:anno_manager_id})
+
+snippet NhlRemoveData
+	NhlRemoveData(${1:plot_objs}, ${2:resname}, ${3:data_objs})
+
+snippet NhlRemoveOverlay
+	NhlRemoveOverlay(${1:base_id}, ${2:plot_id}, ${3:restore})
+
+snippet NhlRemovePrimitive
+	NhlRemovePrimitive(${1:base_id}, ${2:primitive_ids})
+
+snippet NhlSetColor
+	NhlSetColor(${1:workstations}, ${2:color_index}, ${3:red}, ${4:green}, ${5:blue})
+
+snippet NhlSetDashPattern
+	NhlSetDashPattern(${1:wks}, ${2:dash_indexes}, ${3:dash_patterns})
+
+snippet NhlSetMarker
+	NhlSetMarker(${1:wks}, ${2:marker_indexes}, ${3:marker_strings}, ${4:font_num}, ${5:xoffset}, ${6:yoffset}, ${7:aspect_ratio}, ${8:size}, ${9:angle})
+
+snippet NhlUpdateData
+	NhlUpdateData(${1:dcomms})
+
+snippet NhlUpdateWorkstation
+	NhlUpdateWorkstation(${1:wks})
+
+snippet nice_mnmxintvl
+	nice_mnmxintvl(${1:cmin}, ${2:cmax}, ${3:max_levels}, ${4:outside})
+
+snippet nngetaspectd
+	nngetaspectd(${1:i}, ${2:j})
+
+snippet nngetaspects
+	nngetaspects(${1:i}, ${2:j})
+
+snippet nngetp
+	nngetp(${1:pnam})
+
+snippet nngetsloped
+	nngetsloped(${1:i}, ${2:j})
+
+snippet nngetslopes
+	nngetslopes(${1:i}, ${2:j})
+
+snippet nngetwts
+	nngetwts(${1:numw}, ${2:nbrs}, ${3:wts}, ${4:xe}, ${5:ye}, ${6:ze})
+
+snippet nngetwtsd
+	nngetwtsd(${1:numw}, ${2:nbrs}, ${3:wts}, ${4:xe}, ${5:ye}, ${6:ze})
+
+snippet nnpnt
+	nnpnt(${1:x}, ${2:y})
+
+snippet nnpntd
+	nnpntd(${1:x}, ${2:y})
+
+snippet nnpntend
+	nnpntend()
+
+snippet nnpntendd
+	nnpntendd()
+
+snippet nnpntinit
+	nnpntinit(${1:x}, ${2:y}, ${3:z})
+
+snippet nnpntinitd
+	nnpntinitd(${1:x}, ${2:y}, ${3:z})
+
+snippet nnpntinits
+	nnpntinits(${1:x}, ${2:y}, ${3:z})
+
+snippet nnpnts
+	nnpnts(${1:x}, ${2:y})
+
+snippet nnsetp
+	nnsetp(${1:pnam}, ${2:pval})
+
+snippet num
+	num(${1:val})
+
+snippet obj_anal_ic
+	obj_anal_ic(${1:zlon}, ${2:zlat}, ${3:z}, ${4:glon}, ${5:glat}, ${6:rscan}, ${7:option})
+
+snippet omega_ccm
+	omega_ccm(${1:u}, ${2:v}, ${3:div}, ${4:dpsl}, ${5:dpsm}, ${6:pmid}, ${7:pdel}, ${8:psfc}, ${9:hybdif}, ${10:hybm}, ${11:nprlev})
+
+snippet onedtond
+	onedtond(${1:val}, ${2:dims})
+
+snippet overlay
+	overlay(${1:base_id}, ${2:transform_id})
+
+snippet paleo_outline
+	paleo_outline(${1:oro}, ${2:lat}, ${3:lon}, ${4:landvalue}, ${5:basename})
+
+snippet pdfxy_bin
+	pdfxy_bin(${1:x}, ${2:y}, ${3:binxbnd}, ${4:binybnd}, ${5:opt})
+
+snippet poisson_grid_fill
+	poisson_grid_fill(${1:x}, ${2:is_cyclic}, ${3:guess_type}, ${4:nscan}, ${5:epsx}, ${6:relc}, ${7:opt})
+
+snippet pop_remap
+	pop_remap(${1:x_dst}, ${2:map_wts}, ${3:dst_add}, ${4:src_add}, ${5:x_src})
+
+snippet potmp_insitu_ocn
+	potmp_insitu_ocn(${1:t}, ${2:s}, ${3:pres}, ${4:pref}, ${5:dims}, ${6:opt})
+
+snippet prcwater_dp
+	prcwater_dp(${1:q}, ${2:p})
+
+snippet pres2hybrid
+	pres2hybrid(${1:p}, ${2:ps}, ${3:p0}, ${4:xi}, ${5:hyao}, ${6:hybo}, ${7:intflg})
+
+snippet pres_hybrid_ccm
+	pres_hybrid_ccm(${1:ps}, ${2:p0}, ${3:hya}, ${4:hyb})
+
+snippet pres_hybrid_jra55
+	pres_hybrid_jra55(${1:ps}, ${2:hyai}, ${3:hybi})
+
+snippet pres_sigma
+	pres_sigma(${1:sigma}, ${2:ps})
+
+snippet print
+	print(${1:data})
+
+snippet print_table
+	print_table(${1:alist}, ${2:format})
+
+snippet printFileVarSummary
+	printFileVarSummary(${1:file}, ${2:varname})
+
+snippet printVarSummary
+	printVarSummary(${1:data})
+
+snippet product
+	product(${1:x})
+
+snippet pslec
+	pslec(${1:t}, ${2:phis}, ${3:ps}, ${4:pres})
+
+snippet pslhor
+	pslhor(${1:z}, ${2:t}, ${3:phis}, ${4:ps}, ${5:pres}, ${6:lats})
+
+snippet pslhyp
+	pslhyp(${1:pres}, ${2:z}, ${3:tv})
+
+snippet qsort
+	qsort(${1:value})
+
+snippet rand
+	rand()
+
+snippet random_chi
+	random_chi(${1:df}, ${2:N})
+
+snippet random_gamma
+	random_gamma(${1:locp}, ${2:shape}, ${3:N})
+
+snippet random_normal
+	random_normal(${1:av}, ${2:sd}, ${3:N})
+
+snippet random_setallseed
+	random_setallseed(${1:iseed1}, ${2:iseed2})
+
+snippet random_uniform
+	random_uniform(${1:low}, ${2:high}, ${3:N})
+
+snippet rcm2points
+	rcm2points(${1:lat2d}, ${2:lon2d}, ${3:fi}, ${4:lat}, ${5:lon}, ${6:opt})
+
+snippet rcm2rgrid
+	rcm2rgrid(${1:lat2d}, ${2:lon2d}, ${3:fi}, ${4:lat}, ${5:lon}, ${6:Option})
+
+snippet rdsstoi
+	rdsstoi(${1:nyrstrt}, ${2:nyrlast}, ${3:mlon}, ${4:nlat}, ${5:info})
+
+snippet read_colormap_file
+	read_colormap_file(${1:filename})
+
+snippet reg_multlin
+	reg_multlin(${1:y}, ${2:x}, ${3:option})
+
+snippet regcoef
+	regcoef(${1:x}, ${2:y}, ${3:tval}, ${4:nptxy})
+
+snippet regCoef_n
+	regCoef_n(${1:x}, ${2:y}, ${3:dims_x}, ${4:dims_y})
+
+snippet regline
+	regline(${1:x}, ${2:y})
+
+snippet relhum
+	relhum(${1:t}, ${2:w}, ${3:p})
+
+snippet relhum_ice
+	relhum_ice(${1:t}, ${2:w}, ${3:p})
+
+snippet relhum_water
+	relhum_water(${1:t}, ${2:w}, ${3:p})
+
+snippet replace_ieeenan
+	replace_ieeenan(${1:x}, ${2:value}, ${3:option})
+
+snippet reshape
+	reshape(${1:val}, ${2:dims})
+
+snippet reshape_ind
+	reshape_ind(${1:val}, ${2:indexes}, ${3:dims})
+
+snippet rgbhls
+	rgbhls(${1:rgb})
+
+snippet rgbhsv
+	rgbhsv(${1:rgb})
+
+snippet rgbyiq
+	rgbyiq(${1:rgb})
+
+snippet rgrid2rcm
+	rgrid2rcm(${1:lat}, ${2:lon}, ${3:fi}, ${4:lat2d}, ${5:lon2d}, ${6:Option})
+
+snippet rhomb_trunc
+	rhomb_trunc(${1:a}, ${2:b}, ${3:T})
+
+snippet rip_cape_2d
+	rip_cape_2d(${1:p}, ${2:t}, ${3:q}, ${4:z}, ${5:zsfc}, ${6:psfc}, ${7:opt})
+
+snippet rip_cape_3d
+	rip_cape_3d(${1:p}, ${2:t}, ${3:q}, ${4:z}, ${5:zsfc}, ${6:psfc}, ${7:opt})
+
+snippet round
+	round(${1:x}, ${2:opt})
+
+snippet rtest
+	rtest(${1:r}, ${2:Nr}, ${3:opt})
+
+snippet runave
+	runave(${1:x}, ${2:nave}, ${3:opt})
+
+snippet runave_n
+	runave_n(${1:x}, ${2:nave}, ${3:opt}, ${4:dim})
+
+snippet set_default_fillvalue
+	set_default_fillvalue(${1:type}, ${2:value})
+
+snippet set_sphere_radius
+	set_sphere_radius(${1:radius})
+
+snippet setfileoption
+	setfileoption(${1:format_or_file}, ${2:option}, ${3:value})
+
+snippet sfvp2uvf
+	sfvp2uvf(${1:sf}, ${2:vp}, ${3:u}, ${4:v})
+
+snippet sfvp2uvg
+	sfvp2uvg(${1:sf}, ${2:vp}, ${3:u}, ${4:v})
+
+snippet shaec
+	shaec(${1:g}, ${2:a}, ${3:b})
+
+snippet shagc
+	shagc(${1:g}, ${2:a}, ${3:b})
+
+snippet shgetnp
+	shgetnp(${1:px}, ${2:py}, ${3:pz}, ${4:x}, ${5:y}, ${6:z}, ${7:flag})
+
+snippet shgetp
+	shgetp(${1:pnam})
+
+snippet shgrid
+	shgrid(${1:xi}, ${2:yi}, ${3:zi}, ${4:ui}, ${5:xo}, ${6:yo}, ${7:zo})
+
+snippet shorttobyte
+	shorttobyte(${1:short_val})
+
+snippet shorttochar
+	shorttochar(${1:short_val})
+
+snippet shorttocharacter
+	shorttocharacter(${1:short_val})
+
+snippet show_ascii
+	show_ascii()
+
+snippet shsec
+	shsec(${1:a}, ${2:b}, ${3:g})
+
+snippet shsetp
+	shsetp(${1:pnam}, ${2:pval})
+
+snippet shsgc
+	shsgc(${1:a}, ${2:b}, ${3:g})
+
+snippet shsgc_R42
+	shsgc_R42(${1:a}, ${2:b})
+
+snippet sigma2hybrid
+	sigma2hybrid(${1:x}, ${2:sigx}, ${3:hya}, ${4:hyb}, ${5:p0}, ${6:ps}, ${7:intyp})
+
+snippet simpeq
+	simpeq(${1:fi}, ${2:dx})
+
+snippet simpne
+	simpne(${1:x}, ${2:y})
+
+snippet sin
+	sin(${1:value})
+
+snippet sindex_yrmo
+	sindex_yrmo(${1:slpt}, ${2:slpd}, ${3:iprnt})
+
+snippet sinh
+	sinh(${1:value})
+
+snippet sizeof
+	sizeof(${1:data})
+
+snippet sleep
+	sleep(${1:seconds})
+
+snippet smth9
+	smth9(${1:x}, ${2:p}, ${3:q}, ${4:wrap})
+
+snippet snindex_yrmo
+	snindex_yrmo(${1:slpt}, ${2:slpd}, ${3:iprnt}, ${4:soi_noise})
+
+snippet solve_linsys
+	solve_linsys(${1:A}, ${2:B})
+
+snippet span_color_indexes
+	span_color_indexes(${1:color_map}, ${2:num_colors})
+
+snippet span_color_rgba
+	span_color_rgba(${1:color_map}, ${2:num_colors})
+
+snippet span_named_colors
+	span_named_colors(${1:colors}, ${2:opt})
+
+snippet sparse_matrix_mult
+	sparse_matrix_mult(${1:row}, ${2:col}, ${3:S}, ${4:x}, ${5:dims})
+
+snippet spcorr
+	spcorr(${1:x}, ${2:y})
+
+snippet spcorr_n
+	spcorr_n(${1:x}, ${2:y}, ${3:dim})
+
+snippet specx_anal
+	specx_anal(${1:x}, ${2:iopt}, ${3:jave}, ${4:pct})
+
+snippet specxy_anal
+	specxy_anal(${1:x}, ${2:y}, ${3:iopt}, ${4:jave}, ${5:pct})
+
+snippet speidx
+	speidx(${1:p}, ${2:t}, ${3:lat}, ${4:lrun}, ${5:optspei}, ${6:dims})
+
+snippet sprintf
+	sprintf(${1:format}, ${2:array})
+
+snippet sprinti
+	sprinti(${1:format}, ${2:array})
+
+snippet sqrt
+	sqrt(${1:value})
+
+snippet sqsort
+	sqsort(${1:value})
+
+snippet srand
+	srand(${1:seed})
+
+snippet stat2
+	stat2(${1:x}, ${2:xmean}, ${3:xvar}, ${4:nptused})
+
+snippet stat4
+	stat4(${1:x}, ${2:xmean}, ${3:xvar}, ${4:xskew}, ${5:xkurt}, ${6:nptused})
+
+snippet stat_medrng
+	stat_medrng(${1:x}, ${2:xmedian}, ${3:xmrange}, ${4:xrange}, ${5:nptused})
+
+snippet stat_trim
+	stat_trim(${1:x}, ${2:ptrim}, ${3:xmeant}, ${4:xsdt}, ${5:nptused})
+
+snippet status_exit
+	status_exit(${1:code})
+
+snippet stdatmus_p2tdz
+	stdatmus_p2tdz(${1:p})
+
+snippet stdatmus_z2tdp
+	stdatmus_z2tdp(${1:z})
+
+snippet stddev
+	stddev(${1:data})
+
+snippet str_capital
+	str_capital(${1:string_val})
+
+snippet str_concat
+	str_concat(${1:string_val})
+
+snippet str_fields_count
+	str_fields_count(${1:string_val}, ${2:delimiter})
+
+snippet str_get_cols
+	str_get_cols(${1:string_val}, ${2:start_col}, ${3:end_col})
+
+snippet str_get_dq
+	str_get_dq()
+
+snippet str_get_field
+	str_get_field(${1:string_val}, ${2:field_number}, ${3:delimiter})
+
+snippet str_get_nl
+	str_get_nl()
+
+snippet str_get_sq
+	str_get_sq()
+
+snippet str_get_tab
+	str_get_tab()
+
+snippet str_index_of_substr
+	str_index_of_substr(${1:str}, ${2:substr}, ${3:opt})
+
+snippet str_insert
+	str_insert(${1:string_val}, ${2:subString}, ${3:position})
+
+snippet str_is_blank
+	str_is_blank(${1:string_val})
+
+snippet str_join
+	str_join(${1:string_val}, ${2:delim})
+
+snippet str_left_strip
+	str_left_strip(${1:string_val})
+
+snippet str_lower
+	str_lower(${1:string_val})
+
+snippet str_match
+	str_match(${1:string_array}, ${2:sub_string})
+
+snippet str_match_ic
+	str_match_ic(${1:string_array}, ${2:sub_string})
+
+snippet str_match_ic_regex
+	str_match_ic_regex(${1:string_array}, ${2:expression})
+
+snippet str_match_ind
+	str_match_ind(${1:string_array}, ${2:sub_string})
+
+snippet str_match_ind_ic
+	str_match_ind_ic(${1:string_array}, ${2:sub_string})
+
+snippet str_match_ind_ic_regex
+	str_match_ind_ic_regex(${1:string_array}, ${2:expression})
+
+snippet str_match_ind_regex
+	str_match_ind_regex(${1:string_array}, ${2:expression})
+
+snippet str_match_regex
+	str_match_regex(${1:string_array}, ${2:expression})
+
+snippet str_right_strip
+	str_right_strip(${1:string_val})
+
+snippet str_split
+	str_split(${1:string_val}, ${2:delimiter})
+
+snippet str_split_by_length
+	str_split_by_length(${1:string_val}, ${2:length_val})
+
+snippet str_split_csv
+	str_split_csv(${1:string_val}, ${2:delimiter}, ${3:option})
+
+snippet str_squeeze
+	str_squeeze(${1:string_val})
+
+snippet str_strip
+	str_strip(${1:string_val})
+
+snippet str_sub_str
+	str_sub_str(${1:string_val}, ${2:oldString}, ${3:newString})
+
+snippet str_switch
+	str_switch(${1:string_val})
+
+snippet str_upper
+	str_upper(${1:string_val})
+
+snippet stringtochar
+	stringtochar(${1:string_val})
+
+snippet stringtocharacter
+	stringtocharacter(${1:string_val})
+
+snippet stringtodouble
+	stringtodouble(${1:string_val})
+
+snippet stringtofloat
+	stringtofloat(${1:string_val})
+
+snippet stringtoint
+	stringtoint(${1:string_val})
+
+snippet stringtointeger
+	stringtointeger(${1:string_val})
+
+snippet stringtolong
+	stringtolong(${1:string_val})
+
+snippet stringtoshort
+	stringtoshort(${1:string_val})
+
+snippet strlen
+	strlen(${1:str})
+
+snippet student_t
+	student_t(${1:t}, ${2:df})
+
+snippet sum
+	sum(${1:x})
+
+snippet svd_lapack
+	svd_lapack(${1:A}, ${2:jobu}, ${3:jobv}, ${4:optv}, ${5:U}, ${6:V})
+
+snippet svdcov
+	svdcov(${1:x}, ${2:y}, ${3:nsvd}, ${4:homlft}, ${5:hetlft}, ${6:homrgt}, ${7:hetrgt})
+
+snippet svdcov_sv
+	svdcov_sv(${1:x}, ${2:y}, ${3:nsvd}, ${4:svLeft}, ${5:svRight})
+
+snippet svdstd
+	svdstd(${1:x}, ${2:y}, ${3:nsvd}, ${4:homlft}, ${5:hetlft}, ${6:homrgt}, ${7:hetrgt})
+
+snippet svdstd_sv
+	svdstd_sv(${1:x}, ${2:y}, ${3:nsvd}, ${4:svLeft}, ${5:svRight})
+
+snippet system
+	system(${1:command})
+
+snippet systemfunc
+	systemfunc(${1:command})
+
+snippet tan
+	tan(${1:value})
+
+snippet tanh
+	tanh(${1:value})
+
+snippet taper
+	taper(${1:x}, ${2:p}, ${3:option})
+
+snippet taper_n
+	taper_n(${1:x}, ${2:p}, ${3:option}, ${4:dim})
+
+snippet tdclrs
+	tdclrs(${1:wks}, ${2:color_scheme}, ${3:shade_intensity}, ${4:shade_range}, ${5:color_index1}, ${6:color_index2}, ${7:nblocks})
+
+snippet tdctri
+	tdctri(${1:rtri}, ${2:ntri}, ${3:axis}, ${4:rcut})
+
+snippet tdcudp
+	tdcudp()
+
+snippet tdcurv
+	tdcurv(${1:wks}, ${2:ucurv}, ${3:vcurv}, ${4:wcurv}, ${5:iarh}, ${6:arhl}, ${7:arhw})
+
+snippet tddtri
+	tddtri(${1:wks}, ${2:rtri}, ${3:ntri}, ${4:itwk})
+
+snippet tdez2d
+	tdez2d(${1:wks}, ${2:x}, ${3:y}, ${4:z}, ${5:rmult}, ${6:theta}, ${7:phi}, ${8:ist})
+
+snippet tdez3d
+	tdez3d(${1:wks}, ${2:x}, ${3:y}, ${4:z}, ${5:u}, ${6:value}, ${7:rmult}, ${8:theta}, ${9:phi}, ${10:ist})
+
+snippet tdgetp
+	tdgetp(${1:pnam})
+
+snippet tdgrds
+	tdgrds(${1:wks}, ${2:uvwmin}, ${3:uvwmax}, ${4:uvwstep}, ${5:igrt}, ${6:ihide})
+
+snippet tdgrid
+	tdgrid(${1:wks}, ${2:xbegin}, ${3:xstep}, ${4:nx}, ${5:ybegin}, ${6:ystep}, ${7:ny}, ${8:grid_flag})
+
+snippet tdgtrs
+	tdgtrs(${1:render_index}, ${2:bot_fill_index1}, ${3:bot_fill_index2}, ${4:top_fill_index1}, ${5:top_fill_index2}, ${6:bot_line_index}, ${7:top_line_index}, ${8:draw_edge}, ${9:udist}, ${10:vdist}, ${11:wdist})
+
+snippet tdinit
+	tdinit(${1:eye}, ${2:origin}, ${3:orient}, ${4:otep})
+
+snippet tditri
+	tditri(${1:u}, ${2:v}, ${3:w}, ${4:f}, ${5:fiso}, ${6:rtri}, ${7:ntri}, ${8:render_index})
+
+snippet tdlbla
+	tdlbla(${1:wks}, ${2:axis}, ${3:info_label}, ${4:num_labels}, ${5:xrl_edge}, ${6:ybt_edge}, ${7:angle})
+
+snippet tdlblp
+	tdlblp()
+
+snippet tdlbls
+	tdlbls(${1:wks}, ${2:uvwmin}, ${3:uvwmax}, ${4:uvwnum_lab}, ${5:uvwinfo_lab}, ${6:edge_flag})
+
+snippet tdline
+	tdline(${1:wks}, ${2:uvw1}, ${3:uvw2})
+
+snippet tdlndp
+	tdlndp()
+
+snippet tdlnpa
+	tdlnpa(${1:wks}, ${2:uvw1}, ${3:uvw2})
+
+snippet tdlpdp
+	tdlpdp()
+
+snippet tdmtri
+	tdmtri(${1:marker_type}, ${2:center_point}, ${3:radius}, ${4:rtri}, ${5:ntri}, ${6:render_index}, ${7:uvwmin}, ${8:uvwmax})
+
+snippet tdotri
+	tdotri(${1:rtri}, ${2:ntri}, ${3:rtwk}, ${4:order_flag})
+
+snippet tdpara
+	tdpara(${1:uvw00}, ${2:uvw10}, ${3:uvw01})
+
+snippet tdplch
+	tdplch(${1:wks}, ${2:xpos}, ${3:ypos}, ${4:chrs}, ${5:size}, ${6:angle}, ${7:counter})
+
+snippet tdprpa
+	tdprpa(${1:xyipa})
+
+snippet tdprpi
+	tdprpi(${1:xyi2d})
+
+snippet tdprpt
+	tdprpt(${1:uvwi3d})
+
+snippet tdsetp
+	tdsetp(${1:pnam}, ${2:pval})
+
+snippet tdsort
+	tdsort(${1:rwrk}, ${2:sort_flag})
+
+snippet tdstri
+	tdstri(${1:u}, ${2:v}, ${3:w}, ${4:rtri}, ${5:ntri}, ${6:render_index})
+
+snippet tdstrs
+	tdstrs(${1:render_index}, ${2:bot_fill_index1}, ${3:bot_fill_index2}, ${4:top_fill_index1}, ${5:top_fill_index2}, ${6:bot_line_index}, ${7:top_line_index}, ${8:draw_edge}, ${9:udist}, ${10:vdist}, ${11:wdist})
+
+snippet tdttri
+	tdttri(${1:u}, ${2:v}, ${3:w}, ${4:marker_type}, ${5:radius}, ${6:gap_size}, ${7:rtri}, ${8:ntri}, ${9:render_index}, ${10:uvwmin}, ${11:uvwmax})
+
+snippet thornthwaite
+	thornthwaite(${1:t}, ${2:lat}, ${3:opt}, ${4:dim})
+
+snippet tobyte
+	tobyte(${1:input_val})
+
+snippet tochar
+	tochar(${1:input_val})
+
+snippet todouble
+	todouble(${1:input_val})
+
+snippet tofloat
+	tofloat(${1:input_val})
+
+snippet toint
+	toint(${1:input_val})
+
+snippet toint64
+	toint64(${1:input_val})
+
+snippet tointeger
+	tointeger(${1:input_val})
+
+snippet tolong
+	tolong(${1:input_val})
+
+snippet toshort
+	toshort(${1:input_val})
+
+snippet tosigned
+	tosigned(${1:input_val})
+
+snippet tostring
+	tostring(${1:input_val})
+
+snippet tostring_with_format
+	tostring_with_format(${1:input_val}, ${2:format})
+
+snippet totype
+	totype(${1:input_val}, ${2:type_val})
+
+snippet toubyte
+	toubyte(${1:input_val})
+
+snippet touint
+	touint(${1:input_val})
+
+snippet touint64
+	touint64(${1:input_val})
+
+snippet toulong
+	toulong(${1:input_val})
+
+snippet tounsigned
+	tounsigned(${1:input_val})
+
+snippet toushort
+	toushort(${1:input_val})
+
+snippet trend_manken
+	trend_manken(${1:x}, ${2:opt}, ${3:dims})
+
+snippet tri_trunc
+	tri_trunc(${1:a}, ${2:b}, ${3:T})
+
+snippet triple2grid
+	triple2grid(${1:x}, ${2:y}, ${3:data}, ${4:xgrid}, ${5:ygrid}, ${6:option})
+
+snippet triple2grid2d
+	triple2grid2d(${1:x}, ${2:y}, ${3:data}, ${4:xgrid}, ${5:ygrid}, ${6:option})
+
+snippet trop_wmo
+	trop_wmo(${1:p}, ${2:t}, ${3:punit}, ${4:opt})
+
+snippet ttest
+	ttest(${1:ave1}, ${2:var1}, ${3:s1}, ${4:ave2}, ${5:var2}, ${6:s2}, ${7:iflag}, ${8:tval_opt})
+
+snippet typeof
+	typeof(${1:val})
+
+snippet undef
+	undef(${1:names})
+
+snippet unique_string
+	unique_string(${1:prefix_string})
+
+snippet update
+	update(${1:wks})
+
+snippet ushorttoint
+	ushorttoint(${1:short_val})
+
+snippet ut_calendar
+	ut_calendar(${1:time}, ${2:option})
+
+snippet ut_inv_calendar
+	ut_inv_calendar(${1:year}, ${2:month}, ${3:day}, ${4:hour}, ${5:minute}, ${6:second}, ${7:units}, ${8:option})
+
+snippet utm2latlon
+	utm2latlon(${1:xy}, ${2:datum})
+
+snippet uv2dv_cfd
+	uv2dv_cfd(${1:u}, ${2:v}, ${3:lat}, ${4:lon}, ${5:boundOpt})
+
+snippet uv2dvf
+	uv2dvf(${1:u}, ${2:v}, ${3:dv})
+
+snippet uv2dvg
+	uv2dvg(${1:u}, ${2:v}, ${3:dv})
+
+snippet uv2sfvpf
+	uv2sfvpf(${1:u}, ${2:v}, ${3:sf}, ${4:vp})
+
+snippet uv2sfvpg
+	uv2sfvpg(${1:u}, ${2:v}, ${3:sf}, ${4:vp})
+
+snippet uv2vr_cfd
+	uv2vr_cfd(${1:u}, ${2:v}, ${3:lat}, ${4:lon}, ${5:boundOpt})
+
+snippet uv2vrdvf
+	uv2vrdvf(${1:u}, ${2:v}, ${3:vr}, ${4:dv})
+
+snippet uv2vrdvg
+	uv2vrdvg(${1:u}, ${2:v}, ${3:vr}, ${4:dv})
+
+snippet uv2vrf
+	uv2vrf(${1:u}, ${2:v}, ${3:vort})
+
+snippet uv2vrg
+	uv2vrg(${1:u}, ${2:v}, ${3:vort})
+
+snippet v5d_close
+	v5d_close()
+
+snippet v5d_create
+	v5d_create(${1:fname}, ${2:numtimes}, ${3:numvars}, ${4:nr}, ${5:nc}, ${6:nl}, ${7:varname}, ${8:timestamp}, ${9:datestamp}, ${10:compress}, ${11:projection}, ${12:proj_args}, ${13:vertical}, ${14:vert_args})
+
+snippet v5d_setLowLev
+	v5d_setLowLev(${1:lowLev})
+
+snippet v5d_setUnits
+	v5d_setUnits(${1:variable}, ${2:units})
+
+snippet v5d_write
+	v5d_write(${1:timestep}, ${2:varnum}, ${3:data})
+
+snippet v5d_write_var
+	v5d_write_var(${1:data})
+
+snippet variance
+	variance(${1:value})
+
+snippet vhaec
+	vhaec(${1:u}, ${2:v}, ${3:br}, ${4:bi}, ${5:cr}, ${6:ci})
+
+snippet vhagc
+	vhagc(${1:u}, ${2:v}, ${3:br}, ${4:bi}, ${5:cr}, ${6:ci})
+
+snippet vhsec
+	vhsec(${1:br}, ${2:bi}, ${3:cr}, ${4:ci}, ${5:u}, ${6:v})
+
+snippet vhsgc
+	vhsgc(${1:br}, ${2:bi}, ${3:cr}, ${4:ci}, ${5:u}, ${6:v})
+
+snippet vibeta
+	vibeta(${1:p}, ${2:x}, ${3:linlog}, ${4:psfc}, ${5:pbot}, ${6:ptop})
+
+snippet vinth2p
+	vinth2p(${1:datai}, ${2:hbcofa}, ${3:hbcofb}, ${4:plevo}, ${5:psfc}, ${6:intyp}, ${7:p0}, ${8:ii}, ${9:kxtrp})
+
+snippet vinth2p_ecmwf
+	vinth2p_ecmwf(${1:datai}, ${2:hbcofa}, ${3:hbcofb}, ${4:plevo}, ${5:psfc}, ${6:intyp}, ${7:p0}, ${8:ii}, ${9:kxtrp}, ${10:varflg}, ${11:tbot}, ${12:phis})
+
+snippet vinth2p_ecmwf_nodes
+	vinth2p_ecmwf_nodes(${1:datai}, ${2:hbcofa}, ${3:hbcofb}, ${4:plevo}, ${5:psfc}, ${6:intyp}, ${7:p0}, ${8:ii}, ${9:kxtrp}, ${10:varflg}, ${11:tbot}, ${12:phis})
+
+snippet vinth2p_nodes
+	vinth2p_nodes(${1:datai}, ${2:hbcofa}, ${3:hbcofb}, ${4:plevo}, ${5:psfc}, ${6:intyp}, ${7:p0}, ${8:ii}, ${9:kxtrp})
+
+snippet vintp2p_ecmwf
+	vintp2p_ecmwf(${1:datai}, ${2:presi}, ${3:plevo}, ${4:psfc}, ${5:intyp}, ${6:ii}, ${7:kxtrp}, ${8:varflg}, ${9:tbot}, ${10:phis})
+
+snippet vr2uvf
+	vr2uvf(${1:vor}, ${2:ur}, ${3:vr})
+
+snippet vr2uvg
+	vr2uvg(${1:vor}, ${2:ur}, ${3:vr})
+
+snippet vrdv2uvf
+	vrdv2uvf(${1:vr}, ${2:dv}, ${3:ud}, ${4:vd})
+
+snippet vrdv2uvg
+	vrdv2uvg(${1:vr}, ${2:dv}, ${3:u}, ${4:v})
+
+snippet wavelet
+	wavelet(${1:y}, ${2:mother}, ${3:dt}, ${4:param}, ${5:s0}, ${6:dj}, ${7:jtot}, ${8:npad}, ${9:noise}, ${10:isigtest}, ${11:siglvl}, ${12:nadof})
+
+snippet wavelet_default
+	wavelet_default(${1:y}, ${2:mother})
+
+snippet weibull
+	weibull(${1:x}, ${2:opt}, ${3:dims})
+
+snippet wetbulb
+	wetbulb(${1:p}, ${2:tc}, ${3:tdc})
+
+snippet wgt_area_smooth
+	wgt_area_smooth(${1:field}, ${2:wgt}, ${3:opt})
+
+snippet wgt_areaave
+	wgt_areaave(${1:q}, ${2:wgty}, ${3:wgtx}, ${4:opt})
+
+snippet wgt_areaave2
+	wgt_areaave2(${1:q}, ${2:wgt}, ${3:opt})
+
+snippet wgt_arearmse
+	wgt_arearmse(${1:q}, ${2:r}, ${3:wgty}, ${4:wgtx}, ${5:opt})
+
+snippet wgt_arearmse2
+	wgt_arearmse2(${1:q}, ${2:r}, ${3:wgt}, ${4:opt})
+
+snippet wgt_areasum2
+	wgt_areasum2(${1:q}, ${2:wgt}, ${3:opt})
+
+snippet wgt_runave
+	wgt_runave(${1:x}, ${2:wgt}, ${3:opt})
+
+snippet wgt_runave_n
+	wgt_runave_n(${1:x}, ${2:wgt}, ${3:opt}, ${4:dim})
+
+snippet wgt_vert_avg_beta
+	wgt_vert_avg_beta(${1:p}, ${2:datai}, ${3:psfc}, ${4:punits}, ${5:opt})
+
+snippet wgt_volave
+	wgt_volave(${1:q}, ${2:wgtz}, ${3:wgty}, ${4:wgtx}, ${5:opt})
+
+snippet wgt_volave_ccm
+	wgt_volave_ccm(${1:q}, ${2:wgtz}, ${3:wgty}, ${4:wgtx}, ${5:opt})
+
+snippet wgt_volrmse
+	wgt_volrmse(${1:q}, ${2:r}, ${3:wgtz}, ${4:wgty}, ${5:wgtx}, ${6:opt})
+
+snippet wgt_volrmse_ccm
+	wgt_volrmse_ccm(${1:q}, ${2:r}, ${3:wgtq}, ${4:wgtr}, ${5:wgty}, ${6:wgtx}, ${7:opt})
+
+snippet where
+	where(${1:condtnl_expr}, ${2:true_value}, ${3:false_value})
+
+snippet wk_smooth121
+	wk_smooth121(${1:x})
+
+snippet wmbarb
+	wmbarb(${1:wks}, ${2:x}, ${3:y}, ${4:dx}, ${5:dy})
+
+snippet wmbarbmap
+	wmbarbmap(${1:wks}, ${2:lat}, ${3:lon}, ${4:u}, ${5:v})
+
+snippet wmdrft
+	wmdrft(${1:wks}, ${2:y}, ${3:x})
+
+snippet wmgetp
+	wmgetp(${1:pnam})
+
+snippet wmlabs
+	wmlabs(${1:wks}, ${2:x}, ${3:y}, ${4:sym})
+
+snippet wmsetp
+	wmsetp(${1:pnam}, ${2:pval})
+
+snippet wmstnm
+	wmstnm(${1:wks}, ${2:x}, ${3:y}, ${4:imdat})
+
+snippet wmvect
+	wmvect(${1:wks}, ${2:x}, ${3:y}, ${4:dx}, ${5:dy})
+
+snippet wmvectmap
+	wmvectmap(${1:wks}, ${2:lat}, ${3:lon}, ${4:u}, ${5:v})
+
+snippet wmvlbl
+	wmvlbl(${1:wks}, ${2:x}, ${3:y})
+
+snippet wrf_avo
+	wrf_avo(${1:u}, ${2:v}, ${3:msfu}, ${4:msfv}, ${5:msfm}, ${6:cor}, ${7:dx}, ${8:dy}, ${9:opt})
+
+snippet wrf_cape_2d
+	wrf_cape_2d(${1:p}, ${2:t}, ${3:q}, ${4:z}, ${5:zsfc}, ${6:psfc}, ${7:opt})
+
+snippet wrf_cape_3d
+	wrf_cape_3d(${1:p}, ${2:t}, ${3:q}, ${4:z}, ${5:zsfc}, ${6:psfc}, ${7:opt})
+
+snippet wrf_dbz
+	wrf_dbz(${1:P}, ${2:T}, ${3:qv}, ${4:qr}, ${5:qs}, ${6:qg}, ${7:ivarint}, ${8:iliqskin})
+
+snippet wrf_eth
+	wrf_eth(${1:qv}, ${2:T}, ${3:P})
+
+snippet wrf_helicity
+	wrf_helicity(${1:UA}, ${2:VA}, ${3:Z}, ${4:TER}, ${5:top})
+
+snippet wrf_ij_to_ll
+	wrf_ij_to_ll(${1:iloc}, ${2:jloc}, ${3:opt})
+
+snippet wrf_interp_1d
+	wrf_interp_1d(${1:v_in}, ${2:z_in}, ${3:z_out})
+
+snippet wrf_interp_2d_xy
+	wrf_interp_2d_xy(${1:v3d}, ${2:xy})
+
+snippet wrf_interp_3d_z
+	wrf_interp_3d_z(${1:v3d}, ${2:vert}, ${3:loc})
+
+snippet wrf_latlon_to_ij
+	wrf_latlon_to_ij(${1:lat_wrf}, ${2:lon_wrf}, ${3:lat_pts}, ${4:lon_pts})
+
+snippet wrf_ll_to_ij
+	wrf_ll_to_ij(${1:lon}, ${2:lat}, ${3:opt})
+
+snippet wrf_omega
+	wrf_omega(${1:qv}, ${2:t}, ${3:v}, ${4:p})
+
+snippet wrf_pvo
+	wrf_pvo(${1:u}, ${2:v}, ${3:THETA}, ${4:P}, ${5:msfu}, ${6:msfv}, ${7:msfm}, ${8:cor}, ${9:dx}, ${10:dy}, ${11:opt})
+
+snippet wrf_rh
+	wrf_rh(${1:qv}, ${2:P}, ${3:T})
+
+snippet wrf_slp
+	wrf_slp(${1:Z}, ${2:T}, ${3:P}, ${4:Q})
+
+snippet wrf_smooth_2d
+	wrf_smooth_2d(${1:fld}, ${2:iter})
+
+snippet wrf_td
+	wrf_td(${1:P}, ${2:qv})
+
+snippet wrf_tk
+	wrf_tk(${1:P}, ${2:THETA})
+
+snippet wrf_updraft_helicity
+	wrf_updraft_helicity(${1:ZP}, ${2:MAPFCT}, ${3:US}, ${4:VS}, ${5:W}, ${6:dx}, ${7:dy}, ${8:opt})
+
+snippet wrf_uvmet
+	wrf_uvmet(${1:u}, ${2:v}, ${3:lat}, ${4:lon}, ${5:cen_lon}, ${6:cone})
+
+snippet wrf_virtual_temp
+	wrf_virtual_temp(${1:t}, ${2:qv})
+
+snippet wrf_wetbulb
+	wrf_wetbulb(${1:p}, ${2:t}, ${3:qv})
+
+snippet wrf_wps_close_int
+	wrf_wps_close_int(${1:istatus})
+
+snippet wrf_wps_open_int
+	wrf_wps_open_int(${1:filename})
+
+snippet wrf_wps_rddata_int
+	wrf_wps_rddata_int(${1:istatus}, ${2:nx}, ${3:ny})
+
+snippet wrf_wps_rdhead_int
+	wrf_wps_rdhead_int(${1:istatus}, ${2:rhead}, ${3:field}, ${4:date}, ${5:units}, ${6:map_source}, ${7:description})
+
+snippet wrf_wps_read_int
+	wrf_wps_read_int(${1:filename})
+
+snippet wrf_wps_write_int
+	wrf_wps_write_int(${1:filename}, ${2:field}, ${3:units}, ${4:description}, ${5:data}, ${6:opt})
+
+snippet write_matrix
+	write_matrix(${1:data}, ${2:fmtf}, ${3:option})
+
+snippet write_table
+	write_table(${1:filename}, ${2:option}, ${3:alist}, ${4:format})
+
+snippet yiqrgb
+	yiqrgb(${1:yiq})
+
+snippet z2geouv
+	z2geouv(${1:z}, ${2:lat}, ${3:lon}, ${4:iopt})
+
+snippet zonal_mpsi
+	zonal_mpsi(${1:v}, ${2:lat}, ${3:p}, ${4:ps})
+
+snippet addfiles_GetVar
+	addfiles_GetVar(${1:f}, ${2:files}, ${3:name})
+
+snippet advect_variable
+	advect_variable(${1:u}, ${2:v}, ${3:x}, ${4:gridType}, ${5:longName}, ${6:units}, ${7:opt})
+
+snippet albedo_ccm
+	albedo_ccm(${1:flux1}, ${2:flux2}, ${3:formula})
+
+snippet area_conserve_remap_Wrap
+	area_conserve_remap_Wrap(${1:loni}, ${2:lati}, ${3:fi}, ${4:lono}, ${5:lato}, ${6:opt})
+
+snippet area_hi2lores_Wrap
+	area_hi2lores_Wrap(${1:xi}, ${2:yi}, ${3:fi}, ${4:fiCyclicX}, ${5:wy}, ${6:xo}, ${7:yo}, ${8:foOption})
+
+snippet array_append_record
+	array_append_record(${1:x1}, ${2:x2}, ${3:opt})
+
+snippet assignFillValue
+	assignFillValue(${1:var_from}, ${2:var_to})
+
+snippet brunt_vaisala
+	brunt_vaisala(${1:th}, ${2:z}, ${3:dim})
+
+snippet brunt_vaisala_atm
+	brunt_vaisala_atm(${1:th}, ${2:z}, ${3:opt}, ${4:dim})
+
+snippet byte2flt
+	byte2flt(${1:x})
+
+snippet byte2flt_hdf
+	byte2flt_hdf(${1:x})
+
+snippet calcDayAnomTLL
+	calcDayAnomTLL(${1:x}, ${2:yyyyddd}, ${3:clmDay})
+
+snippet calcMonAnomLLLT
+	calcMonAnomLLLT(${1:x}, ${2:xAve})
+
+snippet calcMonAnomLLT
+	calcMonAnomLLT(${1:x}, ${2:xAve})
+
+snippet calcMonAnomTLL
+	calcMonAnomTLL(${1:x}, ${2:xAve})
+
+snippet calcMonAnomTLLL
+	calcMonAnomTLLL(${1:x}, ${2:xAve})
+
+snippet calculate_daily_values
+	calculate_daily_values(${1:x}, ${2:arith}, ${3:nDim}, ${4:opt})
+
+snippet calculate_monthly_values
+	calculate_monthly_values(${1:x}, ${2:arith}, ${3:nDim}, ${4:opt})
+
+snippet calculate_segment_values
+	calculate_segment_values(${1:x}, ${2:arith}, ${3:nDim}, ${4:opt})
+
+snippet cd_convert
+	cd_convert(${1:dateFrom}, ${2:unitsTo})
+
+snippet changeCase
+	changeCase(${1:x}, ${2:case})
+
+snippet changeCaseChar
+	changeCaseChar(${1:x})
+
+snippet clmDayTLL
+	clmDayTLL(${1:x}, ${2:yyyyddd})
+
+snippet clmDayTLLL
+	clmDayTLLL(${1:x}, ${2:yyyyddd})
+
+snippet clmMon2clmDay
+	clmMon2clmDay(${1:xClmMon}, ${2:retOrder}, ${3:opt})
+
+snippet clmMonLLLT
+	clmMonLLLT(${1:x})
+
+snippet clmMonLLT
+	clmMonLLT(${1:x})
+
+snippet clmMonTLL
+	clmMonTLL(${1:x})
+
+snippet clmMonTLLL
+	clmMonTLLL(${1:x})
+
+snippet closest_val
+	closest_val(${1:xval}, ${2:x})
+
+snippet copy_VarAtts
+	copy_VarAtts(${1:var_from}, ${2:var_to})
+
+snippet copy_VarCoords
+	copy_VarCoords(${1:var_from}, ${2:var_to})
+
+snippet copy_VarCoords_1
+	copy_VarCoords_1(${1:var_from}, ${2:var_to})
+
+snippet copy_VarCoords_2
+	copy_VarCoords_2(${1:var_from}, ${2:var_to})
+
+snippet copy_VarMeta
+	copy_VarMeta(${1:var_from}, ${2:var_to})
+
+snippet copyatt
+	copyatt(${1:var_to}, ${2:var_from})
+
+snippet coriolis_param
+	coriolis_param(${1:lat})
+
+snippet crossp3
+	crossp3(${1:a}, ${2:b})
+
+snippet cshstringtolist
+	cshstringtolist(${1:cshlist})
+
+snippet cssgrid_Wrap
+	cssgrid_Wrap(${1:rlat}, ${2:rlon}, ${3:fval}, ${4:plat}, ${5:plon})
+
+snippet dble2flt
+	dble2flt(${1:x})
+
+snippet decimalPlaces
+	decimalPlaces(${1:x}, ${2:nplaces}, ${3:round})
+
+snippet delete_VarAtts
+	delete_VarAtts(${1:var}, ${2:atts})
+
+snippet demod_cmplx
+	demod_cmplx(${1:x}, ${2:frqdem}, ${3:frqcut}, ${4:nwt}, ${5:ndim}, ${6:opt})
+
+snippet dim_avg_n_Wrap
+	dim_avg_n_Wrap(${1:x}, ${2:dims})
+
+snippet dim_avg_wgt_n_Wrap
+	dim_avg_wgt_n_Wrap(${1:x}, ${2:w}, ${3:opt}, ${4:dim})
+
+snippet dim_avg_wgt_Wrap
+	dim_avg_wgt_Wrap(${1:x}, ${2:w}, ${3:opt})
+
+snippet dim_avg_Wrap
+	dim_avg_Wrap(${1:x})
+
+snippet dim_cumsum_n_Wrap
+	dim_cumsum_n_Wrap(${1:x}, ${2:opt}, ${3:dims})
+
+snippet dim_cumsum_Wrap
+	dim_cumsum_Wrap(${1:x}, ${2:opt})
+
+snippet dim_max_n_Wrap
+	dim_max_n_Wrap(${1:x}, ${2:dims})
+
+snippet dim_min_n_Wrap
+	dim_min_n_Wrap(${1:x}, ${2:dims})
+
+snippet dim_rmsd_n_Wrap
+	dim_rmsd_n_Wrap(${1:x}, ${2:y}, ${3:dims})
+
+snippet dim_rmsd_Wrap
+	dim_rmsd_Wrap(${1:x}, ${2:y})
+
+snippet dim_rmvmean_n_Wrap
+	dim_rmvmean_n_Wrap(${1:x}, ${2:dims})
+
+snippet dim_rmvmean_Wrap
+	dim_rmvmean_Wrap(${1:x})
+
+snippet dim_rmvmed_n_Wrap
+	dim_rmvmed_n_Wrap(${1:x}, ${2:dims})
+
+snippet dim_rmvmed_Wrap
+	dim_rmvmed_Wrap(${1:x})
+
+snippet dim_standardize_n_Wrap
+	dim_standardize_n_Wrap(${1:x}, ${2:opt}, ${3:dims})
+
+snippet dim_standardize_Wrap
+	dim_standardize_Wrap(${1:x}, ${2:opt})
+
+snippet dim_stddev_n_Wrap
+	dim_stddev_n_Wrap(${1:x}, ${2:dims})
+
+snippet dim_stddev_Wrap
+	dim_stddev_Wrap(${1:x})
+
+snippet dim_sum_n_Wrap
+	dim_sum_n_Wrap(${1:x}, ${2:dims})
+
+snippet dim_sum_wgt_n_Wrap
+	dim_sum_wgt_n_Wrap(${1:x}, ${2:w}, ${3:opt}, ${4:dim})
+
+snippet dim_sum_wgt_Wrap
+	dim_sum_wgt_Wrap(${1:x}, ${2:w}, ${3:opt})
+
+snippet dim_sum_Wrap
+	dim_sum_Wrap(${1:x})
+
+snippet dim_variance_n_Wrap
+	dim_variance_n_Wrap(${1:x}, ${2:dims})
+
+snippet dim_variance_Wrap
+	dim_variance_Wrap(${1:x})
+
+snippet dpres_plevel_Wrap
+	dpres_plevel_Wrap(${1:plev}, ${2:psfc}, ${3:ptop}, ${4:iopt})
+
+snippet dtrend_leftdim
+	dtrend_leftdim(${1:y}, ${2:return_info})
+
+snippet dv2uvF_Wrap
+	dv2uvF_Wrap(${1:dv})
+
+snippet dv2uvG_Wrap
+	dv2uvG_Wrap(${1:dv})
+
+snippet eady_growth_rate
+	eady_growth_rate(${1:th}, ${2:u}, ${3:z}, ${4:lat}, ${5:opt}, ${6:dim})
+
+snippet eof_north
+	eof_north(${1:eval}, ${2:N}, ${3:prinfo})
+
+snippet eofcor_Wrap
+	eofcor_Wrap(${1:data}, ${2:neval})
+
+snippet eofcov_Wrap
+	eofcov_Wrap(${1:data}, ${2:neval})
+
+snippet eofunc_north
+	eofunc_north(${1:eval}, ${2:N}, ${3:prinfo})
+
+snippet eofunc_ts_Wrap
+	eofunc_ts_Wrap(${1:data}, ${2:evec}, ${3:optETS})
+
+snippet eofunc_varimax_reorder
+	eofunc_varimax_reorder(${1:evec_rot})
+
+snippet eofunc_varimax_Wrap
+	eofunc_varimax_Wrap(${1:evec}, ${2:optEVX})
+
+snippet eofunc_Wrap
+	eofunc_Wrap(${1:data}, ${2:neval}, ${3:optEOF})
+
+snippet epflux
+	epflux(${1:u}, ${2:v}, ${3:t}, ${4:plvl}, ${5:lat}, ${6:opt})
+
+snippet epsZero
+	epsZero(${1:x}, ${2:eps})
+
+snippet extract_globalatts_hdf5
+	extract_globalatts_hdf5(${1:info}, ${2:key_word})
+
+snippet f2fosh_Wrap
+	f2fosh_Wrap(${1:grid})
+
+snippet f2foshv_Wrap
+	f2foshv_Wrap(${1:ureg}, ${2:vreg}, ${3:uoff}, ${4:voff})
+
+snippet f2fsh_Wrap
+	f2fsh_Wrap(${1:grid}, ${2:outdims})
+
+snippet f2fshv_Wrap
+	f2fshv_Wrap(${1:ua}, ${2:va}, ${3:ub}, ${4:vb})
+
+snippet f2gsh_Wrap
+	f2gsh_Wrap(${1:grid}, ${2:outdims}, ${3:twave})
+
+snippet f2gshv_Wrap
+	f2gshv_Wrap(${1:ua}, ${2:va}, ${3:ub}, ${4:vb}, ${5:twave})
+
+snippet fbindirSwap
+	fbindirSwap(${1:in_file}, ${2:dims}, ${3:type}, ${4:out_file})
+
+snippet fbinseqSwap1
+	fbinseqSwap1(${1:in_file}, ${2:out_file}, ${3:type}, ${4:dims})
+
+snippet fbinseqSwap2
+	fbinseqSwap2(${1:in_file}, ${2:out_file}, ${3:type}, ${4:dims})
+
+snippet fire_index_haines
+	fire_index_haines(${1:p}, ${2:t}, ${3:td}, ${4:opt})
+
+snippet flt2dble
+	flt2dble(${1:x})
+
+snippet flt2string
+	flt2string(${1:x})
+
+snippet fo2fsh_Wrap
+	fo2fsh_Wrap(${1:grid})
+
+snippet fo2fshv_Wrap
+	fo2fshv_Wrap(${1:uoff}, ${2:voff}, ${3:ureg}, ${4:vreg})
+
+snippet g2fsh_Wrap
+	g2fsh_Wrap(${1:grid}, ${2:outdims})
+
+snippet g2fshv_Wrap
+	g2fshv_Wrap(${1:ua}, ${2:va}, ${3:ub}, ${4:vb})
+
+snippet g2gsh_Wrap
+	g2gsh_Wrap(${1:grid}, ${2:outdims}, ${3:twave})
+
+snippet g2gshv_Wrap
+	g2gshv_Wrap(${1:ua}, ${2:va}, ${3:ub}, ${4:vb}, ${5:twave})
+
+snippet generate_sample_indices
+	generate_sample_indices(${1:N}, ${2:method})
+
+snippet generate_unique_indices
+	generate_unique_indices(${1:N})
+
+snippet genNormalDist
+	genNormalDist(${1:xAve}, ${2:xStd}, ${3:opt})
+
+snippet get1Dindex_Collapse
+	get1Dindex_Collapse(${1:x}, ${2:exclude_value})
+
+snippet get1Dindex_Exclude
+	get1Dindex_Exclude(${1:x}, ${2:exclude_value})
+
+snippet get_d2r
+	get_d2r(${1:val})
+
+snippet get_file_suffix
+	get_file_suffix(${1:fileName}, ${2:opt})
+
+snippet get_pi
+	get_pi(${1:val})
+
+snippet get_r2d
+	get_r2d(${1:val})
+
+snippet get_unique_difference
+	get_unique_difference(${1:a}, ${2:b})
+
+snippet get_unique_intersection
+	get_unique_intersection(${1:a}, ${2:b})
+
+snippet get_unique_union
+	get_unique_union(${1:a}, ${2:b})
+
+snippet GetFillColor
+	GetFillColor(${1:cnlevels}, ${2:cmap}, ${3:value})
+
+snippet GetFillColorIndex
+	GetFillColorIndex(${1:cnlevels}, ${2:indices}, ${3:value})
+
+snippet getFillValue
+	getFillValue(${1:x})
+
+snippet getind_latlon2d
+	getind_latlon2d(${1:lat2d}, ${2:lon2d}, ${3:lat}, ${4:lon})
+
+snippet getVarDimNames
+	getVarDimNames(${1:x})
+
+snippet getVarFillValue
+	getVarFillValue(${1:x})
+
+snippet grad_latlon_cfd
+	grad_latlon_cfd(${1:z}, ${2:lat}, ${3:lon}, ${4:cyclic}, ${5:opt})
+
+snippet grib_stime2itime
+	grib_stime2itime(${1:stime})
+
+snippet hyi2hyo_Wrap
+	hyi2hyo_Wrap(${1:p0}, ${2:hyai}, ${3:hybi}, ${4:ps}, ${5:xi}, ${6:hyao}, ${7:hybo}, ${8:intflg})
+
+snippet ilapsF_Wrap
+	ilapsF_Wrap(${1:zlap}, ${2:zlmbda})
+
+snippet ilapsG_Wrap
+	ilapsG_Wrap(${1:zlap}, ${2:zlmbda})
+
+snippet ind_nearest_coord
+	ind_nearest_coord(${1:z}, ${2:zcoord}, ${3:iopt})
+
+snippet indStrSubset
+	indStrSubset(${1:str}, ${2:str_subset})
+
+snippet int2dble
+	int2dble(${1:x})
+
+snippet int2flt
+	int2flt(${1:x})
+
+snippet int2p_n_Wrap
+	int2p_n_Wrap(${1:pin}, ${2:xin}, ${3:pout}, ${4:linlog}, ${5:pdim})
+
+snippet int2p_Wrap
+	int2p_Wrap(${1:pin}, ${2:xin}, ${3:pout}, ${4:linlog})
+
+snippet isMonotonic
+	isMonotonic(${1:x})
+
+snippet isStrSubset
+	isStrSubset(${1:str}, ${2:str_subset})
+
+snippet latent_heat_water
+	latent_heat_water(${1:t}, ${2:iounit}, ${3:key}, ${4:opt})
+
+snippet latGau
+	latGau(${1:nlat}, ${2:name}, ${3:longname}, ${4:units})
+
+snippet latGauWgt
+	latGauWgt(${1:nlat}, ${2:name}, ${3:longname}, ${4:units})
+
+snippet latGlobeF
+	latGlobeF(${1:nlat}, ${2:name}, ${3:longname}, ${4:units})
+
+snippet latGlobeFo
+	latGlobeFo(${1:nlat}, ${2:name}, ${3:longname}, ${4:units})
+
+snippet latRegWgt
+	latRegWgt(${1:lat}, ${2:nType}, ${3:opt})
+
+snippet linint1_n_Wrap
+	linint1_n_Wrap(${1:xi}, ${2:fi}, ${3:fiCyclic}, ${4:xo}, ${5:foOption}, ${6:dim})
+
+snippet linint1_Wrap
+	linint1_Wrap(${1:xi}, ${2:fi}, ${3:fiCyclic}, ${4:xo}, ${5:foOption})
+
+snippet linint2_points_Wrap
+	linint2_points_Wrap(${1:xi}, ${2:yi}, ${3:fi}, ${4:fiCyclicX}, ${5:xo}, ${6:yo}, ${7:Option})
+
+snippet linint2_Wrap
+	linint2_Wrap(${1:xi}, ${2:yi}, ${3:fi}, ${4:fiCyclicX}, ${5:xo}, ${6:yo}, ${7:foOption})
+
+snippet local_max_1d
+	local_max_1d(${1:x}, ${2:cyclic}, ${3:delta}, ${4:iopt})
+
+snippet local_min_1d
+	local_min_1d(${1:x}, ${2:cyclic}, ${3:delta}, ${4:iopt})
+
+snippet lonFlip
+	lonFlip(${1:x})
+
+snippet lonGlobeF
+	lonGlobeF(${1:nlon}, ${2:name}, ${3:longname}, ${4:units})
+
+snippet lonGlobeFo
+	lonGlobeFo(${1:nlon}, ${2:name}, ${3:longname}, ${4:units})
+
+snippet lonPivot
+	lonPivot(${1:x}, ${2:pivotLon})
+
+snippet merge_levels_sfc
+	merge_levels_sfc(${1:x}, ${2:xsfc}, ${3:opt})
+
+snippet mod
+	mod(${1:n}, ${2:m})
+
+snippet month_to_annual
+	month_to_annual(${1:x}, ${2:opt})
+
+snippet month_to_annual_weighted
+	month_to_annual_weighted(${1:yyyymm}, ${2:x}, ${3:opt})
+
+snippet month_to_season
+	month_to_season(${1:xMon}, ${2:season})
+
+snippet month_to_season12
+	month_to_season12(${1:xMon})
+
+snippet month_to_seasonN
+	month_to_seasonN(${1:xMon}, ${2:season})
+
+snippet monthly_total_to_daily_mean
+	monthly_total_to_daily_mean(${1:yyyymm}, ${2:x}, ${3:opt})
+
+snippet nameDim
+	nameDim(${1:x}, ${2:dimNames}, ${3:longName}, ${4:units})
+
+snippet natgrid_Wrap
+	natgrid_Wrap(${1:x}, ${2:y}, ${3:z}, ${4:xo}, ${5:yo})
+
+snippet NewCosWeight
+	NewCosWeight(${1:y})
+
+snippet niceLatLon2D
+	niceLatLon2D(${1:lat2d}, ${2:lon2d})
+
+snippet NormCosWgtGlobe
+	NormCosWgtGlobe(${1:lat})
+
+snippet numAsciiCol
+	numAsciiCol(${1:file_name})
+
+snippet numAsciiRow
+	numAsciiRow(${1:file_name})
+
+snippet numeric2int
+	numeric2int(${1:x}, ${2:iopt})
+
+snippet obj_anal_ic_deprecated
+	obj_anal_ic_deprecated(${1:zlon}, ${2:zlat}, ${3:z}, ${4:glon}, ${5:glat}, ${6:rscan}, ${7:option})
+
+snippet obj_anal_ic_Wrap
+	obj_anal_ic_Wrap(${1:zlon}, ${2:zlat}, ${3:z}, ${4:glon}, ${5:glat}, ${6:rscan}, ${7:option})
+
+snippet omega_ccm_driver
+	omega_ccm_driver(${1:p0}, ${2:psfc}, ${3:u}, ${4:v}, ${5:hyam}, ${6:hybm}, ${7:hyai}, ${8:hybi})
+
+snippet omega_to_w
+	omega_to_w(${1:omega}, ${2:p}, ${3:t})
+
+snippet oneDtostring
+	oneDtostring(${1:x})
+
+snippet pack_values
+	pack_values(${1:x}, ${2:packType}, ${3:opt})
+
+snippet parse_globalatts_hdf5
+	parse_globalatts_hdf5(${1:f}, ${2:attName})
+
+snippet pattern_cor
+	pattern_cor(${1:x}, ${2:y}, ${3:w}, ${4:opt})
+
+snippet pdfx
+	pdfx(${1:x}, ${2:nbin}, ${3:opt})
+
+snippet pdfxy
+	pdfxy(${1:x}, ${2:y}, ${3:nbinx}, ${4:nbiny}, ${5:opt})
+
+snippet pdfxy_conform
+	pdfxy_conform(${1:x}, ${2:y}, ${3:nbinx}, ${4:nbiny}, ${5:opt})
+
+snippet pot_temp
+	pot_temp(${1:p}, ${2:t}, ${3:dim}, ${4:opt})
+
+snippet pot_vort_hybrid
+	pot_vort_hybrid(${1:p}, ${2:u}, ${3:v}, ${4:t}, ${5:lat}, ${6:gridType}, ${7:opt})
+
+snippet pot_vort_isobaric
+	pot_vort_isobaric(${1:p}, ${2:u}, ${3:v}, ${4:t}, ${5:lat}, ${6:gridType}, ${7:opt})
+
+snippet pres2hybrid_Wrap
+	pres2hybrid_Wrap(${1:p}, ${2:ps}, ${3:p0}, ${4:xi}, ${5:hyao}, ${6:hybo}, ${7:intflg})
+
+snippet print_clock
+	print_clock(${1:title})
+
+snippet printMinMax
+	printMinMax(${1:data}, ${2:opt})
+
+snippet quadroots
+	quadroots(${1:a}, ${2:b}, ${3:c})
+
+snippet rcm2points_Wrap
+	rcm2points_Wrap(${1:lat2d}, ${2:lon2d}, ${3:fi}, ${4:lat}, ${5:lon}, ${6:opt})
+
+snippet rcm2rgrid_Wrap
+	rcm2rgrid_Wrap(${1:lat2d}, ${2:lon2d}, ${3:fi}, ${4:lat}, ${5:lon}, ${6:Option})
+
+snippet readAsciiHead
+	readAsciiHead(${1:filename}, ${2:opt})
+
+snippet readAsciiTable
+	readAsciiTable(${1:filename}, ${2:ncol}, ${3:data_type}, ${4:opt})
+
+snippet reg_multlin_stats
+	reg_multlin_stats(${1:y}, ${2:x}, ${3:opt})
+
+snippet region_ind
+	region_ind(${1:lat2d}, ${2:lon2d}, ${3:latS}, ${4:latN}, ${5:lonW}, ${6:lonE})
+
+snippet regline_stats
+	regline_stats(${1:x}, ${2:y})
+
+snippet relhum_ttd
+	relhum_ttd(${1:t}, ${2:td}, ${3:opt})
+
+snippet replaceSingleChar
+	replaceSingleChar(${1:x}, ${2:oldC}, ${3:newC})
+
+snippet RGBtoCmap
+	RGBtoCmap(${1:filename})
+
+snippet rgrid2rcm_Wrap
+	rgrid2rcm_Wrap(${1:lat}, ${2:lon}, ${3:fi}, ${4:lat2d}, ${5:lon2d}, ${6:Option})
+
+snippet rho_mwjf
+	rho_mwjf(${1:t2d}, ${2:s2d}, ${3:depth})
+
+snippet rigrad_bruntv_atm
+	rigrad_bruntv_atm(${1:thv}, ${2:u}, ${3:v}, ${4:z}, ${5:opt}, ${6:dim})
+
+snippet rm_single_dims
+	rm_single_dims(${1:x})
+
+snippet rmAnnCycle1D
+	rmAnnCycle1D(${1:x})
+
+snippet rmInsufData
+	rmInsufData(${1:x}, ${2:percent})
+
+snippet rmMonAnnCycLLLT
+	rmMonAnnCycLLLT(${1:x})
+
+snippet rmMonAnnCycLLT
+	rmMonAnnCycLLT(${1:x})
+
+snippet rmMonAnnCycTLL
+	rmMonAnnCycTLL(${1:x})
+
+snippet runave_n_Wrap
+	runave_n_Wrap(${1:x}, ${2:nave}, ${3:opt}, ${4:dim})
+
+snippet runave_Wrap
+	runave_Wrap(${1:x}, ${2:nave}, ${3:opt})
+
+snippet satvpr_water_bolton
+	satvpr_water_bolton(${1:t}, ${2:iounit})
+
+snippet satvpr_water_stipanuk
+	satvpr_water_stipanuk(${1:t}, ${2:iounit})
+
+snippet short2flt
+	short2flt(${1:x})
+
+snippet short2flt_hdf
+	short2flt_hdf(${1:x})
+
+snippet shsgc_R42_Wrap
+	shsgc_R42_Wrap(${1:a}, ${2:b})
+
+snippet sign_f90
+	sign_f90(${1:X}, ${2:Y})
+
+snippet sign_matlab
+	sign_matlab(${1:X})
+
+snippet smth9_Wrap
+	smth9_Wrap(${1:x}, ${2:p}, ${3:q}, ${4:wrap})
+
+snippet smthClmDayTLL
+	smthClmDayTLL(${1:clmDay}, ${2:nHarm})
+
+snippet smthClmDayTLLL
+	smthClmDayTLLL(${1:clmDay}, ${2:nHarm})
+
+snippet SqrtCosWeight
+	SqrtCosWeight(${1:y})
+
+snippet stat_dispersion
+	stat_dispersion(${1:x}, ${2:opt})
+
+snippet static_stability
+	static_stability(${1:p}, ${2:t}, ${3:dim}, ${4:sopt})
+
+snippet stdMonLLLT
+	stdMonLLLT(${1:x})
+
+snippet stdMonLLT
+	stdMonLLT(${1:x})
+
+snippet stdMonTLL
+	stdMonTLL(${1:x})
+
+snippet stdMonTLLL
+	stdMonTLLL(${1:x})
+
+snippet symMinMaxPlt
+	symMinMaxPlt(${1:x}, ${2:ncontours}, ${3:outside}, ${4:res})
+
+snippet table_attach_columns
+	table_attach_columns(${1:t1}, ${2:t2}, ${3:opt})
+
+snippet table_attach_rows
+	table_attach_rows(${1:t1}, ${2:t2}, ${3:opt})
+
+snippet time_reassign
+	time_reassign(${1:f}, ${2:timeName})
+
+snippet time_reassign_cv2var
+	time_reassign_cv2var(${1:f}, ${2:timeName}, ${3:varName})
+
+snippet time_to_newtime
+	time_to_newtime(${1:time}, ${2:new_time_unit})
+
+snippet transpose
+	transpose(${1:x})
+
+snippet triple2grid_Wrap
+	triple2grid_Wrap(${1:x}, ${2:y}, ${3:data}, ${4:xgrid}, ${5:ygrid}, ${6:option})
+
+snippet ut_convert
+	ut_convert(${1:dateFrom}, ${2:unitsTo})
+
+snippet uv2dvF_Wrap
+	uv2dvF_Wrap(${1:u}, ${2:v})
+
+snippet uv2dvG_Wrap
+	uv2dvG_Wrap(${1:u}, ${2:v})
+
+snippet uv2vrF_Wrap
+	uv2vrF_Wrap(${1:u}, ${2:v})
+
+snippet uv2vrG_Wrap
+	uv2vrG_Wrap(${1:u}, ${2:v})
+
+snippet vapor_pres_rh
+	vapor_pres_rh(${1:rh}, ${2:esat})
+
+snippet vr2uvF_Wrap
+	vr2uvF_Wrap(${1:vr})
+
+snippet vr2uvG_Wrap
+	vr2uvG_Wrap(${1:vr})
+
+snippet w_to_omega
+	w_to_omega(${1:w}, ${2:p}, ${3:t})
+
+snippet wallClockElapseTime
+	wallClockElapseTime(${1:date}, ${2:title}, ${3:opt})
+
+snippet wave_number_spc
+	wave_number_spc(${1:x}, ${2:grid_type})
+
+snippet wetbulb_stull
+	wetbulb_stull(${1:t}, ${2:rh}, ${3:iounit}, ${4:opt})
+
+snippet wgt_areaave_Wrap
+	wgt_areaave_Wrap(${1:q}, ${2:wgty}, ${3:wgtx}, ${4:opt})
+
+snippet wgt_runave_leftdim
+	wgt_runave_leftdim(${1:x}, ${2:wgt}, ${3:opt})
+
+snippet wgt_runave_n_Wrap
+	wgt_runave_n_Wrap(${1:x}, ${2:wgt}, ${3:opt}, ${4:dim})
+
+snippet wgt_runave_Wrap
+	wgt_runave_Wrap(${1:x}, ${2:wgt}, ${3:opt})
+
+snippet wgt_vertical_n
+	wgt_vertical_n(${1:x}, ${2:dp}, ${3:iopt}, ${4:dim})
+
+snippet wind_component
+	wind_component(${1:wspd}, ${2:wdir}, ${3:opt})
+
+snippet wind_direction
+	wind_direction(${1:u}, ${2:v}, ${3:opt})
+
+snippet wind_speed
+	wind_speed(${1:u}, ${2:v})
+
+snippet yyyyddd_to_yyyymmdd
+	yyyyddd_to_yyyymmdd(${1:yyyyddd})
+
+snippet yyyymm_time
+	yyyymm_time(${1:yrStrt}, ${2:yrLast}, ${3:TYPE})
+
+snippet yyyymm_to_yyyyfrac
+	yyyymm_to_yyyyfrac(${1:yyyymm}, ${2:mm_offset})
+
+snippet yyyymmdd_time
+	yyyymmdd_time(${1:yrStrt}, ${2:yrLast}, ${3:TYPE})
+
+snippet yyyymmdd_to_yyyyddd
+	yyyymmdd_to_yyyyddd(${1:yyyymmdd})
+
+snippet yyyymmdd_to_yyyyfrac
+	yyyymmdd_to_yyyyfrac(${1:yyyymmdd}, ${2:dd_offset})
+
+snippet yyyymmddhh_time
+	yyyymmddhh_time(${1:yrStrt}, ${2:yrLast}, ${3:hrStep}, ${4:TYPE})
+
+snippet yyyymmddhh_to_yyyyfrac
+	yyyymmddhh_to_yyyyfrac(${1:yyyymmddhh}, ${2:hh_offset})
+
+snippet zonal_mpsi_Wrap
+	zonal_mpsi_Wrap(${1:v}, ${2:lat}, ${3:p}, ${4:ps})
+
+snippet zonalAve
+	zonalAve(${1:x})
+
+snippet calendar_decode2
+	calendar_decode2(${1:time}, ${2:option})
+
+snippet cd_inv_string
+	cd_inv_string(${1:str_time}, ${2:time_format})
+
+snippet cd_string
+	cd_string(${1:time}, ${2:inFormat})
+
+snippet kf_filter
+	kf_filter(${1:x}, ${2:obsPerDay}, ${3:tMin}, ${4:tMax}, ${5:kMin}, ${6:kMax}, ${7:hMin}, ${8:hMax}, ${9:waveName})
+
+snippet run_cor
+	run_cor(${1:x}, ${2:y}, ${3:time}, ${4:wSize})
+
+snippet time_axis_labels
+	time_axis_labels(${1:time}, ${2:resplot}, ${3:restick})
+
+snippet ut_string
+	ut_string(${1:time}, ${2:inFormat})
+
+snippet wrf_contour
+	wrf_contour(${1:nc_file}, ${2:wks}, ${3:data}, ${4:res})
+
+snippet wrf_map
+	wrf_map(${1:wks}, ${2:nc_file}, ${3:res})
+
+snippet wrf_map_overlay
+	wrf_map_overlay(${1:wks}, ${2:map}, ${3:plots}, ${4:res})
+
+snippet wrf_map_overlays
+	wrf_map_overlays(${1:nc_file}, ${2:wks}, ${3:plots}, ${4:plt_res}, ${5:map_res})
+
+snippet wrf_map_resources
+	wrf_map_resources(${1:nc_file}, ${2:res})
+
+snippet wrf_map_zoom
+	wrf_map_zoom(${1:wks}, ${2:nc_file}, ${3:res}, ${4:y_start}, ${5:y_end}, ${6:x_start}, ${7:x_end})
+
+snippet wrf_overlay
+	wrf_overlay(${1:wks}, ${2:plots}, ${3:res})
+
+snippet wrf_overlays
+	wrf_overlays(${1:nc_file}, ${2:wks}, ${3:plots}, ${4:res})
+
+snippet wrf_user_getvar
+	wrf_user_getvar(${1:file_handle}, ${2:variable}, ${3:time})
+
+snippet wrf_user_ij_to_ll
+	wrf_user_ij_to_ll(${1:file_handle}, ${2:i}, ${3:j}, ${4:opt})
+
+snippet wrf_user_intrp2d
+	wrf_user_intrp2d(${1:var2d}, ${2:loc}, ${3:angle}, ${4:res})
+
+snippet wrf_user_intrp3d
+	wrf_user_intrp3d(${1:var3d}, ${2:vert}, ${3:plot_type}, ${4:loc}, ${5:angle}, ${6:res})
+
+snippet wrf_user_latlon_to_ij
+	wrf_user_latlon_to_ij(${1:nc_file}, ${2:latitude}, ${3:longitude})
+
+snippet wrf_user_list_times
+	wrf_user_list_times(${1:file_handle})
+
+snippet wrf_user_ll_to_ij
+	wrf_user_ll_to_ij(${1:file_handle}, ${2:lon}, ${3:lat}, ${4:opt})
+
+snippet wrf_user_unstagger
+	wrf_user_unstagger(${1:varin}, ${2:unstagDim})
+
+snippet wrf_user_vert_interp
+	wrf_user_vert_interp(${1:file_handle}, ${2:field}, ${3:vert_coordinate}, ${4:interp_levels}, ${5:opts})
+
+snippet wrf_vector
+	wrf_vector(${1:nc_file}, ${2:wks}, ${3:data_u}, ${4:data_v}, ${5:res})
+
+snippet gsn_add_annotation
+	gsn_add_annotation(${1:plot_id}, ${2:graphic_id}, ${3:res})
+
+snippet gsn_add_polygon
+	gsn_add_polygon(${1:wks}, ${2:plot}, ${3:x}, ${4:y}, ${5:res})
+
+snippet gsn_add_polyline
+	gsn_add_polyline(${1:wks}, ${2:plot}, ${3:x}, ${4:y}, ${5:res})
+
+snippet gsn_add_polymarker
+	gsn_add_polymarker(${1:wks}, ${2:plot}, ${3:x}, ${4:y}, ${5:res})
+
+snippet gsn_add_shapefile_polygons
+	gsn_add_shapefile_polygons(${1:wks}, ${2:plot}, ${3:shp_name}, ${4:res})
+
+snippet gsn_add_shapefile_polylines
+	gsn_add_shapefile_polylines(${1:wks}, ${2:plot}, ${3:shp_name}, ${4:res})
+
+snippet gsn_add_shapefile_polymarkers
+	gsn_add_shapefile_polymarkers(${1:wks}, ${2:plot}, ${3:shp_name}, ${4:res})
+
+snippet gsn_add_text
+	gsn_add_text(${1:wks}, ${2:plot}, ${3:text}, ${4:x}, ${5:y}, ${6:res})
+
+snippet gsn_attach_plots
+	gsn_attach_plots(${1:base_plot}, ${2:plots}, ${3:res_base}, ${4:res_plots})
+
+snippet gsn_blank_plot
+	gsn_blank_plot(${1:wks}, ${2:res})
+
+snippet gsn_contour
+	gsn_contour(${1:wks}, ${2:data}, ${3:res})
+
+snippet gsn_contour_map
+	gsn_contour_map(${1:wks}, ${2:data}, ${3:res})
+
+snippet gsn_contour_shade
+	gsn_contour_shade(${1:plot}, ${2:lowval}, ${3:highval}, ${4:opt})
+
+snippet gsn_coordinates
+	gsn_coordinates(${1:wks}, ${2:plot}, ${3:data}, ${4:res})
+
+snippet gsn_create_labelbar
+	gsn_create_labelbar(${1:wks}, ${2:nboxes}, ${3:labels}, ${4:res})
+
+snippet gsn_create_legend
+	gsn_create_legend(${1:wks}, ${2:nitems}, ${3:labels}, ${4:res})
+
+snippet gsn_create_text
+	gsn_create_text(${1:wks}, ${2:text}, ${3:res})
+
+snippet gsn_csm_attach_zonal_means
+	gsn_csm_attach_zonal_means(${1:wks}, ${2:map}, ${3:data}, ${4:res})
+
+snippet gsn_csm_blank_plot
+	gsn_csm_blank_plot(${1:wks}, ${2:res})
+
+snippet gsn_csm_contour
+	gsn_csm_contour(${1:wks}, ${2:data}, ${3:res})
+
+snippet gsn_csm_contour_map
+	gsn_csm_contour_map(${1:wks}, ${2:data}, ${3:res})
+
+snippet gsn_csm_contour_map_ce
+	gsn_csm_contour_map_ce(${1:wks}, ${2:data}, ${3:res})
+
+snippet gsn_csm_contour_map_overlay
+	gsn_csm_contour_map_overlay(${1:wks}, ${2:data1}, ${3:data2}, ${4:res1}, ${5:res2})
+
+snippet gsn_csm_contour_map_polar
+	gsn_csm_contour_map_polar(${1:wks}, ${2:data}, ${3:res})
+
+snippet gsn_csm_hov
+	gsn_csm_hov(${1:wks}, ${2:data}, ${3:res})
+
+snippet gsn_csm_lat_time
+	gsn_csm_lat_time(${1:wks}, ${2:data}, ${3:res})
+
+snippet gsn_csm_map
+	gsn_csm_map(${1:wks}, ${2:res})
+
+snippet gsn_csm_map_ce
+	gsn_csm_map_ce(${1:wks}, ${2:res})
+
+snippet gsn_csm_map_polar
+	gsn_csm_map_polar(${1:wks}, ${2:res})
+
+snippet gsn_csm_pres_hgt
+	gsn_csm_pres_hgt(${1:wks}, ${2:data}, ${3:res})
+
+snippet gsn_csm_pres_hgt_streamline
+	gsn_csm_pres_hgt_streamline(${1:wks}, ${2:data}, ${3:xcomp}, ${4:zcomp}, ${5:res})
+
+snippet gsn_csm_pres_hgt_vector
+	gsn_csm_pres_hgt_vector(${1:wks}, ${2:data}, ${3:xcomp}, ${4:zcomp}, ${5:res})
+
+snippet gsn_csm_streamline
+	gsn_csm_streamline(${1:wks}, ${2:u}, ${3:v}, ${4:res})
+
+snippet gsn_csm_streamline_contour_map
+	gsn_csm_streamline_contour_map(${1:wks}, ${2:u}, ${3:v}, ${4:data}, ${5:res})
+
+snippet gsn_csm_streamline_contour_map_ce
+	gsn_csm_streamline_contour_map_ce(${1:wks}, ${2:u}, ${3:v}, ${4:data}, ${5:res})
+
+snippet gsn_csm_streamline_contour_map_polar
+	gsn_csm_streamline_contour_map_polar(${1:wks}, ${2:u}, ${3:v}, ${4:data}, ${5:res})
+
+snippet gsn_csm_streamline_map
+	gsn_csm_streamline_map(${1:wks}, ${2:u}, ${3:v}, ${4:res})
+
+snippet gsn_csm_streamline_map_ce
+	gsn_csm_streamline_map_ce(${1:wks}, ${2:u}, ${3:v}, ${4:res})
+
+snippet gsn_csm_streamline_map_polar
+	gsn_csm_streamline_map_polar(${1:wks}, ${2:u}, ${3:v}, ${4:res})
+
+snippet gsn_csm_streamline_scalar
+	gsn_csm_streamline_scalar(${1:wks}, ${2:u}, ${3:v}, ${4:data}, ${5:res})
+
+snippet gsn_csm_streamline_scalar_map
+	gsn_csm_streamline_scalar_map(${1:wks}, ${2:u}, ${3:v}, ${4:data}, ${5:res})
+
+snippet gsn_csm_streamline_scalar_map_ce
+	gsn_csm_streamline_scalar_map_ce(${1:wks}, ${2:u}, ${3:v}, ${4:data}, ${5:res})
+
+snippet gsn_csm_streamline_scalar_map_polar
+	gsn_csm_streamline_scalar_map_polar(${1:wks}, ${2:u}, ${3:v}, ${4:data}, ${5:res})
+
+snippet gsn_csm_time_lat
+	gsn_csm_time_lat(${1:wks}, ${2:data}, ${3:res})
+
+snippet gsn_csm_vector
+	gsn_csm_vector(${1:wks}, ${2:u}, ${3:v}, ${4:res})
+
+snippet gsn_csm_vector_map
+	gsn_csm_vector_map(${1:wks}, ${2:u}, ${3:v}, ${4:res})
+
+snippet gsn_csm_vector_map_ce
+	gsn_csm_vector_map_ce(${1:wks}, ${2:u}, ${3:v}, ${4:res})
+
+snippet gsn_csm_vector_map_polar
+	gsn_csm_vector_map_polar(${1:wks}, ${2:u}, ${3:v}, ${4:res})
+
+snippet gsn_csm_vector_scalar
+	gsn_csm_vector_scalar(${1:wks}, ${2:u}, ${3:v}, ${4:data}, ${5:res})
+
+snippet gsn_csm_vector_scalar_map
+	gsn_csm_vector_scalar_map(${1:wks}, ${2:u}, ${3:v}, ${4:data}, ${5:res})
+
+snippet gsn_csm_vector_scalar_map_ce
+	gsn_csm_vector_scalar_map_ce(${1:wks}, ${2:u}, ${3:v}, ${4:data}, ${5:res})
+
+snippet gsn_csm_vector_scalar_map_polar
+	gsn_csm_vector_scalar_map_polar(${1:wks}, ${2:u}, ${3:v}, ${4:data}, ${5:res})
+
+snippet gsn_csm_x2y
+	gsn_csm_x2y(${1:wks}, ${2:x1}, ${3:x2}, ${4:y}, ${5:res1}, ${6:res2})
+
+snippet gsn_csm_x2y2
+	gsn_csm_x2y2(${1:wks}, ${2:x1}, ${3:x2}, ${4:y1}, ${5:y2}, ${6:res1}, ${7:res2})
+
+snippet gsn_csm_xy
+	gsn_csm_xy(${1:wks}, ${2:x}, ${3:y}, ${4:res})
+
+snippet gsn_csm_xy2
+	gsn_csm_xy2(${1:wks}, ${2:x}, ${3:y1}, ${4:y2}, ${5:res1}, ${6:res2})
+
+snippet gsn_csm_xy3
+	gsn_csm_xy3(${1:wks}, ${2:x}, ${3:yL}, ${4:yR}, ${5:yR2}, ${6:resL}, ${7:resR}, ${8:resR2})
+
+snippet gsn_csm_y
+	gsn_csm_y(${1:wks}, ${2:y}, ${3:res})
+
+snippet gsn_define_colormap
+	gsn_define_colormap(${1:wks}, ${2:color_map})
+
+snippet gsn_draw_colormap
+	gsn_draw_colormap(${1:wks})
+
+snippet gsn_draw_named_colors
+	gsn_draw_named_colors(${1:wks}, ${2:colors}, ${3:dims})
+
+snippet gsn_histogram
+	gsn_histogram(${1:wks}, ${2:data}, ${3:res})
+
+snippet gsn_labelbar_ndc
+	gsn_labelbar_ndc(${1:wks}, ${2:nboxes}, ${3:labels}, ${4:x}, ${5:y}, ${6:res})
+
+snippet gsn_legend_ndc
+	gsn_legend_ndc(${1:wks}, ${2:nitems}, ${3:labels}, ${4:x}, ${5:y}, ${6:res})
+
+snippet gsn_map
+	gsn_map(${1:wks}, ${2:projection}, ${3:res})
+
+snippet gsn_merge_colormaps
+	gsn_merge_colormaps(${1:wks}, ${2:color_map1}, ${3:color_map2})
+
+snippet gsn_open_wks
+	gsn_open_wks(${1:type}, ${2:name})
+
+snippet gsn_panel
+	gsn_panel(${1:wks}, ${2:plots}, ${3:dims}, ${4:res})
+
+snippet gsn_polygon
+	gsn_polygon(${1:wks}, ${2:plot}, ${3:x}, ${4:y}, ${5:res})
+
+snippet gsn_polygon_ndc
+	gsn_polygon_ndc(${1:wks}, ${2:x}, ${3:y}, ${4:res})
+
+snippet gsn_polyline
+	gsn_polyline(${1:wks}, ${2:plot}, ${3:x}, ${4:y}, ${5:res})
+
+snippet gsn_polyline_ndc
+	gsn_polyline_ndc(${1:wks}, ${2:x}, ${3:y}, ${4:res})
+
+snippet gsn_polymarker
+	gsn_polymarker(${1:wks}, ${2:plot}, ${3:x}, ${4:y}, ${5:res})
+
+snippet gsn_polymarker_ndc
+	gsn_polymarker_ndc(${1:wks}, ${2:x}, ${3:y}, ${4:res})
+
+snippet gsn_retrieve_colormap
+	gsn_retrieve_colormap(${1:wks})
+
+snippet gsn_reverse_colormap
+	gsn_reverse_colormap(${1:wks})
+
+snippet gsn_streamline
+	gsn_streamline(${1:wks}, ${2:u}, ${3:v}, ${4:res})
+
+snippet gsn_streamline_map
+	gsn_streamline_map(${1:wks}, ${2:u}, ${3:v}, ${4:res})
+
+snippet gsn_streamline_scalar
+	gsn_streamline_scalar(${1:wks}, ${2:u}, ${3:v}, ${4:data}, ${5:res})
+
+snippet gsn_streamline_scalar_map
+	gsn_streamline_scalar_map(${1:wks}, ${2:u}, ${3:v}, ${4:data}, ${5:res})
+
+snippet gsn_table
+	gsn_table(${1:wks}, ${2:dims}, ${3:x}, ${4:y}, ${5:text}, ${6:res})
+
+snippet gsn_text
+	gsn_text(${1:wks}, ${2:plot}, ${3:text}, ${4:x}, ${5:y}, ${6:res})
+
+snippet gsn_text_ndc
+	gsn_text_ndc(${1:wks}, ${2:text}, ${3:x}, ${4:y}, ${5:res})
+
+snippet gsn_vector
+	gsn_vector(${1:wks}, ${2:u}, ${3:v}, ${4:res})
+
+snippet gsn_vector_map
+	gsn_vector_map(${1:wks}, ${2:u}, ${3:v}, ${4:res})
+
+snippet gsn_vector_scalar
+	gsn_vector_scalar(${1:wks}, ${2:u}, ${3:v}, ${4:data}, ${5:res})
+
+snippet gsn_vector_scalar_map
+	gsn_vector_scalar_map(${1:wks}, ${2:u}, ${3:v}, ${4:data}, ${5:res})
+
+snippet gsn_xy
+	gsn_xy(${1:wks}, ${2:x}, ${3:y}, ${4:res})
+
+snippet gsn_y
+	gsn_y(${1:wks}, ${2:y}, ${3:res})
+
+snippet hsv2rgb
+	hsv2rgb(${1:h}, ${2:s}, ${3:v})
+
+snippet maximize_output
+	maximize_output(${1:wks}, ${2:res})
+
+snippet reset_device_coordinates
+	reset_device_coordinates(${1:wks})
+
+snippet beg
+	begin
+		${1:; begin your script}
+	end	
+
+
+snippet do
+	do ${1:i} = ${2:0}, ${3:n}
+		${4:; write loop content}
+	end do	
+
+
+snippet if
+	if (${1:conditions}) then
+		${2:; write branch}
+	end if	
+
+
+snippet ifelse
+	if (${1:conditions}) then
+		${2:; write branch}
+	else
+		${3:; write else branch}
+	end if	
+
+
+snippet res_axis_ranges
+	${1:res}@trXMinF 			= ${2:0}
+	$1@trXMaxF 			= ${3:1}
+	$1@trYMinF 			= ${4:0}
+	$1@trYMaxF 			= ${5:1}
+	$1@tmXBTickStartF 	= $2
+	$1@tmXBTickEndF 		= $3
+	$1@tmYLTickStartF 	= $4
+	$1@tmYLTickEndF 		= $5	
+
+
+snippet res_axis_reverse
+	${1:res}@tr${2:X or Y}Reverse 	= True	
+
+
+snippet res_contour_explicit_levels
+	${1:res}@cnLevelSelectionMode 		= "ExplicitLevels"
+	$1@cnLevels 					= (/${2:...}/)			
+
+
+snippet res_contour_manual_levels
+	${1:res}@cnLevelSelectionMode 	= "ManualLevels"
+	$1@cnMinLevelValF 			= ${2:min_level}
+	$1@cnMaxLevelValF 			= ${3:max_level} 
+	$1@cnLevelSpacingF 			= ${4:level_spacing} ;.1*abs($1@cnMaxLevelValF)		
+
+
+snippet res_xy_grid_lines
+	${1:res}@tmXMajorGrid 					= ${2:True}
+	$1@tmYMajorGrid 					= ${3:True}
+	$1@tmXMajorGridThicknessF 			= ${4:1.0}
+	$1@tmYMajorGridThicknessF 			= ${5:1.0}
+	$1@tmXMajorGridLineDashPattern 	= ${6:2}
+	$1@tmYMajorGridLineDashPattern 	= $6			
+
+
+snippet res_xy_log_scale
+	${1:res}@xy${2:X or Y}Style 		= Log			
