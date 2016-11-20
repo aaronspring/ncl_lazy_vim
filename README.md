@@ -31,7 +31,6 @@ Syntax highlighting:
 
 Snippets: 
 * copy "ncl.snippets" into "/.vim/bundle/vim-snippets/snippets" after you installed the vim plugin snipmate https://github.com/garbas/vim-snipmate
-![animation](snippets_ncl.gif)<br>
 
 Operating instructions
 ----------------------
