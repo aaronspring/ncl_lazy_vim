@@ -1,5 +1,3 @@
-in progress...
-
 ncl_lazy_vim README
 ===================
 
@@ -20,27 +18,7 @@ Optional: <br>
 1. Variable completion: Set a file path and 'ENABLE' vars_completion in your ".vimrc" <br> - requires CDO - if you have a neat idea how to implement it with NCL commands please approach me
 ![animation]( vars_completion.gif ) <br>
 2. For now, the first 12 (random number) words of NCL Resources are displayed in the pop-up window before the last two words as "Default information" separated by "...". If you usually work on a wide vi window, you can modify this number of strings. <br>
-3. If you want to use &lt;Tab> for auto-completion like in your shell, add those lines to your .vimrc <br> FIXME: Doesnt replace &lt;C-U>&lt;C-U> yet, but only &lt;C-N> - should replace &lt;C-X><lt;C-U> for initial hit, &lt;C-U> or &lt;C-N> for others and <lt;Tab> if no string before 
-```
-" Use TAB to complete when typing words, else inserts TABs as usual.
-" Uses dictionary and source files to find matching words to complete.
-" "See help completion for source,
-" Note: usual completion is on <C-n> but more trouble to press all the time.
-" Never type the same word twice and maybe learn a new spellings!
-" Use the Linux dictionary when spelling is in doubt.
-" Window users can copy the file to their machine.
-function! Tab_Or_Complete()
-  if col('.')>1 && strpart( getline('.'), col('.')-2, 3 ) =~ '^\w'
-    return "\<C-N>"
-  else
-      return "\<Tab>"
-  endif
-endfunction
-:inoremap <Tab> <C-R>=Tab_Or_Complete()<CR>
-```
-Source: http://vim.wikia.com/wiki/Smart_mapping_for_tab_completion <br>
-The usual &lt;Tab> command will still be executed when no completion is feasable, eg. in the beginning of (empty) lines <br>
-4. If you fancy other auto-completion setting, play with the line
+3. If you fancy other auto-completion setting, play with the line
 ```
 set complete=longest,menuone
 ```
@@ -48,9 +26,11 @@ The current setting completes up to the last common string and then shows a menu
 
 <br>
 
-For syntax highlighting: <br>
-1. coming soon dynamical hopefully <br> for now data from https://www.ncl.ucar.edu/Applications/editor.shtml
+Syntax highlighting:
+* coming soon dynamical hopefully <br> for now data from Version 6.3.0 - https://www.ncl.ucar.edu 
 
+Snippets: 
+* copy "ncl.snippets" into "/.vim/bundle/vim-snippets/snippets" after you installed the vim plugin snipmate https://github.com/garbas/vim-snipmate
 
 Operating instructions
 ----------------------
@@ -82,11 +62,10 @@ Hit another &lt;Ctrl-N> to choose the next match or move down with arrow keys an
 
 Copyright and licensing information
 -----------------------------------
-* helpme
+* MIT
 
 Known bugs
 ----------
-* just starting
 * static ncl data
 
 Contact information
@@ -102,11 +81,14 @@ uses all NCL resources and NCL functions from website as of 2016/09/18 <br>
 also completes variables gathered by 'cdo vardes files' if cdo installed and vars_completion enabled <br>
 requires '*.ncl' files <br>
 ncl_completion can be enabled or disabled in .vimrc <br> 
+* v0.2:
+static snippets and static syntax highlighting
 
 Working on
 ----------
 * syntax highlighting
 * getting functions and resources dynamically, see example uses 'cdo --operators' https://github.com/aaronspring/cdo_lazy_vim
+* snippets
 * anything else needed?
 
 Credits and acknowledgements
