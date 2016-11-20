@@ -30,7 +30,8 @@ Syntax highlighting:
 * coming soon dynamical hopefully <br> for now data from Version 6.3.0 - https://www.ncl.ucar.edu 
 
 Snippets: 
-* copy "ncl.snippets" into "/.vim/bundle/vim-snippets/snippets" after you installed the vim plugin snipmate https://github.com/garbas/vim-snipmate
+* copy "ncl.snippets" into "/.vim/bundle/vim-snippets/snippets" after you installed the vim plugin snipmate https://github.com/garbas/vim-snipmate <br>
+![animation]( snippets_ncl.gif )
 
 Operating instructions
 ----------------------
