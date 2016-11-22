@@ -31,11 +31,12 @@ Syntax highlighting:
 
 Snippets: 
 * copy "ncl.snippets" into "/.vim/bundle/vim-snippets/snippets" after you installed the vim plugin snipmate https://github.com/garbas/vim-snipmate <br>
-![animation]( snippets_ncl.gif )
+![animation]( snippets_ncl.gif ) <br>
+There are also a few snippets for loops and some combined graphic commands in the end of the file, just check it out. Type the snippet (any command from "ncl.snippets", basically all commands that require brackets) and press &lt;Tab>
 
 Operating instructions
 ----------------------
-Start typing your desired cdo command and hit &lt;Control-X>&lt;Control-U>
+Start typing your desired cdo command and hit &lt;Ctrl-X>&lt;Ctrl-U>
 ```
 res@gsF<Ctrl-X><Ctrl-U>
 addf<Ctrl-X><Ctrl-U>
