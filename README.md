@@ -27,7 +27,7 @@ The current setting completes up to the last common string and then shows a menu
 <br>
 
 Syntax highlighting:
-* coming soon dynamical hopefully <br> for now data from Version 6.3.0 - https://www.ncl.ucar.edu 
+* coming soon dynamical hopefully <br> for now data from Version 6.4.0 - https://www.ncl.ucar.edu 
 
 Snippets: 
 * copy "ncl.snippets" into "/.vim/bundle/vim-snippets/snippets" after you installed the vim plugin snipmate https://github.com/garbas/vim-snipmate <br>
