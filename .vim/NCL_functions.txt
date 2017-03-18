@@ -13,9 +13,9 @@ all 	Returns True if all the elements of the input evaluate as True.
 angmom_atm 	Calculates the atmosphere's relative angular momentum.
 any 	Returns True if any of the values of its input evaluate as True.
 area_conserve_remap 	Performs areal conservative remapping from one rectilinear grid to another.
-area_conserve_remap_Wrap 	Performs areal conservative remapping from one rectilinear grid to another and preserves metadata.
+area_conserve_remap_Wrap 	Performs areal conservative remapping from one rectilinear grid to another and retains metadata.
 area_hi2lores 	Interpolates from high resolution rectilinear grids to low resolution recitlinear grids using local area averaging.
-area_hi2lores_Wrap 	Interpolates from high resolution rectilinear grids to low resolution rectilinear grids using local area averaging. (retains metadata)
+area_hi2lores_Wrap 	Interpolates from high resolution rectilinear grids to low resolution rectilinear grids using local area averaging and retains metadata.
 area_poly_sphere 	Calculates the area enclosed by an arbitrary polygon on the sphere.
 array_append_record 	Attaches [appends] additional records [leftmost dimension] to a previously existing array.
 asciiread 	Reads a file that contains ASCII representations of basic data types.
@@ -40,8 +40,8 @@ bootstrap_diff 	Bootstrap mean differences from two samples.
 bootstrap_estimate 	Extract the user specified element from the bootstrapped values.
 bootstrap_regcoef 	Bootstrap estimates of linear regression coefficient.
 bootstrap_stat 	Bootstrap estimates of a user specified statistic derived from a variable.
+box_percentile_plot 	Creates a box percentile plot. Documentation under construction
 boxplot 	Creates a boxplot.
-brunt_vaisala 	Compute the Brunt-Vaisala frequency which is a measure of bouyancy
 brunt_vaisala_atm 	Compute the Brunt-Vaisala frequency which is a measure of bouyancy in a continuously stratified atmosphere.
 bw_bandpass_filter 	Applies a Butterworth bandpass filter optimized for narrow bandwidths to time series.
 byte2flt 	Converts values of type byte to values of type float.
@@ -55,6 +55,7 @@ calculate_daily_values 	Calculate daily values [avg, sum, min, max] from high fr
 calculate_monthly_values 	Calculate monthly values [avg, sum, min, max] from high frequency temporal values.
 calculate_segment_values 	Calculate segment (eg, pentad [5-day], weekly [7-day]) values from high frequency temporal values.
 calendar_decode2 	Translates numeric time coordinates to calendar times.
+calendar_decode2_fix 	Translates numeric time coordinates to calendar times (temporary function; see the 6.4.0 release notes for details).
 cancor 	Performs canonical correlation analysis between two sets of variables.
 cbinread 	Reads binary files created using the C block I/O function write.
 cbinwrite 	Creates a binary file in raw C block I/O format for a numeric data type.
@@ -75,7 +76,8 @@ cdfnor_p 	Calculates the integral of a cumulative normal distribution function.
 cdfnor_x 	Calculates the upper limit of integration of a cumulative normal distribution function.
 cdft_p 	Calculates the one-sided probability given a t-value and the degrees of freedom.
 cdft_t 	Calculates the t-value given the one-sided probability and the degrees of freedom.
-ceil 	Computes the smallest integer value larger than the input.
+ceemdan 	Complete Ensemble Empirical Mode Decomposition with Adaptive Noise.
+ceil 	Returns the smallest integral value greater than or equal to each input value.
 center_finite_diff 	Performs a centered finite difference operation on the rightmost dimension.
 center_finite_diff_n 	Performs a centered finite difference operation on the given dimension.
 cfftb 	Performs a backward complex discrete fourier transform [Fourier Synthesis].
@@ -305,6 +307,7 @@ dz_height 	Calculates the height layer thicknesses at each grid point over varyi
 eady_growth_rate 	Compute the maximum Eady growth rate.
 echo_off 	Disables echoing of NCL statements as they are encountered.
 echo_on 	Enables echoing of NCL statements as they are encountered.
+eemd 	Perform ensemble empirical mode decomposition (EEMD).
 eof2data 	Reconstructs a data set from EOFs and EOF time series.
 eof2data_n 	Reconstructs a data set from EOFs and EOF time series, given an index that specifies which dimension contains the time dimemsion.
 eof_varimax 	Rotates EOFs using the using Kaiser row normalization and the varimax criterion (deprecated version).
@@ -328,7 +331,7 @@ eofunc_varimax 	Rotates EOFs using the using Kaiser row normalization and the va
 eofunc_varimax_reorder 	Reorder the results returned by eof_varimax into descending order by percent variance explained.
 eofunc_varimax_Wrap 	Rotates EOFs using the using Kaiser row normalization and the varimax criterion and retains metadata.
 eofunc_Wrap 	Computes empirical orthogonal functions (aka: Principal Component Analysis, Eigen Analysis) and retains metadata.
-epflux 	Compute quasi-geostrophic Eliassen-Palm fluxes at isobaric levels.
+epflux 	Compute quasi-geostrophic Eliassen-Palm fluxes at isobaric levels using NCEP Reanalysis.
 epsZero 	Sets all values in input array to zero that are +/- a user supplied epsilon about zero.
 equiv_sample_size 	Estimates the number of independent values of a series of correlated observations.
 erf 	Evaluates the real error function.
@@ -352,8 +355,12 @@ extract_globalatts_hdf5 	Extract value from 'KEYWORD,VALUE' pair returned by get
 extval_frechet 	Calculates the probability (PDF) and cumulative (CDF) distribution functions of the Frechet Type II distribution given the shape, scale and location parameters.
 extval_gev 	Calculates the probability (PDF) and cumulative (CDF) distribution functions of the Generalized Extreme Value (GEV) distribution given the shape, scale and location parameters.
 extval_gumbel 	Calculates the probability (PDF) and cumulative (CDF) distribution functions of the Gumbel (Type I) distribution function given the scale and location parameters.
+extval_mlegam 	Estimates the location, shape, scale and other parameters for the Gamma distribution using maximum-likelihood estimation (MLE).
 extval_mlegev 	Estimates the shape, scale and location parameters for the Generalized Extreme-Value (GEV) distribution using Maximum-Likelihood Estimation (MLE).
+extval_pareto 	Calculates the probability (PDF) and cumulative (CDF) distribution functions of the Pareto distributions (Generalized, Type I, TYpe II) given the shape, scale and location parameters.
 extval_recurrence_table 	Calculates the recurrence interval (return period), cumulative and exceedence probabilities based upon a time series.
+extval_return_period 	Calculates the period of an event (eg, flood, heat wave, drought) occurring given an average event recurrence interval and specified probability level.
+extval_return_prob 	Calculates the probability of an event (eg, flood, heat wave, drought) given an average event interval and a specified exceedance period.
 extval_weibull 	Calculates the probability (PDF) and cumulative (CDF) distribution functions of the Weibull Type III distribution given the shape, scale and location parameters.
 ezfftb 	Perform a Fourier synthesis from real and imaginary coefficients.
 ezfftb_n 	Perform a Fourier synthesis from real and imaginary coefficients on the given dimension.
@@ -406,7 +413,7 @@ floattoint 	Coerces values of type float to values of type integer.
 floattointeger 	Coerces values of type float to values of type integer.
 floattolong 	Coerces values of type float to values of type long.
 floattoshort 	Coerces values of type float to values of type short.
-floor 	Computes the largest integer value smaller than the input.
+floor 	Returns the largest integral value less than or equal to each input value.
 flt2dble 	Converts values of type float to values of type double and preserves metadata.
 flt2string 	Converts values of type float to values of type string.
 fluxEddy 	Calculates time averaged eddy flux quantities.
@@ -471,9 +478,6 @@ get_r2d 	Return a constant that converts radians to degrees.
 get_script_name 	Returns the name of a script of commands provided to NCL for execution.
 get_script_prefix_name 	Returns the name of a script of commands provided to NCL for execution, if provided, with any script name tag removed.
 get_sphere_radius 	Retrieves the radius of a sphere used in spherical harmonic routines.
-get_unique_difference 	Returns the unique element symmetric differences between two arrays.
-get_unique_intersection 	Returns the unique element intersection (ie., common values) between two arrays.
-get_unique_union 	Returns the unique element union of two arrays.
 get_unique_values 	Returns the unique values of the given array.
 getbitsone 	Unpacks one-bit chunks from the input array.
 getenv 	Returns the string value of a shell environment variable.
@@ -737,7 +741,7 @@ local_min 	Determines the relative minima for a 2-dimensional array.
 local_min_1d 	Determines the relative minima for a 1-dimensional array.
 log 	Computes the natural log of a numeric type.
 log10 	Computes the log base 10 of a numeric type.
-lonFlip 	Reorders an array about the central longitude coordinate variable (rectilinear grids only).
+lonFlip 	Reorders a global rectilinear array about the central longitude coordinate variable.
 lonGlobeF 	Generates longitudes and associated metadata for a global fixed grid.
 lonGlobeFo 	Generates longitudes and associated metadata for a global fixed offset grid.
 longtobyte 	Coerces values of type long to values of type byte.
@@ -746,7 +750,7 @@ longtocharacter 	Coerces values of type long to values of type character.
 longtoint 	Coerces values of type long to values of type integer.
 longtointeger 	Coerces values of type long to values of type integer.
 longtoshort 	Coerces values of type long to values of type short.
-lonPivot 	Pivots about a user-specified longitude (rectilinear grids only).
+lonPivot 	Pivots an array about a user-specified longitude (rectilinear grids only).
 lspoly 	Calculates a set of coefficients for a weighted least squares polynomial fit to the given data.
 lspoly_n 	Calculates a set of coefficients for a weighted least squares polynomial fit to the given data on the given dimension.
 mask 	Masks a multi-dimensional array against another given a single mask value.
@@ -900,6 +904,7 @@ pop_remap 	Regrids a POP ocean model grid to another grid.
 PopLatLon 	Regrids a scalar variable on a POP grid to a lat/lon grid or vice-versa.
 PopLatLonV 	Converts vectors on a POP grid to a lat/lon grid and vice-versa.
 pot_temp 	Compute potential temperature.
+pot_temp_equiv 	Compute equivalent potential temperature.
 pot_vort_hybrid 	Compute potential vorticity on hybrid levels and a global grid.
 pot_vort_isobaric 	Compute potential vorticity on isobaric levels and a global rectilinear grid.
 potmp_insitu_ocn 	Calculate seawater potential temperature at an arbitrary reference pressure given insitu temperature, salinity and depth.
@@ -956,6 +961,7 @@ regCoef_n 	Calculates the linear regression coefficient between two variables on
 region_ind 	Returns the indices (subscripts) of two-dimensional latitude/longitude arrays that span user specified latitude/longitude boundaries.
 regline 	Calculates the linear regression coefficient between two series.
 regline_stats 	Performs simple linear regression including confidence estimates, an ANOVA table and 95% mean response estimates.
+regline_weight 	Calculates the linear regression coefficient between two series where the dependent (y) variable's values are weighted by some measure of uncertainty (typically, standard deviations) such that the Chi-square goodness-of-fit is minimized.
 relhum 	Calculates relative humidity given temperature, mixing ratio, and pressure.
 relhum_ice 	Calculates relative humidity with respect to ice, given temperature, mixing ratio, and pressure.
 relhum_ttd 	Calculates relative humidity given temperature and dew point temperature.
@@ -1037,6 +1043,7 @@ sigma2hybrid 	Interpolates from sigma to hybrid coordinates.
 sign_f90 	Mimic the behavior of Fortran-90's sign transfer function.
 sign_matlab 	Mimic the behavior of Matlab's sign function.
 simpeq 	Integrate a sequence of equally spaced points using Simpson's Rule.
+simple_legend 	Creates a legend based on user supplied resources.
 simpne 	Integrates a sequence of unequally or equally spaced points using Simpson's three-point formula.
 sin 	Computes the sine of numeric types.
 sindex_yrmo 	Calculates the Southern Oscillation Index given two series of year-month values.
@@ -1138,6 +1145,7 @@ tan 	Computes the tangent of numeric types.
 tanh 	Computes the hyperbolic tangent of numeric types.
 taper 	Applies split-cosine-bell tapering to one or more series across the rightmost dimension.
 taper_n 	Applies split-cosine-bell tapering to one or more series across the given dimension.
+taylor_stats 	Calculates statistics needed for the Taylor Diagram: pattern_correlation, ratio and bias.
 tdclrs 	Defines a set of colors for use with selected TDPACK routines.
 tdctri 	Cuts the triangles in a triangle list with a plane perpendicular to an axis (for use with selected TDPACK routines).
 tdcudp 	Not yet implemented.
@@ -1176,6 +1184,7 @@ time_axis_labels 	Sets resources necessary to draw nice tickmark labels using a 
 time_reassign 	Reassign (replace) a CF-conforming "time" variable by calculating the mid-time values using the "bounds" attribute.
 time_reassign_cv2var 	Reassign (replace) a CF-conforming "time" coordinate variable associated with a variable by calculating the mid-time values using the "bounds" attribute.
 time_to_newtime 	Change a "udunits" recognized time unit to a new (different) "udunits" recognized time unit.
+time_to_newtime_fix 	Change a "udunits" recognized time unit to a new (different) "udunits" recognized time unit (temporary function; see the 6.4.0 release notes for details).
 tobyte 	Converts values of any snumeric data type or string to values of type (NCL) byte (unsigned char).
 tochar 	Converts values of any snumeric data type or string to values of type char.
 todouble 	Converts values of any snumeric data type or string to values of type double.
@@ -1212,9 +1221,13 @@ unstructured_to_ESMF 	Writes the description of an unstructured grid to an ESMF 
 update 	Updates the given workstation objects.
 ushorttoint 	Coerces values of type unsigned short to values of type integer.
 ut_calendar 	Converts a mixed Julian/Gregorian date to a UT-referenced date (deprecated; use cd_calendar).
+ut_calendar_fix 	Converts a mixed Julian/Gregorian date to a UT-referenced date (temporary function; see the 6.4.0 release notes for details).
 ut_convert 	Converts a time variable from one set of units to another (deprecated; use cd_convert).
+ut_convert_fix 	Converts a time variable from one set of units to another (temporary function; see the 6.4.0 release notes for details).
 ut_inv_calendar 	Converts a UT-referenced date to a mixed Julian/Gregorian date (deprecated; use cd_inv_calendar).
+ut_inv_calendar_fix 	Converts a UT-referenced date to a mixed Julian/Gregorian date (temporary function; see the 6.4.0 release notes for details).
 ut_string 	Converts time values into nicely formatted strings (deprecated; use cd_string)
+ut_string_fix 	Converts time values into nicely formatted strings (temporary function; see the 6.4.0 release notes for details).
 utm2latlon 	Converts from UTM to lat/lon using a specified datum.
 uv2dv_cfd 	Computes divergence using centered finite differences.
 uv2dvf 	Computes the divergence using spherical harmonics given the u and v wind components on a fixed grid.
@@ -1246,6 +1259,9 @@ v5d_write 	Writes compressed data to a Vis5D+ format file.
 v5d_write_var 	Writes a single 3-dimensional gridded variable to a Vis5D+ format file.
 vapor_pres_rh 	Compute vapor pressure given relative humidity (%) and saturation vapor pressure.
 variance 	Computes an unbiased estimate the variance of all input points.
+venn2_difference 	Returns the unique element symmetric differences between two arrays.
+venn2_intersection 	Returns the unique element intersection (ie., common values) between two arrays.
+venn2_union 	Returns the unique element union of two arrays.
 vhaeC 	Computes vector spherical harmonic analysis of vector fields on a fixed grid via spherical harmonics.
 vhaec 	Computes vector spherical harmonic analysis of vector fields on a fixed grid via spherical harmonics.
 vhagC 	Computes vector spherical harmonic analysis of vector fields on a gaussian grid via spherical harmonics.
