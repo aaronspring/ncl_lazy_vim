@@ -85,12 +85,13 @@ requires '*.ncl' files <br>
 ncl_completion can be enabled or disabled in .vimrc <br> 
 * v0.2:
 static snippets and static syntax highlighting
+* v0.3:
+updated towards NCL 6.4.0
 
 Working on
 ----------
 * syntax highlighting
 * getting functions and resources dynamically, see example uses 'cdo --operators' https://github.com/aaronspring/cdo_lazy_vim
-* snippets
 * anything else needed?
 
 Credits and acknowledgements
