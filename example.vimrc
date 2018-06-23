@@ -64,7 +64,7 @@ let s:vars_completion = 'DISABLE'
 " CHANGE for your own data
 if s:vars_completion == 'ENABLE'
   silent echo "vars completion enabled"
-  let s:vars_data_dir = '/work/mh1007/mpiesm1/experiments/lkm0101/outdata/'
+  let s:vars_data_dir = '/your_outdata_path/'
   let s:vars_data_strs = ['hamocc/lkm0101_hamocc_data_2d_mm_19990101_19991231.nc', 'mpiom/lkm0101_mpiom_data_2d_mm_19990101_19991231.nc', 'mpiom/lkm0101_mpiom_data_3d_mm_19990101_19991231.nc', 'hamocc/lkm0101_hamocc_data_3d_ym_19990101_19991231.nc' ]
 
   let s:vars_data = [] 

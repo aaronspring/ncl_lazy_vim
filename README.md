@@ -72,9 +72,7 @@ Known bugs
 
 Contact information
 -------------------
-Aaron Spring <br> Bundesstraße 53 <br> ZMAW Room 229 <br> aaron.spring@mpimet.mpg.de <br> <br> 
-Looking forward to receiving your questions, comments or wishes
-
+Aaron Spring <br> Bundesstraße 53 <br> ZMAW Room 122 <br> aaron.spring@mpimet.mpg.de <br> <br> 
 
 Changelog
 ---------
@@ -87,10 +85,11 @@ ncl_completion can be enabled or disabled in .vimrc <br>
 static snippets and static syntax highlighting
 * v0.3:
 updated towards NCL 6.4.0
-
+* v0.3.1:
+bug fix in example.vimrc: https://github.com/aaronspring/ncl_lazy_vim/issues/2
+ 
 Working on
 ----------
-* syntax highlighting
 * getting functions and resources dynamically, see example uses 'cdo --operators' https://github.com/aaronspring/cdo_lazy_vim
 * anything else needed?
 
@@ -98,7 +97,6 @@ Credits and acknowledgements
 ----------------------------
 * Prince K Xavier, the dude who set up auto-completion for NCL and made me think to do this for CDO first and now I'm back to NCL
  
-
 Sister project
 --------------
 * same stuff for CDO: https://github.com/aaronspring/cdo_lazy_vim
